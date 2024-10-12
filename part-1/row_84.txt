@@ -1,0 +1,21 @@
+Q:
+
+How to Compile and Debug C++ in Notepad++ using Turbo C++ Compiler
+
+I have installed NppExecute plugin in notepad++. I am not able to figure out next step to compile and debug C,C++ programs in Notepad++.
+System Details: (a) Turbo C directory C:\TC (b) OS Windows 7
+Please provide complete details on how to set Environment Variable and Scripts for Compiling and Debugging.  
+
+A:
+
+I wondering why somone wants to use turbo C++.If you run Windows, just use Visual Studio Express, or Dev-C++.If you still want to use Turbo C you will run into several problems with compatibility of this ancient software.
+
+A:
+
+Notepad++ has the run feature, but as far as I know it's unable to help you debugging (e.g. stepping through code, watching variables, etc.).
+Your best bet would be using a simple batch file to compile the code and run your debug commands, but as far as I know you can't include everything into Notepad++ (i.e. it's no real C/C++ IDE).
+Only option you've got is adding the created batch file as the program to be run by NppExecute.
+Edit:
+Overall, as rkosegi suggested, if possible, use a more up-to-date toolchain.
+Microsoft's Visual C++ Express Edition can be downloaded for free and used for private or commercial projects.
+If you target cross platform code, it might be easier to use MinGW to use GCC/G++ under Windows.

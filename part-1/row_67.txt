@@ -1,0 +1,12 @@
+Q:
+
+Can a existing mapreduce program be made to run from a specified offset of input file
+
+Is there any way to run an existing mapreduce program so that it processes only from a given offset of the input file?
+Eg:
+If given offset is 500, the mapreduce program should start processing input file from 500th byte.
+
+A:
+
+It is possible, but will require Java coding and creating a custom InputFormat. For example you can subclass FileInputFormat and override methods public List getSplits(JobContext job) and protected FileSplit makeSplit(Path file, long start, long length, String[] hosts).
+To pass the starting offset you can use Configuration parameters accessible via job.getConfiguration().getInt(YOUR_PARAM_NAME, 0)

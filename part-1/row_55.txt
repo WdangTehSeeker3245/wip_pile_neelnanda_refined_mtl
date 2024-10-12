@@ -1,0 +1,78 @@
+Introduction {#sec1-1}
+============
+
+Infliximab (IFX), a chimeric anti-TNFα antibody, is effective in inducing and maintaining remission in a considerable proportion of IBD patients refractory to any other treatments \[[@ref1],[@ref2]\]. However, 8-12% of adult and/or pediatric patients fail to respond to the induction regimen (known as primary non responders) and approximately 40% of patients who respond initially and achieve clinical remission inevitably lose response over time\[[@ref3],[@ref7]\]. Lack of response to IFX is a stable trait and suggests that the differences in response might be in part genetically determined. Considering the high cost and safety profile of this drug, genetic targeting of patients responding to this therapy is certainly of great interest \[[@ref8]\]. So far, limited candidate gene association studies with response to IFX have been reported \[[@ref9]-[@ref11]\]. Recently, a genome-wide association study (GWAS) in paediatric IBD patients has revealed that the 21q22.2/BRWDI loci were associated with primary non response \[[@ref12]\]. Furthermore, although TNFa gene is of great interest as a candidate gene for pharmacogenetic approaches few studies have been performed to date and some have led to contradictory results \[[@ref10],[@ref11],[@ref13]-[@ref15]\].
+
+All anti-TNF agents share an IgG1 Fc fragment, but the contribution of the Fc portion to the response to treatment among currently used TNF blockers remains unknown. Receptors for IgG-Fc portion (FcR) are important regulatory molecules of inflammatory responses. FcR polymorphisms alter receptor function by enhancing or diminishing the affinity for immunoglobulins \[[@ref16]\]. Three major classes of FcR that are capable of binding IgG antibodies are recognised: FcγRΙ (CD64), FcγRΙΙ (CD32), and FcγRΙΙΙ (CD16). FcγRΙΙ and FcγRΙΙΙ have multiple isoforms (FcγRΙΙΙA/C and B; FcγRΙΙΙA and B) \[[@ref16]\]. The most frequent polymorphism of *FcγRΙΙΙA* is a point mutation affecting amino acids in codon 158 in the extracellular domain. This results in either a valine (V158) or a phenylalanine (F158) at this position. Recently, it has been reported that CD patients with *FcγRΙΙΙA* -158V/V genotype had a better biological and possibly better clinical response to IFX \[[@ref17]\]. However, further studies did not confirm this observation \[[@ref18]\].
+
+The aim of this study was to assess whether the *TNF* and/ or *FcγRΙΙΙA* gene polymorphisms are genetic predictors of response to IFX, in a cohort of Greek patients with adult or paediatric onset of CD.
+
+Patients - Methods {#sec1-2}
+==================
+
+Patients {#sec2-1}
+--------
+
+We enrolled 106 consecutive patients with newly diagnosed CD attending the outpatient IBD Clinic at the 1^st^ Department of Gastroenterology, "Evangelismos" Hospital (79 adults) or the 1^st^ Department of Pediatrics, University Hospital of Athens "Aghia Sophia"(27 children). The diagnosis of CD was based on standard clinical, endoscopic, radiological, and histological criteria \[[@ref1],[@ref19]\]. Eligible patients should have inflammatory (luminal) disease and be naive to IFX.
+
+IFX was administered intravenously at a dose of 5mg/kg at weeks 0, 2, 6 and then every 8 weeks. Clinical and serological responses were assessed using the Harvey-Bradshaw Index (HBI) \[[@ref20]\] and the serum levels of C-reactive protein (CRP), respectively, at baseline (before the 1st infusion of IFX), the day before each subsequent IFX infusion and after 12 weeks of treatment. Ileocolonoscopy was performed by a single endoscopist (GJM) at baseline and after 12-20 weeks of therapy to assess mucosal healing. Any changes in endoscopic appearance compared to baseline endoscopy were classified in four categories \[[@ref21],[@ref22]\] \[[Table 1](#T1){ref-type="table"}\]. Patients were classified in accordance to response to IFX therapy as shown in [table 2](#T2){ref-type="table"}. The ethical committee of the participating hospitals approved the study. Research was carried out according to Helsinki Convention (1975) and written inform consent was obtained in advance from each patient.
+
+###### 
+
+Grading of endoscopic mucosal lesions \[[@ref21],[@ref22]\]
+
+![](AnnGastroenterol-24-35-g001)
+
+###### 
+
+Classification of the study population due to response to infliximab therapy
+
+![](AnnGastroenterol-24-35-g002)
+
+Genotyping {#sec2-2}
+----------
+
+Genomic DNA from whole blood containing EDTA was extracted using standard techniques (NucleoSpin Blood kit, Macherey-Nagel, Germany). All polymerase chain reactions (PCRs) were run under conditions previously described \[[@ref23]\]. Primer sequences for the gene polymorphism at --308 were forward 5′-GGG ACA CAC AAG CAT CAA GG-3′ and reverse 5′-GGG ACA CAC AAG CAT CAA GG-3′, for the polymorphism at −238 forward 5′-ATC TGG AGG AAG CGG TAG TG-3′ and reverse 5′-AGA AGA CCC CCC TCG GAA CC-3′. The PCR products were digested at 37 °C with NcoI to detect the SNP in the −308 gene allele and MspI to detect the polymorphism of the −238 nucleotide. The -857 C/T polymorphism was analyzed by allele-specific PCR method24 using the primers TNF857-C: 5′-aag gat aag ggc tca gag ag-3′, TNF857-N: 5′-cta cat ggc cct gtc ttc g-3′ and TNF857-M: 5′-t cta cat ggc cct gtc ttc a-3′. The --158V/F polymorphism of FcγRΙΙΙA gene was detected as described by Leppers-van de Straat et al \[[@ref25]\] using the primers 5′-CTG AAG ACA CAT TTT TACT CC CAA (A/C)-3′ and 5′-TCC AAA AGC CAC ACT CAA AGA C-3′. The PCR products were then subjected to 3% agarose-gel electrophoresis. "No target" controls were included in each PCR batch to ensure that reagents had not been contaminated.
+
+Statistical Analysis {#sec2-3}
+--------------------
+
+Genotype frequencies were compared with the chi-square with Yate's correction using S-Plus (v. 6.2Insightful, Seattle, WA). Odds ratios (ORs) and 95 confidence intervals (CIs) were obtained with GraphPad (v. 3.00, GraphPad Software, San Diego, CA). The p values are all two-sided. Correction for multiple testing was not applied in this study. *P* values of \< 0.05 were considered to be significant.
+
+Results {#sec1-3}
+=======
+
+Patient demographic and clinical characteristics are given in [Table 3](#T3){ref-type="table"}. There were 68 (64.15%) complete responders, 25 (23.58%) partial responders and 13 (12.26%) non responders to IFX in this study. There were no statistical differences in the mean age, gender, disease duration, location and behavior and smoking habits between complete or partial responders and primary non-responders. There was no disagreement between HBI scores and serum CRP levels. Although, the post-treatment CRP levels were significantly lower in complete responders compared to partial and non-responders, the decrease in CRP levels did not differ significantly between the three groups. Post-treatment CRP levels and mean HBI score were significantly lower in complete responders compared to pre-treatment values in contrast to partial and/or non-responders where the CRP levels and the mean HBI score did not differ significantly.
+
+###### 
+
+Demographic, clinical and biological characteristics of the study population
+
+![](AnnGastroenterol-24-35-g003)
+
+The -238 G/A, -308 G/A, and -857 C/T polymorphisms of the TNF gene and the -158 V/F polymorphism in the *FcγRΙΙΙA* gene were successfully determined in all subjects. The genotype distribution in complete, partial and non-responders were presented in [Table 4](#T4){ref-type="table"}. No significant difference was observed for the polymorphism tested. In addition, although there may be genetic differences in early (paediatric)-onset and late (adult)-onset CD we were unable to detect any such differences although the number of paediatric patients included in the current study did not allow firm conclusions.
+
+###### 
+
+Genotype frequency in complete responders, partial responders and non responders
+
+![](AnnGastroenterol-24-35-g004)
+
+In the present study, we could not correlate the decrease in serum CRP levels with the genotypes tested in any particular group of patients since in most of the cases serum CRP levels dropped by more than 25% after 12 weeks of treatment. However, no significant decrease in CRP was observed between the TNF genotypes tested. Regarding the -158 V/F polymorphism in the *FcγRΙΙΙA* gene, the relative decrease in serum CRP levels was greatest in VV homozygotes (78.15 ± 33.68%) and lowest in FF homozygotes (69.84 ± 28.7%) but this difference was not significant. Due to the small number of cases we did not stratify the genotype frequencies according to age.
+
+Discussion {#sec1-4}
+==========
+
+The mechanism of IFX action in IBD seems to be multifactorial and the response to IFX is a complex phenomenon influenced by several parameters \[[@ref1]\]. Interestingly, a certain proportion of patients do not respond to IFX at all whereas a significant proportion will lose response over time \[[@ref3]-[@ref7]\]. This is the first Greek study aiming at identifying any significant associationbetween the -238 G/A, -308 G/A, and -857 C/T polymorphisms in the promoter region of the TNF gene and the -158V/F polymorphism in *FcγRΙΙΙA* gene and response to IFX in a cohort of adult and paediatric patients with CD and it was negative.
+
+Efficacy of IFX was assessed by clinical, serological and endoscopic parameters. Clinical response to IFX was evaluated using the HBI, which has been used in many clinical trials, is simple to use and has shown good correlation with the Crohn's Disease Activity Index (CDAI) \[[@ref26]\]. Serological evaluation of response to IFX was based on changes in serum levels of CRP, which has shown a good correlation with clinical activity and to a certain degree with endoscopic activity of CD \[[@ref27]\]. Finally, endoscopic activity of disease was assessed before and after IFX therapy using a simple description of healing of ulcerative and non ulcerative lesions \[[Table 1](#T1){ref-type="table"}\] as has been previously described \[[@ref21],[@ref22]\]. Endoscopic healing was assessed after 12-20 weeks of IFX treatment. It is conceivable that 12 weeks may be early to assess mucosal healing induced by biologic therapies \[[@ref27]\] but the vast majority of patients underwent endoscopy at least 16 weeks after initiation of IFX therapy (average time 17.6 weeks) and therefore it is unlikely that we have not obtained an objective view of the intestinal mucosal at follow up ileocolonoscopy.
+
+Regarding the *TNF* genotypes, our results are in agreement with Louis et al \[[@ref11]\] who did not find any significant difference between response groups when genotyped CD patients for the TNF -308G/A polymorphism and compared response rates after IFX treatment. The same results were reported by Mascheretti et al \[[@ref10]\] and Dideberg et al \[[@ref13]\]. Moreover, our results are in agreement with Tomita et al \[[@ref28]\] who reported no significant difference on *TNFa*, *FcgammaRIIA* and *FcgammaRIIIA* between responders and non responders 8 weeks after IFX treatment as well as with results of ACCENT I study where the relative decrease in serum CRP levels after IFX treatment was greatest in -158 VV homozygotes and lowest in FF homozygotes \[[@ref18]\]. In contrast, Louis et al \[[@ref17]\] observed a significant association between the -158V/F polymorphism in *FcγRΙΙΙA* and both the proportion of patients who had a drop in serum CRP levels after IFX treatment and the magnitude in decrease of serum CRP levels. This may account for the relatively small population of patients in our study, genetic differences in the studied populations and/or methodological differences between studies.
+
+Although it would be useful to genetically differentiate 'responders' from 'non-responders', there are not enough data on TNF polymorphisms in IBD and often only selected polymorphisms are genotyped. Small studies have shown possible associations between poor response to IFX and increasing mucosal levels of activated NF-kappaB, homozygosity for the polymorphism in exon 6 of TNFR2 (genotype Arg196Arg), positivity for perinuclear antineutrophil cytoplasmic antibodies and with the presence of increased numbers of activated lamina propia mononuclear cells producing interferon-gamma and TNFa \[[@ref29]\].
+
+In conclusion, our study did not detect any associations between three TNFα gene polymorphisms or the -158 V/F polymorphism in the *FcγRΙΙΙA* gene and response to IFX in CD. However, in view of discrepant results in the literature large-scale pharmacogenetic studies in different populations, with similar baseline disease phenotypes and treatment protocols are needed to adequately estimate associations between genetic polymorphisms and treatment outcomes.
+
+Conflict of interest: None
+
+^a^Evangelismos Hospital, ^b^Laboratory of Biology, School of Medicine, ^c^1^st^ Department of Pediatrics, School of Medicine, University of Athens, Greece

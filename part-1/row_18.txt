@@ -1,0 +1,41 @@
+Benjamin Lok describes how the robot butt sensors work 2:26
+
+Prostate exams are potentially-life saving. But the process of getting one can be nerve-racking — both for the doctor and the patient.
+
+A group of scientists from Drexel University and the Universities of Wisconsin and Florida are hoping to assist with that. They've designed a robot to help medical students give better prostate exams.
+
+The robot's name is "Patrick" and he's an interactive butt.
+
+Professor Benjamin Lok
+
+"Patrick is part of a simulation where students get to practice prostate exams," lead researcher and University of Florida professor Benjamin Lok explains to As It Happens guest host Tom Harrington. "The simulator itself is a piece of plastic and around the anus area is a foam, rubbery material. It's anatomically correct, and inside, they have placed a prostate so that they can actually feel what a prostate would feel like."
+
+But the physical examination is actually the last part of the training process. Initially, students start using the simulator to work on their beside manner.
+
+"Students have to talk to Patrick for about five to eight minutes," the University of Florida professor says. "They work on their social skills. They try to obtain a patient history, but also have to work through anxiety that Patrick's having."
+
+A student interacting with "Patrick" (Courtesy of Andrew Robb, University of Florida)
+
+As the interview progresses — and the student realizes that Patrick needs a prostate exam — Patrick becomes quite hesitant to proceed. Lok says the robot will say, "Do you really have to do this? I don't understand why we have to do this right now."
+
+Once Patrick is convinced, the student begins the examination.
+
+"We can show you in real-time, as you're doing the exam... whether you're pressing all the regions and if you're pressing with enough pressure," Lok continues.
+
+The sensor displays traffic light-style signals of green, yellow or red depending on the appropriate pressure applied.
+
+"That helps educate the user and what a good prostate exam should feel like," he says.
+
+But why not have Patrick yell or respond in a more human-like way? Lok says they thought about doing this, but for freshmen medical students, that would increase the level of anxiety.
+
+"We want the system to provide positive experiences, where they can get good feedback but also help reduce some of the anxiety before they first practice on what are often called standardized patients, which are called actors."
+
+Many medical schools pay professional actors who are specially trained to receive numerous prostate exams by students. However, as you might imagine, there are a limited number of actors willing to do this.
+
+Postate exam program, "Patrick" (Courtesy of Andrew Robb, University of Florida)
+
+Like a pilot who practices in a simulator before actually flying a plane, Lok hopes Patrick will serve the same purpose for medical students.
+
+"You can make mistakes with Patrick and start over, that's one of the advantages of a simulator."
+
+Patrick is currently being used by medical students at the University of Florida and Drexel University. Lok hopes the technology will be used in more medical schools across the United States.

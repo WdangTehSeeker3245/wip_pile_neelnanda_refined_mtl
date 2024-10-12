@@ -1,0 +1,27 @@
+Formulasi dan Aplikasi Biosurfaktan dari Bacillus methylotrophicus sebagai Pengumpul dalam Proses Flotasi Air Minyak di Lingkungan Industri
+
+Penggunaan biosurfaktan sebagai pengumpul dalam proses flotasi air minyak telah menarik perhatian yang signifikan dalam beberapa tahun terakhir karena sifatnya yang dapat terurai secara hayati dan non-toksik. Dalam penelitian ini, kami menyelidiki formulasi dan stabilitas jangka panjang biosurfaktan yang diproduksi oleh Bacillus methylotrophicus UCP1616 untuk aplikasinya dalam prototipe flotasi udara terlarut (DAF) skala bench. Biosurfaktan yang diformulasikan dievaluasi untuk sifat tensioaktifnya dan kemampuannya untuk menghilangkan minyak dari limbah industri.
+
+Formulasi Biosurfaktan
+
+Biosurfaktan diformulasikan dengan menambahkan kalium sorbat, sebagai pengawet konservatif, ke dalam larutan biosurfaktan dengan atau tanpa perlakuan panas sebelumnya pada suhu 80 °C selama 30 menit. Perlakuan panas digunakan untuk meningkatkan stabilitas biosurfaktan dengan mendenaturasi protein yang mungkin ada. Sampel biosurfaktan yang diformulasikan kemudian disimpan pada suhu kamar selama 180 hari untuk mengevaluasi stabilitas jangka panjangnya.
+
+Stabilitas Biosurfaktan yang Diformulasikan
+
+Stabilitas biosurfaktan yang diformulasikan dievaluasi dengan menentukan sifat tensioaktifnya pada berbagai nilai pH (3-11), suhu (20-40 °C), dan konsentrasi garam (0-10%). Hasil menunjukkan bahwa biosurfaktan yang diformulasikan menunjukkan stabilitas yang baik dalam kedua metode konservasi, dengan toleransi terhadap rentang pH yang luas, salinitas, dan suhu tinggi. Hal ini menunjukkan bahwa biosurfaktan dapat digunakan dalam lingkungan dengan kondisi ekstrem, seperti limbah industri dengan suhu tinggi dan salinitas tinggi.
+
+Aplikasi Biosurfaktan yang Diformulasikan dalam Prototipe DAF
+
+Desain rotatable composite central digunakan untuk mengevaluasi pengaruh variabel independen (laju aliran limbah dan laju aliran biosurfaktan yang diformulasikan) terhadap efisiensi penghilangan minyak dalam prototipe DAF. Hasil menunjukkan bahwa biosurfaktan yang diformulasikan efektif dalam menghilangkan minyak dari limbah industri, dengan tingkat penghilangan minyak sebesar 92%. Hal ini menunjukkan bahwa biosurfaktan dapat digunakan sebagai pengumpul dalam proses DAF untuk meningkatkan efisiensinya.
+
+Mekanisme Penghilangan Minyak
+
+Mekanisme penghilangan minyak oleh biosurfaktan yang diformulasikan melibatkan adsorpsi molekul biosurfaktan ke permukaan tetesan minyak, mengurangi tegangan permukaan mereka dan memungkinkan mereka untuk mengagregasi dan mengapung ke permukaan air. Molekul biosurfaktan juga berinteraksi dengan tetesan minyak, meningkatkan hidrofobisitas mereka dan memudahkan pemisahan dari air.
+
+Implikasi Lingkungan
+
+Penggunaan biosurfaktan sebagai pengumpul dalam flotasi air minyak memiliki beberapa implikasi lingkungan. Pertama, biosurfaktan dapat terurai secara hayati dan non-toksik, mengurangi dampak lingkungan dari proses flotasi. Kedua, penggunaan biosurfaktan dapat mengurangi jumlah surfaktan kimia yang digunakan dalam proses flotasi, yang dapat merugikan kehidupan akuatik. Terakhir, penggunaan biosurfaktan dapat meningkatkan efisiensi proses flotasi, mengurangi jumlah minyak yang dilepaskan ke lingkungan.
+
+Kesimpulan
+
+Sebagai kesimpulan, biosurfaktan yang diformulasikan dari Bacillus methylotrophicus UCP1616 menunjukkan stabilitas dan efektivitas yang baik dalam menghilangkan minyak dari limbah industri dalam prototipe DAF skala bench. Biosurfaktan ini dapat digunakan sebagai pengumpul dalam proses DAF untuk meningkatkan efisiensinya dan mengurangi dampak lingkungan dari proses flotasi. Biosurfaktan ini dapat membantu dalam mitigasi dan pengelolaan limbah industri, berkontribusi terhadap pengurangan pencemaran lingkungan yang disebabkan oleh hidrokarbon berbasis petroleum. Penelitian lebih lanjut diperlukan untuk meningkatkan aplikasi biosurfaktan ini di lingkungan industri dan untuk mengevaluasi stabilitas jangka panjang serta efektivitasnya dalam berbagai kondisi lingkungan.

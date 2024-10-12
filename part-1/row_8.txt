@@ -1,0 +1,12 @@
+Q:
+
+Using M-Test to show you can differentiate term by term.
+
+I have the series $\sum_{n=1}^\infty \frac{\lambda^{n-1}n}{n!}=\sum_{n=1}^\infty \frac{d}{d\lambda}\big(\frac{\lambda^n}{n!} \big)$
+and I would like it to be $\frac{d}{d\lambda}\big(\sum_{n=1}^\infty \frac{\lambda^n}{n!})$.
+I'm trying to show that this sequence of functions converges uniformly on $(0,\infty)$ and so I'm trying the M-Test.  So I need to find bounds $M_n$ for $\big|\frac{\lambda^n}{n!}\big|$, such that $\sum M_n$ converges.
+Thanks.  This is in order to show that I can actually do the differentiation term by term.
+
+A:
+
+You deal with a power series with radius of convergence $R=+\infty$ so you can differentiate term by term.

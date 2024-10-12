@@ -1,0 +1,32 @@
+Q:
+
+Python: My return variable is always None
+
+So I found a strange thing that happens in python whenever I try to return an optional parameter or at least I think that is why it is happening.
+Here is my code
+def reverse(string, output = ""):
+    if string == "":
+        print "winner: ", output
+        return output
+    output = output + string[-1]
+    string = string[:-1]
+    reverse(string, output=output)
+
+And here is what happens when I run it:
+>>> output = reverse("hello")
+winner:  olleh
+>>> print output
+None
+
+Anyone know why my return is always None?
+
+A:
+
+You have to return the return value of the recursive call.
+def reverse(string, output = ""):
+    if string == "":
+        print "winner: ", output
+        return output
+    output = output + string[-1]
+    string = string[:-1]
+    return reverse(string, output=output)

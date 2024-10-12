@@ -1,0 +1,33 @@
+Q:
+
+React typescript ref return null in conditional rendering
+
+I want to use React refs, it works fine in static rendering, e.g:   
+<footer ref="ftr"></footer>
+
+But, not in conditional rendering, e.g:
+{footer ?
+    <footer ref="ftr"></footer>
+: null}
+
+When I called ReactDOM.findDOMNode(this.refs.ftr);, the first way returned the element (fine) but the second returned me undefined.
+How to do the right way in conditional rendering? Any answer would be appreciated.
+
+A:
+
+You should not use string refs as written in the docs:
+
+We advise against it because string refs have some issues, are
+  considered legacy, and are likely to be removed in one of the future
+  releases
+
+You can do this:
+let footerElement: HTMLElement | null = null;
+...
+{footer ?
+    <footer ref={ el => footerElement = el }></footer>
+: null}
+...
+if (footerElement != null) {
+    ...
+}

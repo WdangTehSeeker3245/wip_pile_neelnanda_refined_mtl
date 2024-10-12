@@ -1,0 +1,49 @@
+Sudah selesai dan telah dikirim. Anda bisa memainkan “Survival of the Tastiest” di Android dan web. Bermain di web berfungsi, namun Anda harus mensimulasikan multi-touch untuk menggerakkan meja, dan itu bisa sedikit membingungkan.
+
+Ada banyak hal yang ingin saya bicarakan. Saya akan membahas setiap topik, daripada membuat daftar hal yang benar/salah seperti biasanya.
+
+Konsep
+
+Menggarap tema mungkin adalah salah satu tugas terberat yang harus saya hadapi.
+
+Awalnya, saya punya ide tentang jenis game yang ingin saya kembangkan dari segi gameplay—sesuatu dengan banyak musuh/aktor, grafis sederhana, mungkin berlatar di luar angkasa, dikendalikan dari tampilan atas. Saya yakin bisa menyesuaikan tema apa pun di sekitarnya.
+
+Pada akhirnya, masalah dengan tema seperti "Evolusi" dalam game adalah bahwa evolusi tidak dibantu. Itu terjadi melalui beberapa mutasi acak selama waktu, dengan variasi yang paling cocok bertahan. Simulasi mobil genetik ini, menurut saya, adalah contoh bagus dari evolusi spesies yang menghadapi tantangan. Tapi apakah itu game?
+
+Dalam sebuah game, Anda perlu mengendalikan sesuatu untuk mencapai tujuan. Kontrol itu bertentangan dengan apa yang seharusnya evolusi. Jika Anda membiarkan pengguna memilih bagaimana sesuatu berevolusi, itu bukan lagi evolusi—itu setara dengan desain cerdas, sebuah dongeng yang diciptakan oleh kaum kreasionis untuk melawan gagasan evolusi. Sebagai seorang agnostik dan Pastafarian, itu bukan sesuatu yang saya sukai.
+
+Jadi, dilema terbesar saya ketika memutuskan apa yang akan saya buat bukanlah pada apa yang ingin saya buat, tetapi pada apa yang tidak ingin saya buat. Saya tidak ingin membuat simulator "desain cerdas" dan menyebutnya sebagai evolusi secara keliru.
+
+Ini adalah masalah, tentu saja, yang juga harus dihadapi oleh peserta lain. Dan menilai dari entri yang dikirimkan, tidak banyak yang berhasil mengatasinya. Saya akan mengatakan satu-satunya solusi nyata adalah melalui penggunaan seleksi buatan, entah bagaimana. Sejauh ini, saya belum melihat entri yang menggunakan ini sebagai inti dari gameplay mereka.
+
+Namun, ini hanyalah kompetisi yang menyenangkan dan setelah beberapa saat saya memutuskan untuk tidak terlalu kaku dengan ide game, dan membiarkan diri saya memilih apa pun yang menurut saya akan berhasil.
+
+Ide awal saya adalah menciptakan sesuatu di mana umat manusia mencoba berevolusi ke tingkat berikutnya tetapi ada semacam musuh yang mencoba menghentikan mereka. Saya memiliki gambaran tentang jiwa manusia yang terbang di luar angkasa menuju monolit atau bayi luar angkasa (semua berdasarkan 2001: A Space Odyssey, tentu saja) tetapi saya tidak dapat memikirkan mekanisme yang menarik (baca: serius) untuk itu.
+
+Borg adalah inspirasi berikutnya, karena keseluruhan hipotesis mereka sangat cocok dengan tema evolusi. Tapi bagaimana cara membuatnya berhasil? Apakah Anda borg, atau melawan Borg?
+
+Ide ketiga dan terakhir datang dari pacar saya, yang entah bagaimana memberi saya ide untuk membuat sesuatu tentang evolusi Pasta. Semakin saya memikirkannya, semakin terdengar masuk akal, jadi saya memutuskan untuk melakukannya.
+
+Percakapan dengan rekan kerja saya yang inspiratif, Roushey (yang juga menciptakan logo tanda tangan "Mechanical Underdogs" untuk intro saya) semakin mematangkan konsep tersebut, yang berkembang menjadi ide tentang potongan-potongan pasta individu yang terbang dan mencoba berevolusi hingga menjadi sangat kuat. Gagasan sekunder di sini adalah bahwa permainan ini akan menjelaskan bagaimana Flying Spaghetti Monster muncul—dengan berevolusi dari meja makan biasa.
+
+Jadi, ide ini berkembang menjadi: Anda duduk di meja. Anda memiliki piring sendiri, yang merupakan "basis" Anda. Ada 5 tamu lain di meja, masing-masing dengan piringnya sendiri.
+
+Piring Anda dapat menghasilkan potongan kecil pasta. Anda melakukannya dengan "memesan" mereka melalui menu. Beberapa pasta lebih baik daripada yang lain; beberapa lebih cepat, beberapa lebih kuat. Mereka memiliki biaya yang bervariasi, yang didebet dari kredit Anda (Anda mulai dengan sejumlah kredit).
+
+Begitu dilahirkan, pasta Anda mulai terbang. Naluri mereka adalah terbang ke piring lain, untuk menaklukkannya (tujuan permainan ini adalah membuat pasta Anda menaklukkan semua piring di meja). Tapi mereka benar-benar otonom, jadi setelah dipesan, Anda tidak memiliki kendali atas pasta Anda (pikirkan DotA atau LoL creeps).
+
+Pasta Anda tidak menyukai pasta milik orang lain, jadi jika mereka bertemu, mereka akan menembakkan saus satu sama lain sampai salah satu mati. Anda mendapatkan kredit untuk setiap pasta lain yang dibunuh oleh pasta Anda.
+
+Begitu pasta berada di sekitar piring, pasta mulai menaklukkannya untuk timnya. Dibutuhkan sekitar 10 detik untuk menaklukkan piring; lebih cepat jika lebih banyak pasta dari tim yang sama berada di sekitar. Namun, jika pasta dari tim lain berada di sekitar, mereka terhenti dalam upaya mereka, tidak dapat menaklukkan piring, sampai salah satu dari mereka mati (pikirkan mode "Conquest" standar di Battlefield).
+
+Anda mendapatkan poin setiap detik untuk setiap piring yang Anda miliki.
+
+Seiring waktu, konsep ini juga berkembang menjadi menggunakan bistro Italia sebagai skenario utamanya.
+
+Carlos, pendiri dan pemilik Bistro Carlos
+
+Pengaturan
+
+Tidak ada perubahan besar dari pengaturan kerja saya. Saya menggunakan FDT dan Starling untuk membuat proyek Adobe AIR (ActionScript), semua alat atau kerangka kerja yang sudah saya kenal.
+
+Perubahan besar bagi saya adalah saya melakukan siaran langsung pekerjaan saya melalui akun twitch.tv. Ini adalah hal baru bagi saya. Atas rekomendasi Roushey, saya menggunakan program bernama XSplit dan saya harus mengatakan, ini sangat luar biasa.

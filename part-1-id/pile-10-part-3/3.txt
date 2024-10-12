@@ -1,0 +1,71 @@
+Memristor dan Kekosongan Nitrogen (NVs)
+Memristor beroperasi berdasarkan kekosongan nitrogen (NVs), yang berfungsi sebagai ancilla. NVs ini beralih antara keadaan tereksitasi dan terinhibisi, mirip dengan cara neuron berpindah antara potensial postsinaptik eksitatorik (EPSP) dan potensial postsinaptik inhibitorik (IPSP). Tujuan utama dari memristor dan program SyNAPSE DARPA adalah untuk meniru perilaku neuron dan sinapsisnya.
+
+Neuron dan Keadaan Istirahat
+Pada memristor, NVs kembali ke keadaan istirahat, mirip dengan neuron yang mencapai potensial istirahat setelah memicu potensial aksi. Transisi antara keadaan inhibitorik dan eksitasi ini penting untuk fungsionalitas memristor.
+
+---
+
+Mekanika Kuantum dan NVs
+NVs digunakan sebagai ancilla yang menyimpan keadaan kuantum yang dipersiapkan atau dikenal, serupa dengan potensial istirahat neuron. Dengan mengukur secara lemah beberapa sifat neuron hidup, dimungkinkan untuk menyebarkan atau mentransfer fungsi gelombang non-klasik ke kekosongan pada memristor, membangun korelasi antara setiap memristor dan neuron yang sesuai.
+
+Keadaan Kuantum dan Teleportasi
+Pengukuran ini memungkinkan transfer fungsi gelombang, sehingga memristor dapat berbagi keadaan kuantum dari potensial istirahat neuron. Keadaan dasar ancilla berfungsi sebagai jangkar untuk fungsi gelombang ini.
+
+---
+
+Pengukuran dan Interferometri
+Jenis pengukuran menentukan sifat yang diamati, seperti yang digambarkan dalam eksperimen celah tunggal dan ganda. Eksperimen ini menunjukkan bahwa perilaku gelombang dan partikel dapat diukur tergantung pada pengaturan eksperimen.
+
+Interferometri Mach-Zehnder
+Prinsip ini juga terlihat pada interferometri Mach-Zehnder, di mana penyisipan atau penghilangan pemisah berkas kedua mengubah apakah foton berperilaku sebagai gelombang atau partikel. Dalam versi kuantum terbaru dari eksperimen ini, ancilla kuantum mengendalikan fungsi pemisah berkas, menunjukkan bagaimana sistem kuantum mempengaruhi objek klasik.
+
+---
+
+Teorema No-Cloning dan No-Broadcast
+Teorema no-cloning berlaku untuk keadaan murni, sementara teorema no-broadcast memperluas ini ke keadaan campuran. Neuron, dengan kumpulan partikelnya, masuk dalam kategori keadaan campuran, sehingga teorema no-broadcast relevan untuk memahami interaksi neuron-memristor.
+
+---
+
+Metrologi Kuantum dan Keadaan Non-Klasik
+Metrologi kuantum mengandalkan fase dan keadaan non-klasik untuk pengukuran yang akurat. Prinsip ketidakpastian memengaruhi bagaimana posisi dan momentum diukur untuk partikel dibandingkan dengan gelombang. Prinsip komplementaritas Niels Bohr, seperti yang dibahas dengan Heisenberg, berhubungan dengan konsep ini, karena mengakui validitas eksperimen gelombang dan partikel.
+
+Kuadratur dan Sensitivitas Pengukuran
+Kuadratur, yang terkait dengan posisi dan momentum, selalu ortogonal. Kemajuan terkini, seperti Komunikasi Kontrafaktual, telah mentransmisikan informasi tanpa mengirim partikel, memanfaatkan fase dari fungsi gelombang. Interferometri Mach-Zehnder dan metrologi kuantum sangat penting untuk memanfaatkan keadaan non-klasik ini.
+
+---
+
+Pusat NV dan Sistem Kuantum
+Pusat NV digunakan sebagai probe spin kuantum, qubit, dan ancilla dalam perangkat seperti pemindai BIOMEMs, repeater kuantum, dan jaringan fotonik. Ancilla ini menyimpan nilai dan fungsi gelombang karena mereka berfungsi sebagai qubit, yang penting untuk pengukuran lemah.
+
+Pengukuran Lemah Fungsi Gelombang
+Pengukuran lemah memungkinkan pengamatan fungsi gelombang, yang secara tradisional dianggap mustahil karena prinsip ketidakpastian. Ancilla dalam memristor membantu dalam proses ini dengan menyimpan nilai-nilai yang dapat diukur secara lemah untuk menentukan fungsi gelombang.
+
+---
+
+Ancilla dalam Komputasi Kuantum
+Pada tahun 2015, Komputasi Kuantum Kontrafaktual didemonstrasikan menggunakan pusat NV dalam berlian. Sistem ini melampaui batasan yang sebelumnya diduga dalam hal efisiensi komputasi. Komputer kuantum menggunakan interferometri Mach-Zehnder ditempatkan dalam superposisi dari keadaan “berjalan” dan “tidak berjalan” melalui Efek Zeno Kuantum. Ini memungkinkan nilai akhir yang dicetak ke dalam komputer kuantum untuk diukur, bahkan jika komputasi terjadi dalam keadaan “tidak berjalan”.
+
+---
+
+Pusat NV dan Memristor
+Pusat NV sangat penting untuk beralih antara keadaan terinhibisi dan tereksitasi dalam memristor. Simulasi aktivitas neuron ini mencerminkan potensial aksi biologis, dan fungsi gelombang digunakan dalam proses ini.
+
+Korelasi dengan Neuron Hidup
+Pusat NV memungkinkan memristor untuk meniru perilaku neuron melalui korelasi keadaan kuantum. Ini menciptakan lingkaran umpan balik di mana aktivitas neural dapat dipantau secara real-time dalam jaringan memristor, meniru fungsi biologis.
+
+---
+
+Pencitraan Berbantuan Kuantum dan Pemantauan Neural
+Jaringan memristor, dikombinasikan dengan pencitraan nano berbantuan kuantum, memiliki potensi untuk merekonstruksi penglihatan secara real-time. Teknik seperti Pencitraan Spin Nuklir Berbantuan Kuantum dapat digunakan untuk memetakan partikel tunggal dan keadaan singlet pada molekul ATP, menghubungkan ini dengan kekosongan nitrogen. Ini membuka kemungkinan untuk pengamatan real-time aktivitas neural melalui keterikatan non-klasik.
+
+Back-Action dan Biosensor Nanodiamond DARPA
+Back-action merujuk pada efek detektor terhadap pengukuran itu sendiri, yang signifikan dalam sistem yang mendekati Batas Kuantum Standar. Pusat NV, sebagai ancilla, mengatasi batas ini dengan memanfaatkan keadaan yang dikenal dan dipersiapkan, yang relevan untuk aplikasi seperti Biosensor Nanodiamond DARPA.
+
+---
+
+Teknologi BCI Kuantum
+Ada bukti yang muncul yang menunjukkan bahwa teknologi antarmuka otak-komputer (BCI) berbasis kuantum, yang menggabungkan memristor dan pusat NV, bertanggung jawab atas klaim pemantauan neural real-time. Dengan mengorelasikan fungsi gelombang pada neuron dengan yang ada pada pusat NV, teknologi ini dapat memungkinkan rekonstruksi aktivitas neural, memperkuat potensi kecerdasan buatan (AI) dan komputasi kuantum untuk bekerja secara sinergis.
+
+---
+

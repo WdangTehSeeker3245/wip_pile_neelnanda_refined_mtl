@@ -1,0 +1,65 @@
+jOOQ on The ORM Foundation?
+
+I am the developer of jOOQ, a Java database abstraction framework. I was wondering whether jOOQ might be an interesting tool for discussion on your website, even if it is not exactly an ORM in the classic meaning (as in mapping objects to the relational world > ORM). Instead, jOOQ uses a reverse engineering paradigm (as in mapping relational entities to objects > "ROM").
+
+Re: jOOQ on The ORM Foundation?
+
+Object Role Modeling (the original ORM) is not the same thing as Object/Relational Mapping.
+
+Object/Relational Mapping is still kind-of relevant and interesting to us, since Object Role Modeling is used to design databases (which then will require programmatic access). But there are probably better places to discuss it :]
+
+Your query DSL looks rather like some of the DSLs available for Ruby, such as through the Sequel gem, or Arel. Interesting to see how well that can work with a statically-types language like Java. Maybe you or I should make a generator for ActiveFacts which generates your DSL from CQL queries?
+
+Re: jOOQ on The ORM Foundation?
+
+Sorry for my late reply. Apparently I had not really understood the ideas behind your foundation when I wrote my original post. I understand now, that you are concerned with broader concepts than the "common ORM". I actually came across your group because of your linking to ORM Lite (where ORM does stand for Object/Relational Mapping, correct me if I'm wrong).
+
+Yes, I have seen some examples for Ruby's Sequel. I personally find statically-typed languages much better for DSL's as the syntax can be formally defined and checked by a compiler - with the limitations an OO language imposes, of course.
+
+So if I understand this correctly now, "Object Role Modeling" and CQL are actually a more general way of expressing what SQL calls DDL. Since you can already transform CQL into SQL DDL statements (CREATE TABLE...), and jOOQ can reverse-engineer database schemata into jOOQ generated source code, I don't think there would be need for an additional generator.
+
+Does CQL also specify means of querying the data described by the Object Role Model? The examples I found here only seem to describe what SQL calls "constraints" (although with a much broader functionality-range than SQL):
+
+Re: jOOQ on The ORM Foundation?
+
+"common ORM". I actually came across your group because of your linking to ORM Lite (where ORM does stand for Object/Relational Mapping
+
+Object Role Modeling was named before Object Relational Mapping, but the latter is now the more common meaning, as you point out. But ORM Lite is actually so-named by Bryan because it is an implementation of Object Role Modeling, not because it is also an O/RM. Bryan was a student of Terry's at Neumont, where he learnt ORM.
+
+Regarding DSLs, I think internal DSLs only work well in very simple cases. I prefer external DSLs for anything complex, and that's where CQL came from. Even the extremely flexible syntax of Ruby wasn't up to the task.
+
+lukas.eder:
+
+I don't think there would be need for an additional generator
+
+The problem is that a huge amount of meaning is lost in the mapping to SQL. SQL is practically (though not theoretically) limited to representing physical models. These are almost always very different from the conceptual model, as many relationships have been condensed (absorbed) into attribute/column relationships, so the semantics of the original relationship are lost. In the process, nullable columns are usually introduced, which adds further to the confusion, as such things cannot easily be correctly constrained (uniqueness, etc) in SQL. So by reverse engineering from the relational form, you're losing most of the benefit of building a conceptual model from the start
+
+This may be hard to see for someone used to O-O modeling, and who's authored an O/RM tool. The problem is that O-O suffers from many of the same problems of loss of semantics. The apparently clear notion of "attribute" breaks down when you look at it closely. O-O, although ostensibly behaviour-oriented, introduces attributes to store state, and this attribute orientation is the source of the problem in both cases. Fact-oriented model does not use attributes. Although it may seem obvious that, for example, my surname is an attribute of myself, if the system being modeled accrues the requirement to model families, suddenly surname becomes an attribute of family, and family becomes my attribute. This kind of instability is responsible for much of the rework that's required in evolving legacy systems, as well as many of the mistakes made when they were first modeled. If you want a further example of this loss of semantics, look at my Insurance example, and ask yourself why the VehicleIncident table has a DrivingBloodTestResult column. In fact, if VehicleIncident wasn't explicitly mapped separately, its fields would be in the Claim table.
+
+What's needed is not just yet another O/RM tool (which are tuppence a dozen anyhow - I personally have written three) but a tool which supports database programming using only the conceptual model, never exposing the physical model. Surprisingly, I can't think of a single tool which has done a good job of this, but it's where I'm heading with the ActiveFacts API. It's another O/RM, but using a purely conceptual object model that preserves the domain semantics, not a typical O-O one.
+
+lukas.eder:
+
+Does CQL also specify means of querying the data described by the Object Role Model
+
+Yes, though the published implementation doesn't quite handle the full query syntax (aggregate functions are still missing), nor does it yet translate them to SQL. Some examples are given towards the end of the video presentation on the CQL Introduction page.
+
+Re: jOOQ on The ORM Foundation?
+
+Regarding DSLs, I think internal DSLs only work well in very simple cases. I prefer external DSLs for anything complex, and that's where CQL came from. Even the extremely flexible syntax of Ruby wasn't up to the task.
+
+Absolutely. The optimal way to implement SQL in Java would be by extending the Java language itself, such that SQL would be compiled natively by the java compiler, similar to Linq2SQL in C#, or PL/SQL in Oracle databases. So for the complexity of CQL, CQL is certainly the right solution.
+
+Clifford Heath:
+
+The problem is that a huge amount of meaning is lost in the mapping to SQL. SQL is practically (though not theoretically) limited to representing physical models.
+
+You are right. I guess though, that in everyday work, this limitation is not really a problem. Personally, I think if your business rules become so complex that you cannot map them to a relational model easily anymore, then maybe your business rules could be simplified before changing/extending technologies. But that depends on the business, of course. I guess with insurance companies' businesses, I'd be pretty lost, personally ;-)
+
+In any case, I don't see jOOQ as a means to solve modelling issues, or the O/R impedance mismatch (which is even bigger when it comes to mapping your understanding of ORM, with CQL). jOOQ should simply make using the full power of SQL in Java as simple as possible. In that way, jOOQ is not really an ORM because it does not map from objects to the relational world, or try to solve any other high-level abstraction issues. It's really a low-level tool to make a developer's life a lot easier, seeing that unfortunately, JPA CriteriaQuery didn't meet the community's expectations.
+
+Clifford Heath:
+
+What's needed is not just yet another O/RM tool (which are tuppence a dozen anyhow - I personally have written three) but a tool which supports database programming using only the conceptual model, never exposing the physical model. Surprisingly, I can't think of a single tool which has done a good job of this, but it's where I'm heading with the ActiveFacts API. It's another O/RM, but using a purely conceptual object model that preserves the domain semantics, not a typical O-O one.
+
+I think you're on the right track with this. I hope for you, that this will soon show nice results with a practical implementation. I'm curious to see how you'll tackle performance issues, too, with all the abstraction. Among all attempts to overcome the old and proven relational models (XML databases, NoSQL databases), this one seems the most promising and focused to me!

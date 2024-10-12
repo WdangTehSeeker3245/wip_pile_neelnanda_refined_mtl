@@ -1,0 +1,27 @@
+Q:
+
+Python Segmentation Fault?
+
+First off, I didnt even know a memory error / segfault was possible in python. Kudos to learning something new!
+I have this database I create
+database = DBManager(dbEndpoint,dbUser,dbPass,dbSchema)
+
+And then I try to use it in a thread
+def stateTimeThreadStart():
+     database.getTable('CLIENTS')
+
+threads = []
+threads.append(threading.Thread(name='State Updater', target=stateTimeThreadStart, args=()))
+threads[0].start()
+
+The output is 
+Segmentation fault: 11
+
+What on earth is going on here? It definetly has something to do with database.getTable('CLIENTS') because when I comment it out the issue does not occur. In addition, I have also tried to pass the database to the thread with no luck. Any ideas?
+Thanks!
+
+A:
+
+Segmentation faults in Python can occur due to database connectors. The drivers used to connect to the database are usually coded in a C base, so in case of RAM overload or perhaps other reasons it throws Segmentation Faults.
+This is further exacerbated by the fact that you are using multithreading. Most database drivers are known to throw Segmentation Faults if multithreading isn't handled very carefully. Most database driver protocols can not handle multiple threads using the same connection at once.
+The rule of thumb is to not share a single connection between threads.

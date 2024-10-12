@@ -1,0 +1,45 @@
+Q:
+
+Apa cara termudah untuk melewatkan sebuah file sebagai argumen dalam skrip shell?
+
+Skrip berikut berfungsi baik di macOS:
+
+```bash
+#!/bin/bash
+R CMD Sweave myfile.Rnw
+pdflatex myfile.tex
+open myfile.pdf
+```
+
+Saya menyadari bahwa ketiga baris kode ini sangat membantu untuk pekerjaan saya, terlepas dari file spesifiknya. Saya ingin memodifikasi skrip agar menerima nama file sebagai argumen. Meskipun saya tahu cara menggunakan argumen, saya kesulitan membagi nama file input setelah string dan menggabungkannya kembali. Idealnya, saya ingin membagi argumen nama file seperti ini:
+
+```bash
+split($1,".")  # Keluaran yang diharapkan: ("name","ext")
+```
+
+Apakah ada cara yang lebih sederhana atau lebih efisien untuk mencapai ini tanpa menggunakan Python dalam skrip shell? Terima kasih sebelumnya atas saran umum dan contoh!
+
+---
+
+A:
+
+Jika Anda nyaman dengan Python, Anda mungkin akan menemukan lebih mudah untuk melakukan skrip shell di sana karena lebih mudah dibaca, kuat, dan lintas platform.
+
+---
+
+A:
+
+Anda bisa cukup mengambil nama dasar sebagai argumen dan menggunakan `$1.Rnw`, `$1.tex`, dan `$1.pdf` dalam skrip Anda. Meskipun Python bagus untuk tugas yang lebih kompleks, untuk skrip pendek seperti ini, tetap menggunakan bash seringkali lebih sederhana. Jika Anda ingin mengekstrak nama dasar dari nama file, Anda bisa menggunakan:
+
+```bash
+basename="${1%.*}"  # Ini menghapus ekstensi
+```
+
+Atau, untuk mendapatkan hanya nama dan ekstensi secara terpisah, Anda bisa menggunakan:
+
+```bash
+name=$(echo "$1" | cut -f 1 -d '.')
+ext=$(echo "$1" | cut -f 2 -d '.')
+```
+
+Dengan cara ini, Anda bisa menangani file secara dinamis.

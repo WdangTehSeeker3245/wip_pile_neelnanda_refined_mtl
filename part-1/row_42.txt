@@ -1,0 +1,19 @@
+Over every mountain there is a path, although it may not be seen from the valley
+
+I'm now taking commissions, if you're interested in some high quality terrain PM me.
+
+
+
+
+
+WorldPainter (for creating the map)
+
+
+
+Chunky (for rendering the map)
+
+
+
+Thanks for stopping by, if you enjoyed this submission please consider leaving a diamond!
+
+The sweeping sunset of the Roughhew Rocks is deceiving. The mountain becomes beautiful, the forests become picturesque and the rugged rocks look tamed. Even the birds sing a loud song heard far and wide over the coastal rocks. Don't be fooled, you're not safe. The beauty is the danger, one feels so safe, so alive, so free in Roughhew. But the same cannot be said for the human. Only two people have escaped Roughhew alive, and the thousands that are enticed here each season are slain. Some say it is nature that kills them, others say it's haunted, some claim the beauty was too much for them. While nobody knows the cause of death of these people there is one thing that cannot be disputed - this region has the highest rate of death in all the land.I like this map but I found it incredibly difficult to get nice renders of it. As such it marks the first map I've made where the cover photo is from the ground rather than a top down isometric view. This map I changed normal smooth stone for rock, a combination of stone and cobblestone, to create a rougher and more rugged terrain and I'm pleased with how it turned out. I also used gravel in the valleys to show heavy erosion and an unstable land, despite the towering mountain looming over it.I used the following tools to create this map:

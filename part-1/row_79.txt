@@ -1,0 +1,63 @@
+Q:
+
+Doctrine2 entity default value for ManyToOne relation property
+
+I've got a Doctrine2 Entity called "Order", which has several status properties. The allowed status' are stored in a different Entity, so there is a ManyToOne relation defined for those entities.
+/**
+ * @ORM\Entity()
+ */
+class Order extends AbstractEntity {
+    // ...
+    /**
+     * @ORM\ManyToOne(targetEntity="Status")
+     * @ORM\JoinColumn(onDelete="NO ACTION", nullable=false)
+     */
+    protected $status;
+
+    /** @ORM\Column(nullable=true) */
+    protected $stringProperty = "default value";
+
+}
+
+I need to set this status property to a default value when creating a new instance of the order object.
+For a "non-relation" property I can simply set it like the $stringProperty above. But how to do it for relations?
+
+I cannot set the value to the id of the related record, as Doctrine2 will complain.
+It's fine if the configured default is a "Reference" to the status entity. The available status' are fixed and won't change (often).
+
+How do I configure the entity to have a proper default relation configured.
+Preferably not in a listener when persisting, as the status may be requested before that.
+
+A:
+
+There are several approaches but I would suggest using the OrderRepository as a factory for creating new orders.
+class OrderRepository
+{
+    public function create()
+    {
+        $order = new Order();
+        $status = $this->_em->find('Status','default'); // or getReference
+        $order->setStatus($status);
+        return $order;
+    }
+}
+
+// In a controller
+$orderRepository = $this->container->get('order_repository');
+$order = $orderRepository->create();
+
+By going with a repository you can initialize complex entity graphs that will be ready for persisting.
+==========================================================================
+Plan B would be to do this sort of thing within the order object and then use listeners to "fix things up" before persisting or updating.
+class Order
+{
+    public function __construct()
+    {
+        $this->status = new Status('Default');
+    }
+}
+
+The problem of course is that a default status object already exists in the database so when you flush you will get a error.  So you need to hang an onFlush(http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/events.html#onflush) listener on the entity manager, check to see if the status object is being managed by the entity manager and, if not, replace it with a managed object fetched via the entity manager.
+This approach lets you deal with more "pure" domain models without worrying as much about the persistence layer.  On the other hand, dealing with the flush can be tricky.  On the gripping hand, once you get it working then it does open up some major possibilities.
+========================================================
+There is also the question of what exactly the status entity does.  If all it contains is some sort of status state ('entered',processed') etc.  Then you might consider just having it be a string.  Sort of like the ROLE_USER objects.

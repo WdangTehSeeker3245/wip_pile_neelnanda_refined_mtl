@@ -1,0 +1,2 @@
+Standardised protocol for primate faecal analysis.
+Macroscopic analysis of primate faeces as a way to study diet is well established, but lack of standardisation of methods may handicap comparative studies of the resulting data. Here we present a proven technique, including equipment and supplies, protocol and procedure, that yields quantitative data suitable for systematic investigation within and across primate taxa. As the problems of habituation become more obvious, the application of such indirect methods may increase in usefulness.

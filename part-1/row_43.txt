@@ -1,0 +1,83 @@
+The terrifying 38-minute ordeal suffered by Hawaii residents on Saturday, when the state’s emergency-management agency sent out a false alert warning of an imminent ballistic-missile strike amid rising tensions with North Korea, seems to have sparked an unusually rapid response on Capitol Hill.
+
+Hawaii’s Sen. Brian Schatz, a Democrat on the Senate Commerce Committee, told National Journal that he is working with other Senate Democrats on a bill that would implement a federal best-practice framework for the ballistic-missile-alert systems administered by U.S. states, localities, and territories. And while Republicans don’t appear to be involved in the process, relevant GOP chairs in both chambers have expressed a willingness to work with Schatz on the issue.
+
+Initial reports indicate that Hawaii’s screwup—which sent people across the archipelago scrambling for shelter before the all-clear was called more than a half-hour later—was because of an employee mistakenly pressing the wrong link on a confusingly designed interface. But for something as serious as a ballistic-missile alert, Schatz suggested that the potential for human error can, and should, be mitigated through federal safeguards.
+
+“You want a system that accounts for the fact that somebody may be sleepy or careless, or an interface may not be the most user-friendly, and yet it all works anyway,” Schatz said. “We have best practices for disaster notifications for natural disasters, for terrorism events. We just don’t have it for this.”
+
+On Wednesday, Schatz said he had convened a phone call with officials from the Federal Communications Commission, the Homeland Security Department, the Pentagon, and other relevant agencies to address the inconsistency.
+
+“We think it should be done legislatively, but I don’t know that for sure yet,” he told reporters, explaining that the ultimate goal is to craft “a federal law to establish a framework that states can use.”
+
+The way America’s missile-alert system operates is fundamentally different from how citizens are alerted to most other catastrophes, when local authorities often possess the best information. While states and cities are ultimately responsible for alerting civilians of an imminent attack, they lack the ability to detect and track incoming missiles.
+
+In the seconds and minutes after a launch, details of the threat would have to cascade through phone calls from the Pentagon to DHS. From there, officials at the Federal Emergency Management Agency would send the warning to at-risk states and localities, whose own alert systems would only then spring into life.
+
+That chain of causation was disrupted on Saturday. But David Simpson, a former admiral in the U.S. Navy who ran the FCC’s Public Safety and Homeland Security Bureau from November 2013 to January 2017, said federal legislation should seek to dismantle that outdated process altogether.
+
+“That’s a 1950s kind of structure,” Simpson said, arguing that machine-to-machine communication technology should be utilized to eliminate lag time and cut down on human error.
+
+One way to do that could be for the FCC to create, at the direction of Congress, a unique wireless-alert category for ballistic-missile threats. “That would then ensure that the machine elements of this system could be built around that narrow bucket,” Simpson said.
+
+But that still wouldn’t solve the problem entirely. “The machine-to-machine piece of that, so it could be really useful, would require DHS and [Defense Department] plumbing changes that would be beyond the authorities of the FCC,” Simpson said.
+
+Simpson largely endorsed Schatz’s plan for a uniform federal missile-alert framework that states and localities can follow. “There’s over 1,000 alert originators at the state and local level, and I would say five, six, seven vendors for the user-interface systems,” he said.
+
+In a bid to improve innovation, DHS gave state governments broad leeway to design their own missile-alert interfaces. But Simpson said that decision has clearly come with a cost.
+
+“That variation is fine for notification about fire, notification about a tsunami coming in,” Simpson said. “But ballistic-missile warnings ought to be consistent, reliable, secure—because we don’t want it cyberattacked—across the entire country.”
+
+Republicans seem receptive to Schatz’s plan for missile-alert legislation. Schatz said he plans to introduce his bill through the Senate Commerce Committee, which is chaired by Republican John Thune. Frederick Hill, a Thune spokesman, told National Journal that the chairman “is considering convening a full committee hearing which would help inform legislative efforts.”
+
+House Republicans are further along than their Senate counterparts, with plans to hold an Energy and Commerce hearing on Hawaii’s false missile alert in the coming weeks. On Wednesday, committee chairman Greg Walden said he would be “happy to work” with Schatz on legislation, if needed. “We just haven’t got into the weeds on it,” Walden said.
+
+As long as lawmakers can work out issues surrounding committee and agency jurisdiction, Simpson said the chances for bipartisan support are high. But stakeholders from Homeland Security and the Pentagon—as well as the congressional committees that oversee them—will also need to weigh in. And Simpson worries those agencies may be loath to take responsibility for what’s widely viewed as a state-level mistake.
+
+“It’s a perfect bipartisan issue, as long as we don’t let the various lobbies and the competition between agencies pervert and potentially dilute the ultimate outcome,” Simpson said.
+
+"Two more House Republicans have joined the discharge petition to force votes on immigration, potentially leaving centrists just two signatures short of success. Reps. Tom Reed (R-N.Y.) and Brian Fitzpatrick (R-Pa.) signed the discharge petition Thursday before the House left town for the Memorial Day recess. If all Democrats endorse the petition, just two more GOP signatures would be needed to reach the magic number of 218."
+
+Source:
+
+FIRED FROM RUSSIAN LAUNCHER
+
+Investigators Pin Destruction of Malaysian Airliner on Russia
+
+3 hours ago
+
+THE DETAILS
+
+"A missile that brought down Malaysia Airlines Flight 17 in eastern Ukraine in 2014 was fired from a launcher belonging to Russia's 53rd anti-aircraft missile brigade, investigators said Thursday. The announcement is the first time the investigative team has identified a specific division of the Russian military as possibly being involved in the strike. Russia has repeatedly denied involvement in the incident."
+
+Source:
+
+THREE INTERVIEWS PLANNED FOR JUNE
+
+House GOP Will Conduct New Interviews in Clinton Probe
+
+3 hours ago
+
+THE LATEST
+
+"House Republicans are preparing to conduct the first interviews in over four months in their investigation into the FBI’s handling of the Clinton email probe. A joint investigation run by the Judiciary and Oversight Committees has set three witness interviews for June, including testimony from Bill Priestap, the assistant director of the FBI’s counterintelligence division, and Michael Steinbach, the former head of the FBI’s national security division."
+
+Source:
+
+IN OPEN LETTER TO KIM JONG UN
+
+Trump Cancels North Korea Summit
+
+5 hours ago
+
+THE LATEST
+
+GANG OF EIGHT WILL GET SEPARATE MEETING
+
+Briefings at White House Will Now Be Bipartisan
+
+7 hours ago
+
+THE LATEST
+
+"The White House confirmed Wednesday it is planning for a bipartisan group of House and Senate leaders, known as the 'Gang of 8,' to receive a highly-classified intelligence briefing on the FBI's investigation into Russian meddling, reversing plans to exclude Democrats altogether. ABC News first reported the plans to hold a separate briefing for Democrats, citing multiple administration and congressional sources. While details of the bipartisan meeting are still being worked out, a Republican-only briefing will go on as scheduled Thursday."

@@ -1,0 +1,25 @@
+Q:
+
+What's the simplest way to pass a file as an argument in a simple shell script?
+
+The following works fine on Mac OS X:
+#!/bin/bash
+R CMD Sweave myfile.Rnw
+pdflatex myfile.tex
+open myfile.pdf
+
+Now, I realize that these 3 lines of code are really helpful for my work – independently of some particular file. Thus I'd like to use the file as an argument. I know how to use an argument itself but have problems splitting the input after the string and concat it afterwards. If I was able to split the filename argument like: 
+split($1,".") # return some array or list ("name","ext")
+
+Or is there a simpler, completely different way than using Python within a shell script?
+Thx in advance for any general advice and examples as well !
+
+A:
+
+I do all my shell scripting in python.
+It's easier to read, more powerful and works on windows as well.
+
+A:
+
+You could just take the base name as an argument and use $1.Rnw, $1.tex, and $1.pdf. Python is great for shell scripts, but I usually stick with bash for things less than 10 lines long.
+If you really want to take a file name, you can use cut -f 1 -d '.' $1.

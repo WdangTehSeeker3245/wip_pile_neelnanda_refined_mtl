@@ -1,0 +1,28 @@
+jOOQ dan The ORM Foundation: Sebuah Diskusi
+Sebagai pengembang jOOQ, sebuah kerangka abstraksi basis data berbasis Java, saya tertarik untuk mengetahui apakah jOOQ bisa memicu diskusi di platform Anda. Meskipun jOOQ tidak sepenuhnya sesuai dengan definisi tradisional dari Object/Relational Mapping (ORM)—yang biasanya melibatkan pemetaan objek ke basis data relasional—jOOQ mengadopsi pendekatan yang berbeda. jOOQ memanfaatkan paradigma rekayasa balik, yang pada dasarnya memetakan entitas relasional ke objek, yang saya sebut sebagai ROM (Pemetaan Objek Balik).
+
+Menjelaskan Definisi
+
+Penting untuk membedakan antara Object Role Modeling (ORM) dan Object/Relational Mapping (ORM). Sementara Object Role Modeling memberikan konsep dasar untuk desain basis data, Object/Relational Mapping lebih berkaitan langsung dengan bagaimana desain ini diterapkan dalam pemrograman. ORM memang relevan dalam diskusi kita, terutama karena Object Role Modeling membantu dalam desain basis data, yang tak terhindarkan memerlukan akses programatik.
+
+Saya menemukan bahwa query DSL jOOQ mirip dengan beberapa DSL yang digunakan dalam Ruby, seperti Sequel gem atau Arel. Menarik untuk menjelajahi seberapa efektif jOOQ beroperasi dalam batasan bahasa yang memiliki tipe statis seperti Java. Ada juga kemungkinan untuk mengembangkan generator yang menciptakan DSL yang kompatibel dengan jOOQ dari kueri CQL (Common Query Language).
+
+Menilai Kembali Posisi jOOQ
+Saya mohon maaf atas kesalahpahaman sebelumnya mengenai ruang lingkup yayasan Anda. Saya awalnya menemukan kelompok Anda melalui referensi ke ORM Lite, yang, untuk memperjelas, memang berdiri untuk Object/Relational Mapping. Pemahaman saya saat ini adalah bahwa minat Anda mencakup konsep yang lebih luas daripada implementasi ORM yang biasa.
+
+Setelah melihat contoh dari Sequel Ruby, saya secara pribadi mendukung penggunaan bahasa yang memiliki tipe statis untuk pengembangan DSL karena sintaksisnya yang formal dan pemeriksaan pada waktu kompilasi. Ini kontras dengan sintaksis yang fleksibel namun seringkali tidak tepat yang ditemukan dalam bahasa dinamis.
+
+CQL dan Kemampuannya
+Untuk memperjelas, CQL memang menyediakan cara untuk mengkueri data yang diwakili oleh Object Role Model. Namun, implementasi saat ini mungkin belum sepenuhnya mencakup seluruh sintaksis kueri, terutama dalam hal fungsi agregat. Meskipun demikian, beberapa contoh dapat ditemukan dalam video pengantar CQL.
+
+Tantangan Makna dalam SQL
+Salah satu perhatian utama saya mengenai SQL adalah bahwa makna penting sering hilang selama proses pemetaan. SQL pada dasarnya dirancang untuk mencerminkan model fisik, yang dapat berbeda secara signifikan dari model konseptual. Kehilangan semantik ini dapat menyebabkan komplikasi, seperti munculnya kolom nullable yang memperburuk batasan seperti keunikan.
+
+Sebaliknya, fokus pada pemodelan konseptual sangat penting. ActiveFacts API, yang sedang saya kembangkan, bertujuan untuk lebih dari sekadar alat O/RM lainnya. API ini beraspirasi untuk memfasilitasi pemrograman basis data melalui model konseptual, tanpa mengekspos model fisik. Pendekatan ini menjaga semantik domain, berbeda dengan paradigma berorientasi objek tradisional yang sering kali salah menggambarkan hubungan.
+
+Kebutuhan Alat Konseptual
+Penting untuk menyadari bahwa meskipun jOOQ menyederhanakan penggunaan SQL di Java, ia tidak berusaha menyelesaikan masalah pemodelan yang mendasari atau kesenjangan impedansi O/R. Sebaliknya, jOOQ berfungsi sebagai alat tingkat rendah yang dirancang untuk memperlancar interaksi pengembang dengan SQL, terutama mengingat keterbatasan alat seperti JPA CriteriaQuery.
+
+Saat saya terus mengembangkan ActiveFacts API, saya berharap dapat mengatasi tantangan kinerja yang muncul dengan mempertahankan tingkat abstraksi yang tinggi. Di antara berbagai alternatif untuk basis data relasional tradisional, saya percaya pendekatan ini memiliki potensi untuk pemrograman basis data yang efektif dan mencerminkan upaya yang terfokus untuk memperbaiki model yang ada.
+
+

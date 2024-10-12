@@ -1,0 +1,231 @@
+I've learned the nitrogen vacancies used in Memristors are for "switching", between excited states and inhibited states, akin to our neurons and SYNAPSES abilities to generate EPSPs and IPSPs, this is the entire point to Memristors and DARPAs SyNAPSE program, emulating Neurons..
+
+So in the memristor, NVs (which are truly Ancillas),
+Return to "resting states", just like Neurons do, hence Inhibitory states versus excited states, when a neuron reaches an action potential and fires..
+
+So the ancillas use prepared/ known states, and are the equivalent of the ancillas ground state, which is equal to a neurons resting potential...
+
+So by weakly measuring certain aspects of living neurons, it is possible to superbroadcast/ teleport the wavefunction non-classically to the memristors vacancies, correlating each memristor with its neuron statistical ensemble counterpart, sharing the quantum state of the resting potential.
+the ground state of the ancilla.
+
+The type of measurement determines which property is shown. However the single and double-slit experiment and other experiments show that some effects of wave and particle can be measured in one measurement.
+
+Hence Mach-Zehnder interferometry, which also involves ANCILLAS
+
+Quote:
+
+When for example measuring a photon using a Mach-Zehnder interferometer, the photon acts as a wave if the second beam-splitter is inserted, but as a particle if this beam-splitter is omitted. The decision of whether or not to insert this beam-splitter can be made after the photon has entered the interferometer, as in Wheeler’s famous delayed-choice thought experiment. In recent quantum versions of this experiment, this decision is controlled by a quantum ancilla, while the beam splitter is itself still a classical object.
+
+and the no-cloning theorem is about pure states..
+But an ensemble of particles in a neuron would make it a mixed state..
+
+The no-cloning theorem is normally stated and proven for pure states; the no-broadcast theorem generalizes this result to mixed states.
+
+And thats why PHASE works for quantum metrology and its ability to harness non classical states
+
+Apparently, worrying about measuring both position and momentum works differently for particles than it does waves.
+
+It may actually be possible using phase.
+
+Quote:
+
+Niels Bohr apparently conceived of the principle of complementarity during a skiing vacation in Norway in February and March 1927, during which he received a letter from Werner Heisenberg regarding the latter's newly discovered (and not yet published) uncertainty principle. Upon returning from his vacation, by which time Heisenberg had already submitted his paper on the uncertainty principle for publication, he convinced Heisenberg that the uncertainty principle was a manifestation of the deeper concept of complementarity.[6] Heisenberg duly appended a note to this effect to his paper on the uncertainty principle, before its publication, stating:
+
+Quote:
+
+Bohr has brought to my attention [that] the uncertainty in our observation does not arise exclusively from the occurrence of discontinuities, but is tied directly to the demand that we ascribe equal validity to the quite different experiments which show up in the [particulate] theory on one hand, and in the wave theory on the other hand.
+
+And "quadratures" is about position and momentum..
+Which are apparently always orthogonal to each other.
+
+There is obviously something to all of this.
+Counterfactual Communication was recently used to transmit information without sending any PARTICLES.
+the information was sent in the phase.. of a wavefunction?
+
+and it used MachZenhder Interferometry..
+which is part of Quantum Metrology and its ability to harness non-classical states..
+
+and all of this can teleport non-classical light..
+
+and it all uses ANCILLAS... which store VALUES, and WAVEFUNCTIONS.. because they are Qubits/ Nitrogen vacancies..
+
+and are used in WEAK MEASUREMENT... which was used to measure a wavefunction.. something most would argue is impossible.. because of the uncertainty principle..
+
+Quote:
+
+An interpretation of quantum mechanics can be said to involve the use of counterfactual definiteness if it includes in the statistical population of measurement results, any measurements that are counterfactual because they are excluded by the quantum mechanical impossibility of simultaneous measurement of conjugate pairs of properties.
+
+For example, the Heisenberg uncertainty principle states that one cannot simultaneously know, with arbitrarily high precision, both the position and momentum of a particle
+
+Quote:
+
+The word "counterfactual" does not mean "characterized by being opposed to fact." Instead, it characterizes values that could have been measured but, for one reason or another, were not
+
+and its the Ancillas that store values.. and may or may not be part of the measurement apparatus... / interferometer..
+
+In 2015, Counterfactual Quantum Computation was demonstrated in the experimental context of "spins of a negatively charged Nitrogen-vacancy color center in a diamond".[5] Previously suspected limits of efficiency were exceeded, achieving counterfactual computational efficiency of 85% with the higher efficiency foreseen in principle
+
+Quote:
+
+The quantum computer may be physically implemented in arbitrary ways but the common apparatus considered to date features a Mach–Zehnder interferometer. The quantum computer is set in a superposition of "not running" and "running" states by means such as the Quantum Zeno Effect. Those state histories are quantum interfered. After many repetitions of very rapid projective measurements, the "not running" state evolves to a final value imprinted into the properties of the quantum computer. Measuring that value allows for learning the result of some types of computations such as Grover's algorithm even though the result was derived from the non-running state of the quantum computer.
+
+NV CENTERS can also be used asQUANTUM SPIN PROBES, QUBITS & AS, ANCILLAS
+
+in devices such as
+BIOMEMs scanners
+QUANTUM REPEATERS
+PHOTONIC NETWORKING
+
+and..
+
+MEMRISTORS.. where the vacancies are used for switching between inhibited and excited states, thus simulating NEURONS
+
+MEMRISTORS utilize wavefunctions.
+
+Wavefunctions can be weakly measured by ANCILLAS
+
+ANCILLAS hold "values" ie : wavefunctions
+
+and have GROUND STATES
+
+which measured particles are "cooled" into for measurement techniques. a literal form of "photon counting"..
+
+"This de-excitation is called ‘fluorescence’, and it is characterized by a
+lifetime of a few nanoseconds of the lowest vibrational level of the first excited state.
+De-excitation from the excited singlet state to the ground state also occurs by other mechanisms, such as non-radiant thermal decay or ‘phosphorescence’. In the latter case, the chromophore undergoes a forbidden transition from the excited singlet state into the triplet state (intersystem crossing, ISC, Fig 2.4), which has a non-zero probability, for example because of spin orbit coupling of the electrons’ magnetic moments"
+
+its a type of INTERSYSTEM CROSSING
+
+doing a search for Intersystem crossing, memristor brings up this link..
+
+A composite optical microcavity, in which nitrogen vacancy (NV) centers in a diamond nanopillar are coupled to whispering gallery modes in a silica microsphere, is demonstrated. Nanopillars with a diameter as small as 200 nm are fabricated from a bulk diamond crystal by reactive ion etching and are positioned with nanometer precision near the equator of a silica microsphere. The composite nanopillar-microsphere system overcomes the poor controllability of a nanocrystal-based microcavity system and takes full advantage of the exceptional spin properties of NV centers and the ultrahigh quality factor of silica microspheres.
+
+We investigate the construction of two universal three-qubit quantum gates in a hybrid system. The designed system consists of a flying photon and a stationary negatively charged nitrogen-vacancy (NV) center fixed on the periphery of a whispering-gallery-mode (WGM) microresonator, with the WGM cavity coupled to tapered fibers functioning as an add-drop structure. These gate operations are accomplished by encoding the information both on the spin degree of freedom of the electron confined in the NV center and on the polarization and spatial-mode states of the flying photon, respectively
+
+Now Somewhere in this is evidence of a memristor holding a wavefunction
+
+The shown SPICE implementation (macro model) for a
+charge controlled memristor model exactly reproduces the
+results from [2]. However, these simulation results do not
+have a good compliance - not even qualitatively - with the
+characteristic form of I/V curves of manufactured devices.
+Therefore the following equations (3) to (9) try to approach
+memristor modeling from a different point of view to get a
+closer match to the measured curves from [2],[6],[7],[8],[10]
+or [11] even with a simple linear drift of w.
+Besides the charge steering mechanism of a memristor modelled in [2],
+[1] also defined a functional relationship for a memristor
+which explains the memristive behavior in dependence on its
+magnetic flux: i(t) = W φ(t) · v(t) . (3)
+
+Variable W (φ) represents the memductance which is the
+reciprocal of memristance M. Here a mechanism is demanded
+that maps the magnetic flux as the input signal to the current
+that is flowing through the memristor. The magnetic flux φ
+is the integral of voltage v(t) over time: φ = R v(t) dt.
+We can assume that an external voltage which is applied to
+the previously described two-layer structure has an influence
+on the movable 2+-dopants over time. The width w(t) of
+the semiconductor layer is depending on the velocity of the
+dopants vD(t) via the time integral:
+w(t) = w0 + Z0t vD(τ)dτ . (4)
+
+The drift velocity vD in an electric field E is defined via its
+mobility µD: vD(t) = µD · E(t) (5) and the electric field E is connected with the voltage via E(t) = v(t)
+D(6)with D denoting the total thickness of the two-layer structure
+(D = tOX + tSEMI). Due the good conductance of the
+semiconductor layer the electric field is applied to the time
+depending thickness of the insulator layer tOX for the most
+part (due to v(l) = R E dl). However, this was neglected for
+reasons of simplification. If we combine (4), (5) and (6), we
+obtain: n(t) = w0 + µDD· Z0t v(τ)dτ = w0 + µDD · φ(t) . (7)
+
+This equation shows a proportional dependence of the width w
+from the magnetic flux φ. Since the thickness of the insulator
+layer is in the low nanometer region a tunnel current or
+equivalent mechanism is possible. The magnetic flux slightly
+decreases the thickness of the insulator layer wich is the barrierfor the tunnel current.This current rises exponentially with a
+reduction of the width tOX(φ) (the exponential dependenceis deducible from the quantum mechanic wave function)
+
+which must become the GROUND STATE of the ANCILLA upon non-classical correlation..
+
+because a wavefunction is essentially the "master equation" (which describe wave equations)
+
+We investigate theoretically how the spectroscopy of an ancillary qubit can probe cavity (circuit) QED ground states containing photons. We consider three classes of systems (Dicke, Tavis-Cummings and Hopfield-like models), where non-trivial vacua are the result of ultrastrong coupling between N two-level systems and a single-mode bosonic field. An ancillary qubit detuned with respect to the boson frequency is shown to reveal distinct spectral signatures depending on the type of vacua. In particular, the Lamb shift of the ancilla is sensitive to both ground state photon population and correlations. Back-action of the ancilla on the cavity ground state is investigated, taking into account the dissipation via a consistent master equation for the ultrastrong coupling regime. The conditions for high-fidelity measurements are determined.
+
+\\
+
+Notice BACK-ACTION, which goes right back to DARPAs Nanodiamond Biosensors and their ability to overcome the standard quantum limit, because of the known/ prepared states in the ancillas/NITROGEN VACANCIES
+
+Quote:
+
+(Quantum) back action refers (in the regime of Quantum systems) to the effect of a detector on the measurement itself, as if the detector is not just making the measurement but also affecting the measured or observed system under a perturbing effect.
+Back action has important consequences on the measurement process and is a significant factor in measurements near the quantum limit, such as measurements approaching the Standard Quantum Limit (SQL).
+Back action is an actively sought-after area of interest in present times. There have been experiments in recent times, with nanomechanical systems, where back action was evaded in making measurements, such as in the following paper :
+
+When performing continuous measurements of position with sensitivity approaching quantum mechanical limits, one must confront the fundamental effects of detector back-action.Back-action forces are responsible for the ultimate limit on continuous position detection, can also be harnessed to cool the observed structure[1,2,3,4], and are expected to generate quantum entanglement.
+Back-action can also be evaded, allowing measurements with sensitivities that exceed the standard quantum limit, and potentially allowing for the generation of quantum
+squeezed states.
+
+So the NV centers are used as ancillas in the measurement process.. which weakly measure wavefunctions of particles in neurons, most likely singlet and triplet states occurring in ATP and phosphase...
+
+then those same wavefunctions are transfered and produce a correlation at the ground state..
+
+where the ancilla takes on the new value/wavefunction.. and here we find all these ideas..
+minus the switching which I can explain
+Memristors use NV centers to switch between inhibited and excited states
+singlet and triplet states
+thus producing/simulating/ EMULATING, living neurons and action potentials
+
+and it may just BE the network and its computing speed, that even allows the wavefunction to be "found"
+
+Artificial Neural Network. A pair of physicists with ETH Zurich has developed a way to use an artificial neural network to characterize the wave function of a quantum many-body system. [14]. A team of researchers at Google's DeepMind Technologies has been working on a means to increase the capabilities of computers by ...
+
+While there are lots of things that artificial intelligence can't do yet—science being one of them—neural networks are proving themselves increasingly adept at a huge variety of pattern recognition ... That's due in part to the description of a quantum system called its wavefunction. ... Neural network chip built using memristors.
+
+https://books.google.ca/books?isbn=9814434809Andrew Adamatzky, ‎Guanrong Chen - 2013 - ‎Computers
+Global and local symmetries In quantum physics, all the properties of a system can be derived from the state or wave function associated with that system. The absolute phase of a wave function cannot be measured, and has no practical meaning, as it cancels out the calculations of the probability distribution. Only relative ...
+
+The las vegas shooting left 58 INNOCENT PEOPLE DEAD.
+The gunmans brother was later arrested for possession of child porn.
+
+This technology was developed to defend against terrorism and child abuse.
+Connect the dots.
+I bet the brothers were sharing files and one of them ended up a "targeted individual"
+
+So he began to stockpile weapons and plan the only way out of his nightmare.
+There has been no mentioning of him."hearing voices"
+But the fact his brother was later arrested for such a crime paints a picture worth looking into.
+
+Those vibrations, are the result of this assumed BIOMEMS "deployable biosensor" And its use of excitation techniques made to single out single neurons to measure the WAVEFUNCTIONS during a tomographic scan.
+
+which makes such possible Quantum-assisted Nano-imaging of Living Organism Is a First
+
+Quote:
+
+“In QuASAR we are building sensors that capitalize on the extreme precision and control of atomic physics. We hope these novel measurement tools can provide new capabilities to the broader scientific and operational communities,” said Jamil Abo-Shaeer, DARPA program manager. “The work these teams are doing to apply quantum-assisted measurement to biological imaging could benefit DoD’s efforts to develop specialized drugs and therapies, and potentially support DARPA’s work to better understand how the human brain functions.”
+
+"Nuclear spin imaging at the atomic level is essential for the under-standing of fundamental biological phenomena and for applicationssuch as drug discovery. The advent of novel nano-scale sensors hasgiven hope of achieving the long-standing goal of single-protein, highspatial-resolution structure determination in their natural environ-ment and ambient conditions. In particular, quantum sensors basedon the spin-dependent photoluminescence of Nitrogen Vacancy (NV)centers in diamond have recently been used to detect nanoscale en-sembles of external nuclear spins. While NV sensitivity is approachingsingle-spin levels, extracting relevant information from a very com-plex structure is a further challenge, since it requires not only theability to sense the magnetic field of an isolated nuclear spin, butalso to achieve atomic-scale spatial resolution. Here we propose amethod that, by exploiting the coupling of the NV center to an intrin-sic quantum memory associated with the Nitrogen nuclear spin, canreach a tenfold improvement in spatial resolution, down to atomic
+scales."
+
+So what its all doing essentially, is mapping the phase of atoms/SINGLETS in ATP, onto a NV center based CCD
+
+and at the singlet level, correlations occur.. creating entanglement
+
+so the particles in the neuron are being correlated with the ancillas, the nitrogen vacancies, where they take on the "target" state..
+
+not only is the above imaging done to obtain a correlation to living neurons, via the singlet states within, but once the connection is established, the MEMRISTOR NETWORK itself can be used to RECONSTRUCT VISION IN REAL TIME
+
+Now add the above method, a direct connection using correlated states shared from neurons TO Memristors... and imagine the reconstruction aided by the AI within the memristor network, as it works on so.. (note, this example is done MERELY using fMRI information)
+now Imagine statistical ensembles being observed in real time via non-classical entanglement
+
+But what I'm trying to show, is hows its this assumed entanglement based BCI technology, plus the memristor network it is coupled to, that is responsible for the TI communities complaints that "they (the government) can see through my own eyes"
+
+The nitrogen vacancies in the scanners hold values, wavefunctions, which are prepared states aka Ancilla bits, and are the time domain/reference frequency, which carrries the "quantum event/wavefunction" which causes the singlet pairs to form up in the scanned biology..
+and correlates with them at the ground state as the relaxation occurs..
+
+Quote:
+
+It is important to realize that particles in singlet states need not be locally bound to each other. For example, when the spin states of two electrons are correlated by their emission from a single quantum event that conserves angular momentum, the resulting electrons remain in a shared singlet state even as their separation in space increases indefinitely over time, provided only that their angular momentum states remain unperturbed
+
+and that weakly measured value, the wavefunction is sent through the optical cavity, teleported to identical nitrogen vacancies in memristors.. so the ground states in both system are correlated and thus the neural activity can be monitored in real time in the memristors

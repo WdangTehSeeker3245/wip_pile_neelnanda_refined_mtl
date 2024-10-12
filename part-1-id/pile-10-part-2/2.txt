@@ -1,0 +1,62 @@
+{
+  "fpsLimit": 60,
+  "preset": "basic",
+  "background": {
+    "color": "#0d47a1",
+    "image": "url('/path/to/image.jpg')",  // Add a background image
+    "position": "50% 50%",  // Center the background image
+    "repeat": "no-repeat",  // Do not repeat the background image
+    "size": "cover"  // Scale the background to cover the entire area
+  },
+  "objects": [
+    {
+      "type": "circle",  // Define an object type
+      "radius": 50,
+      "color": "#ff5722",
+      "position": {
+        "x": 200,
+        "y": 300
+      },
+      "velocity": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "type": "text",  // Define a text object
+      "content": "Hello World",
+      "fontSize": 32,
+      "color": "#ffffff",
+      "position": {
+        "x": "center",  // Center the text horizontally
+        "y": "bottom"   // Place the text at the bottom
+      },
+      "shadow": {
+        "color": "#000000",
+        "offsetX": 2,
+        "offsetY": 2,
+        "blur": 5
+      }
+    }
+  ],
+  "animations": {
+    "enabled": true,  // Enable animations
+    "types": ["fade", "bounce"],  // Define animation types
+    "duration": 1000,  // Set animation duration in milliseconds
+    "loop": true  // Loop animations indefinitely
+  },
+  "interactions": {
+    "clickEffect": {
+      "enabled": true,
+      "effect": "ripple",
+      "color": "#ffeb3b"
+    }
+  },
+  "shadow": {
+    "enabled": true,
+    "color": "#000000",
+    "blur": 10,
+    "offsetX": 5,
+    "offsetY": 5
+  }
+}

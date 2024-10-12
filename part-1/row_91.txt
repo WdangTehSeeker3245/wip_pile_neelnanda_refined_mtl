@@ -1,0 +1,14 @@
+Q:
+
+bootstrap.min.css sets transparency where not wanted
+
+I have a small chatbox at the bottom of my page which seems to be inheriting CSS style from bootstrap.min.css and that chatbox is transparent which is a nuisance because the underlying text on the page shows through and what is worse, is that hyperlinks on the page are over-riding clickable areas in the chatbox for opening, closing and submitting messages.
+I have tried adding CSS style to the chatbox for opacity and rgba. Even tried adding a background image but to no effect.
+I have since modified the chatbox to display an iFrame from a different site that does not use bootstrap.min.css.
+But even the iFrame page is affected by transparency. I can remove the transparency setting in bootstrap.min.css but that will not solve my bigger problem... I am intending to use this chatbox on several sites and may not have control of the site's CSS.
+So I need a way to override the parent site's CSS just for the chatbox. 
+If that is impossible, then I can  weed out the transparency from bootstrap.min.css that is used on my own sites. However I do wonder what is the point of such transparency when it is useless here...
+
+A:
+
+It's a z-index problem which is common when integrating iframes, apply z-index: 2000; (or whatever number as long as it comes on top) on your chatbox div so your chatbox will still stay upfront.

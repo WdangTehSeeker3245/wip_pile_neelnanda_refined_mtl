@@ -1,0 +1,73 @@
+Q:
+
+TextView Not centered in app but centered in match_constraint
+
+I've created a simple activity design using ConstraintLayout.
+Whenever I try to center a textView, it does it correctly in the blueprints but never does it in the actual app. Not sure if i am doing something wrong or I'm losing my mind.
+Here is the image
+Here is the XML code
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background_green"
+tools:context="nz.co.listcosolutions.StartActivity">
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="160dp"
+    android:layout_height="163dp"
+    android:layout_marginEnd="95dp"
+    android:layout_marginStart="95dp"
+    android:layout_marginTop="32dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/baby_plant" />
+
+<Button
+    android:id="@+id/btnNext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="32dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginTop="64dp"
+    android:text="@string/next"
+    android:textColor="@color/background_green"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="20dp"
+    android:text="Welcome to My App"
+    android:textAlignment="center"
+    android:textColor="@android:color/white"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</android.support.constraint.ConstraintLayout>
+
+Im also using the latest version of ConstraintLayout
+compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+A:
+
+You need to add:
+
+android:gravity="center"
+
+to the TextView.
+This is the only certain way to center the text inside a TextView object or one of its subclasses.
+The android:textAlignment is not working in all the cases and as reported by this answer that it has problems in lower API levels.

@@ -1,0 +1,52 @@
+Q:
+
+¿Porqué en este loop de JavaScript la impresión de la variable es desde counter y no desde counter-1?
+
+en mi búsqueda por aprender programación por mis propios medios, me he topado con el tema de recursividad y este simple código... mi pregunta ya que la variable counter comienza desde 10 y dentro del loop While el contador resta 1, porqué en la "impresión" aparece desde el 10. Sé que si quisiera empezar desde 10 colocaría el contador en 11... pero obviamente tengo la curiosidad y no entiendo.
+var counter = 10;
+while(counter > 0) {
+    console.log(counter--);
+}
+
+resultado:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+A:
+
+La razón es simple, en recursividad lo que haces es pasar una variable o arreglo en la mayor parte de los caso para modificarlos o simplemente imprimirlos, en tu caso quieres restar un numero por cada iteracion dentro de tu ciclo while pero aqui lo que tu quieres conseguir es que primero te imprima el 9 por la lógica que encuentras en tu programa y aunque no es del todo errónea eso no sucederá jamas por la siguiente razón.
+En tu codigo lo que tienes es la impresion de tu variable e imprimes lo que es counter-- y a pesar de que si te resta -1 en esa misma iteracion sucede que primero te imprimira la variable antes de hacer dicha operacion ya que es lo que primero lee javascript, es como si tu codigo estuviera dividido en dos partes.
+EJEMPLO
+var counter = 10;
+while(counter > 0) {
+    console.log(counter); // Lee antes el valor variable
+    counter--; // Después realiza operación
+}
+
+Esto sucede asi porque es como funciona internamente lo que realizas con javascript ya que a pesar de que parece un metodo simple de resta internamente esta compuesto de dos partes. Para cuando javascript hace la operacion tu valor ya esta en pantalla.
+EJEMPLO VISUAL
+
+Primera iteración:
+counter = 10 | counter-- | counter = 9
+counter = 9 | counter-- | counter = 8
+counter = 8 | counter-- | counter = 7
+...
+counter = 1 | counter-- | counter = 0
+counter = 0 | counter-- | counter = -1 -> En este caso ya no cumples con la condición por lo cual nunca se imprime.
+
+Para realizar el proceso que quieres en el caso de que primero quieras que se imprima el 9 entonces deberas de hacer lo siguiente:
+
+var counter = 10;
+while(counter > 0) {
+    counter--;
+    console.log(counter);
+}
+.as-console-wrapper { max-height: 100% !important; top: 0; }

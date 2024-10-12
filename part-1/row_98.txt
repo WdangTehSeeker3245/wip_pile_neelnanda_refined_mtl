@@ -1,0 +1,47 @@
+Q:
+
+Is it ok to ask questions on Stack Overflow to improve my coding skills?
+
+I have some questions I want to ask to other (experienced) programmers on Stack Overflow.
+The goal of those questions is gaining knowledge to become a better programmer.
+I think it's a great idea to ask an experienced programmer I know to take a look at my code. But mostly experienced programmers don't have time for this. 
+So can I ask such questions on Stack Overflow?
+
+A:
+
+So can I ask such questions on Stack Overflow?
+
+No.
+This is
+
+opinion based 
+not about a specific programming problem 
+too broad
+
+Regarding improvement of working code you may ask at Code Review, instead.
+For questions about "creating, delivering, and maintaining software responsibly", you can ask them at Software Engineering Stack Exchange (previously named "Programmers Stack Exchange").
+
+A:
+
+Such questions are not strictly disallowed here (I think), they are asked and answered from time to time, if they ask about a very specific part of some code. When it's just a huge code dump, asking how to improve it, your question will quickly gather downvotes and close votes.
+There is a site specifically created for this, however: Code Review Stack Exchange
+Take a look at What topics can I ask about here? for details on the kind of questions you can ask on Code Review. Below is a summary, taken from that page:
+
+I'm confused! What questions are on-topic for this site?
+Simply ask yourself the following questions. To be on-topic the answer
+  must be "yes" to all questions:
+
+Is code included directly in my question? (See Make sure you include your code in your question below.)
+Am I an owner or maintainer of the code?
+Is it actual code from a project rather than pseudo-code or example code?
+Do I want the code to be good code? (i.e. not code-golfing, obfuscation, or similar)
+To the best of my knowledge, does the code work as intended?
+Do I want feedback about any or all facets of the code?
+
+If you answered "yes" to all the above questions, your question is
+  on-topic for Code Review.
+
+A:
+
+Although you shouldn't just ask on Stack Overflow to have your code looked at, you can use Stack Overflow to improve your coding skills. I do it all the time, by answering questions (or just by trying to), about things that I don't quite know how to do but would like to. It's a great way to find out about language features, techniques and technologies you didn't know about. 
+A surprising number of questions (or perhaps it's not at all surprising) can be answered with a bit of googling, persistence and experimentation. And if I get it wrong, a swift handful of downvotes will set me straight. :-)

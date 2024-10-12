@@ -1,0 +1,15 @@
+Playing back a meeting recording
+
+…Let me show you how to locate and play back a meeting that you have recorded.…First, let's understand how WebEx Meetings store and prepare your meeting recordings.…The meetings are recorded on the WebEx server.…WebEx will post the recording to their…server within 24 hours of the meeting completion.…When your recording is ready, you'll receive an update on…your dashboard homepage with the playback link and the recording information.…Let me show you how that looks.…When you get this notification, you can click the link that says Play Recording.…And WebEx will play back the video for you with the WebEx network recording player.…
+
+To locate your meeting recording manually, if…you miss the notification, the easiest thing…to do is look at the meetings space for the meeting that you recorded.…First, find the meeting in your meetings list by clicking the Meetings tab.…Click the Recent tab.…You'll note, in the list, whether it's recorded or not.…Click on the meeting title to visit the meeting space page for that meeting.…
+
+Resume Transcript Auto-Scroll
+
+Author
+
+Released
+
+6/9/2014
+
+Connect and collaborate across the globe with WebEx Meetings. In this course, author and webinar specialist Sally Norred shows you how to use WebEx Meetings to host, run, and record online meetings. Discover how to set up an online meeting and invite attendees, work with interactivity, let attendees participate and present, and save and record a meeting. Also check out the quick tips sheets (free to all members) for a list of handy shortcuts for hosts, presenters, and attendees alike.

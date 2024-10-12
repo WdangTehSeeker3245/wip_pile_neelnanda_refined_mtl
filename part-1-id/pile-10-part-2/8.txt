@@ -1,0 +1,41 @@
+Benjamin Lok menjelaskan cara kerja sensor bokong robot
+
+Pemeriksaan prostat berpotensi menyelamatkan jiwa. Namun, proses mendapatkan pemeriksaan tersebut bisa membuat cemas — baik bagi dokter maupun pasien.
+
+Sekelompok ilmuwan dari Universitas Drexel dan Universitas Wisconsin serta Florida berharap dapat membantu dalam hal ini. Mereka telah merancang robot untuk membantu mahasiswa kedokteran melakukan pemeriksaan prostat dengan lebih baik.
+
+Nama robot tersebut adalah "Patrick" dan ia adalah bokong interaktif.
+
+Profesor Benjamin Lok
+
+"Patrick adalah bagian dari simulasi di mana mahasiswa dapat berlatih melakukan pemeriksaan prostat," jelas peneliti utama dan profesor Universitas Florida, Benjamin Lok, kepada pembawa acara As It Happens, Tom Harrington. "Simulator itu sendiri terbuat dari plastik dan di sekitar area anus terdapat bahan busa yang elastis. Ini secara anatomis benar, dan di dalamnya terdapat prostat sehingga mereka dapat merasakan bagaimana prostat seharusnya."
+
+Namun, pemeriksaan fisik sebenarnya adalah bagian terakhir dari proses pelatihan. Awalnya, mahasiswa mulai menggunakan simulator untuk melatih keterampilan interaksi mereka.
+
+"Mahasiswa harus berbicara dengan Patrick selama sekitar lima hingga delapan menit," kata profesor Universitas Florida itu. "Mereka melatih keterampilan sosial mereka. Mereka mencoba memperoleh riwayat pasien, tetapi juga harus mengatasi kecemasan yang dialami Patrick."
+
+Seorang mahasiswa berinteraksi dengan "Patrick" (Kredit: Andrew Robb, Universitas Florida)
+
+Seiring dengan berlangsungnya wawancara — dan mahasiswa menyadari bahwa Patrick perlu diperiksa prostatnya — Patrick menjadi sangat ragu untuk melanjutkan. Lok mengatakan robot tersebut akan berkata, "Apakah kamu benar-benar harus melakukan ini? Saya tidak mengerti mengapa kita harus melakukan ini sekarang."
+
+Setelah Patrick diyakinkan, mahasiswa mulai melakukan pemeriksaan.
+
+"Kami dapat menunjukkan kepada Anda secara waktu nyata, saat Anda melakukan pemeriksaan... apakah Anda menekan semua area dan jika Anda menekan dengan tekanan yang cukup," lanjut Lok.
+
+Sensor menampilkan sinyal gaya lampu lalu lintas berwarna hijau, kuning, atau merah tergantung pada tekanan yang diterapkan.
+
+"Itu membantu mendidik pengguna tentang bagaimana seharusnya pemeriksaan prostat yang baik," katanya.
+
+Tapi mengapa tidak membuat Patrick berteriak atau merespons dengan cara yang lebih mirip manusia? Lok mengatakan mereka memikirkan hal itu, tetapi bagi mahasiswa kedokteran tahun pertama, itu akan meningkatkan tingkat kecemasan.
+
+"Kami ingin sistem ini memberikan pengalaman positif, di mana mereka dapat menerima umpan balik yang baik tetapi juga membantu mengurangi beberapa kecemasan sebelum mereka pertama kali berlatih pada apa yang sering disebut pasien standar, yang merupakan aktor."
+
+Banyak sekolah kedokteran membayar aktor profesional yang dilatih khusus untuk menerima sejumlah besar pemeriksaan prostat oleh mahasiswa. Namun, seperti yang mungkin Anda bayangkan, ada jumlah aktor yang terbatas yang bersedia melakukannya.
+
+Program pemeriksaan prostat, "Patrick" (Kredit: Andrew Robb, Universitas Florida)
+
+Seperti pilot yang berlatih di simulator sebelum benar-benar menerbangkan pesawat, Lok berharap Patrick akan berfungsi dengan cara yang sama bagi mahasiswa kedokteran.
+
+"Anda dapat melakukan kesalahan dengan Patrick dan memulai ulang, itu adalah salah satu keuntungan dari simulator."
+
+Saat ini, Patrick digunakan oleh mahasiswa kedokteran di Universitas Florida dan Universitas Drexel. Lok berharap teknologi ini akan digunakan di lebih banyak sekolah kedokteran di seluruh Amerika Serikat.

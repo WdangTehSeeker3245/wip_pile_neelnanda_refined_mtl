@@ -1,0 +1,399 @@
+text
+"Sudah selesai dan telah dikirim. Anda bisa memainkan “Survival of the Tastiest” di Android dan web. Bermain di web berfungsi, namun Anda harus mensimulasikan multi-touch untuk menggerakkan meja, dan itu bisa sedikit membingungkan.
+
+Ada banyak hal yang ingin saya bicarakan. Saya akan membahas setiap topik, daripada membuat daftar hal yang benar/salah seperti biasanya.
+
+Konsep
+
+Menggarap tema mungkin adalah salah satu tugas terberat yang harus saya hadapi.
+
+Awalnya, saya punya ide tentang jenis game yang ingin saya kembangkan dari segi gameplay—sesuatu dengan banyak musuh/aktor, grafis sederhana, mungkin berlatar di luar angkasa, dikendalikan dari tampilan atas. Saya yakin bisa menyesuaikan tema apa pun di sekitarnya.
+
+Pada akhirnya, masalah dengan tema seperti ""Evolusi"" dalam game adalah bahwa evolusi tidak dibantu. Itu terjadi melalui beberapa mutasi acak selama waktu, dengan variasi yang paling cocok bertahan. Simulasi mobil genetik ini, menurut saya, adalah contoh bagus dari evolusi spesies yang menghadapi tantangan. Tapi apakah itu game?
+
+Dalam sebuah game, Anda perlu mengendalikan sesuatu untuk mencapai tujuan. Kontrol itu bertentangan dengan apa yang seharusnya evolusi. Jika Anda membiarkan pengguna memilih bagaimana sesuatu berevolusi, itu bukan lagi evolusi—itu setara dengan desain cerdas, sebuah dongeng yang diciptakan oleh kaum kreasionis untuk melawan gagasan evolusi. Sebagai seorang agnostik dan Pastafarian, itu bukan sesuatu yang saya sukai.
+
+Jadi, dilema terbesar saya ketika memutuskan apa yang akan saya buat bukanlah pada apa yang ingin saya buat, tetapi pada apa yang tidak ingin saya buat. Saya tidak ingin membuat simulator ""desain cerdas"" dan menyebutnya sebagai evolusi secara keliru.
+
+Ini adalah masalah, tentu saja, yang juga harus dihadapi oleh peserta lain. Dan menilai dari entri yang dikirimkan, tidak banyak yang berhasil mengatasinya. Saya akan mengatakan satu-satunya solusi nyata adalah melalui penggunaan seleksi buatan, entah bagaimana. Sejauh ini, saya belum melihat entri yang menggunakan ini sebagai inti dari gameplay mereka.
+
+Namun, ini hanyalah kompetisi yang menyenangkan dan setelah beberapa saat saya memutuskan untuk tidak terlalu kaku dengan ide game, dan membiarkan diri saya memilih apa pun yang menurut saya akan berhasil.
+
+Ide awal saya adalah menciptakan sesuatu di mana umat manusia mencoba berevolusi ke tingkat berikutnya tetapi ada semacam musuh yang mencoba menghentikan mereka. Saya memiliki gambaran tentang jiwa manusia yang terbang di luar angkasa menuju monolit atau bayi luar angkasa (semua berdasarkan 2001: A Space Odyssey, tentu saja) tetapi saya tidak dapat memikirkan mekanisme yang menarik (baca: serius) untuk itu.
+
+Borg adalah inspirasi berikutnya, karena keseluruhan hipotesis mereka sangat cocok dengan tema evolusi. Tapi bagaimana cara membuatnya berhasil? Apakah Anda borg, atau melawan Borg?
+
+Ide ketiga dan terakhir datang dari pacar saya, yang entah bagaimana memberi saya ide untuk membuat sesuatu tentang evolusi Pasta. Semakin saya memikirkannya, semakin terdengar masuk akal, jadi saya memutuskan untuk melakukannya.
+
+Percakapan dengan rekan kerja saya yang inspiratif, Roushey (yang juga menciptakan logo tanda tangan ""Mechanical Underdogs"" untuk intro saya) semakin mematangkan konsep tersebut, yang berkembang menjadi ide tentang potongan-potongan pasta individu yang terbang dan mencoba berevolusi hingga menjadi sangat kuat. Gagasan sekunder di sini adalah bahwa permainan ini akan menjelaskan bagaimana Flying Spaghetti Monster muncul—dengan berevolusi dari meja makan biasa.
+
+Jadi, ide ini berkembang menjadi: Anda duduk di meja. Anda memiliki piring sendiri, yang merupakan ""basis"" Anda. Ada 5 tamu lain di meja, masing-masing dengan piringnya sendiri.
+
+Piring Anda dapat menghasilkan potongan kecil pasta. Anda melakukannya dengan ""memesan"" mereka melalui menu. Beberapa pasta lebih baik daripada yang lain; beberapa lebih cepat, beberapa lebih kuat. Mereka memiliki biaya yang bervariasi, yang didebet dari kredit Anda (Anda mulai dengan sejumlah kredit).
+
+Begitu dilahirkan, pasta Anda mulai terbang. Naluri mereka adalah terbang ke piring lain, untuk menaklukkannya (tujuan permainan ini adalah membuat pasta Anda menaklukkan semua piring di meja). Tapi mereka benar-benar otonom, jadi setelah dipesan, Anda tidak memiliki kendali atas pasta Anda (pikirkan DotA atau LoL creeps).
+
+Pasta Anda tidak menyukai pasta milik orang lain, jadi jika mereka bertemu, mereka akan menembakkan saus satu sama lain sampai salah satu mati. Anda mendapatkan kredit untuk setiap pasta lain yang dibunuh oleh pasta Anda.
+
+Begitu pasta berada di sekitar piring, pasta mulai menaklukkannya untuk timnya. Dibutuhkan sekitar 10 detik untuk menaklukkan piring; lebih cepat jika lebih banyak pasta dari tim yang sama berada di sekitar. Namun, jika pasta dari tim lain berada di sekitar, mereka terhenti dalam upaya mereka, tidak dapat menaklukkan piring, sampai salah satu dari mereka mati (pikirkan mode ""Conquest"" standar di Battlefield).
+
+Anda mendapatkan poin setiap detik untuk setiap piring yang Anda miliki.
+
+Seiring waktu, konsep ini juga berkembang menjadi menggunakan bistro Italia sebagai skenario utamanya.
+
+Carlos, pendiri dan pemilik Bistro Carlos
+
+Pengaturan
+
+Tidak ada perubahan besar dari pengaturan kerja saya. Saya menggunakan FDT dan Starling untuk membuat proyek Adobe AIR (ActionScript), semua alat atau kerangka kerja yang sudah saya kenal.
+
+Perubahan besar bagi saya adalah saya melakukan siaran langsung pekerjaan saya melalui akun twitch.tv. Ini adalah hal baru bagi saya. Atas rekomendasi Roushey, saya menggunakan program bernama XSplit dan saya harus mengatakan, ini sangat luar biasa.
+"
+"<?xml version=""1.0"" encoding=""UTF-8""?>
+<segment>
+    <name>PD1</name>
+    <description>Demografi Tambahan Pasien</description>
+    <elements>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.1</name>
+            <description>Ketergantungan Hidup</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.2</name>
+            <description>Pengaturan Tempat Tinggal</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.3</name>
+            <description>Fasilitas Utama Pasien</description>
+            <datatype>XON</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.4</name>
+            <description>Nama dan No. ID Penyedia Perawatan Utama Pasien</description>
+            <datatype>XCN</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.5</name>
+            <description>Indikator Mahasiswa</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.6</name>
+            <description>Kecacatan</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.7</name>
+            <description>Kode Surat Wasiat Hidup</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.8</name>
+            <description>Kode Donor Organ</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.9</name>
+            <description>Tagihan Terpisah</description>
+            <datatype>ID</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.10</name>
+            <description>Pasien Duplikat</description>
+            <datatype>CX</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.11</name>
+            <description>Kode Publikasi</description>
+            <datatype>CE</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.12</name>
+            <description>Indikator Perlindungan</description>
+            <datatype>ID</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.13</name>
+            <description>Tanggal Efektif Indikator Perlindungan</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.14</name>
+            <description>Tempat Ibadah</description>
+            <datatype>XON</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.15</name>
+            <description>Kode Arahan Lanjutan</description>
+            <datatype>CE</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.16</name>
+            <description>Status Registri Imunisasi</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.17</name>
+            <description>Tanggal Efektif Status Registri Imunisasi</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.18</name>
+            <description>Tanggal Efektif Kode Publikasi</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.19</name>
+            <description>Cabang Militer</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.20</name>
+            <description>Pangkat/Grup Militer</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs=""0"" maxOccurs=""0"">
+            <name>PD1.21</name>
+            <description>Status Militer</description>
+            <datatype>IS</datatype>
+        </field>
+    </elements>
+</segment>
+
+"
+"Konten Artikel
+
+Perilaku manusia memiliki dampak besar pada investasi — lebih dari yang disadari oleh banyak orang — dan salah satu kelemahan terbesar kita adalah kecenderungan untuk terus membandingkan diri kita dengan orang lain.
+
+[np_storybar title=”Ikuti Financial Post” link=””]
+
+Kami mohon maaf, tetapi video ini gagal dimuat.
+
+Klik di sini untuk melihat video lain dari tim kami. Coba segarkan browser Anda, atau Tiga tanda gelembung sedang muncul lagi di pasar — dan salah satunya memiliki roda Kembali ke video
+
+• Twitter
+
+• Facebook
+
+[/np_storybar]
+
+Sebagai contoh, sebuah studi tahun 1995 oleh Harvard School of Public Health menunjukkan bahwa orang akan mengabaikan skenario penghasilan yang lebih kuat demi skenario yang lebih lemah selama itu berarti mereka menghasilkan lebih banyak dari tetangga mereka.
+
+Sayangnya, banyak orang di dunia investasi sangat menyadari hal ini dan akan menyusun upaya pemasaran mereka sesuai dengan itu. Akibatnya, terjadi pergerakan tren di pasar karena investor membeli di puncak pasar atau mendekatinya karena takut tidak berkinerja sebaik atau lebih baik dari orang lain.
+
+Untuk alasan yang sama, investor berbondong-bondong membeli saham teknologi pada tahun 2000 hanya dengan janji pendapatan di masa depan yang jauh, dan berinvestasi dalam sektor terkait perumahan pada tahun 2007 yang didukung oleh pendapatan yang sangat rendah.
+"
+"Topik: Reinvent Midnight Madness
+
+Amazon mengumumkan layanan baru pada acara AWS re:Invent Midnight Madness. Amazon Sumerian adalah solusi yang bertujuan untuk memudahkan pengembang membangun aplikasi virtual reality (VR), augmented reality (AR), dan 3D. Layanan ini memiliki editor yang ramah pengguna, yang memungkinkan pengguna untuk menyeret dan meletakkan objek serta karakter 3D ke dalam adegan. 
+
+Amazon Sumerian memungkinkan pengembang dari berbagai latar belakang, baik yang berpengalaman maupun yang baru memulai, untuk menciptakan pengalaman imersif tanpa perlu menulis kode rumit. Dengan alat ini, pengguna dapat membuat lingkungan VR dan AR yang menarik dengan cepat dan efisien, mengurangi waktu dan biaya pengembangan yang biasanya diperlukan untuk proyek semacam itu.
+
+Layanan ini mendukung integrasi dengan AWS, memanfaatkan layanan lain seperti Amazon Polly untuk memberikan suara pada karakter 3D, dan Amazon Lex untuk memungkinkan interaksi berbasis suara. Dengan fitur-fitur ini, pengembang dapat membuat pengalaman yang lebih hidup dan interaktif bagi pengguna mereka. 
+
+Dalam presentasi tersebut, Amazon juga menunjukkan beberapa contoh aplikasi yang telah dibangun menggunakan Sumerian, termasuk simulasi pelatihan, pengalaman pembelajaran interaktif, dan tur virtual. Hal ini menunjukkan potensi besar dari teknologi VR dan AR dalam berbagai industri, mulai dari pendidikan hingga perhotelan dan pemasaran.
+
+Selain itu, Amazon berkomitmen untuk memberikan dukungan berkelanjutan bagi komunitas pengembang. Mereka menawarkan dokumentasi yang lengkap dan tutorial yang membantu pengguna memahami cara terbaik untuk memanfaatkan Sumerian dalam proyek mereka. Dengan langkah ini, Amazon tidak hanya memperkenalkan teknologi baru, tetapi juga menciptakan ekosistem di mana pengembang dapat belajar, berkolaborasi, dan berinovasi.
+
+Dengan peluncuran Amazon Sumerian, Amazon berupaya untuk merevolusi cara kita berinteraksi dengan dunia digital, membawa pengalaman pengguna ke tingkat yang baru dan memberikan alat yang diperlukan bagi pengembang untuk mewujudkan visi mereka. Ini adalah langkah signifikan dalam perjalanan Amazon untuk membangun masa depan yang lebih imersif dan interaktif bagi semua orang.
+"
+"Tentang Grand Slam Fishing Charters
+Sebagai bisnis yang dimiliki oleh keluarga, kami tahu betapa pentingnya agar perjalanan anda menjadi kenangan terbaik selama liburan anda. Kami sangat bangga dengan pulau-pulau kami, perairan kami, dan kru kami, dan kami sangat ingin menunjukkan waktu terbaik yang mungkin selama anda tinggal di sini. Meskipun kami tidak dapat menjamin mendapatkan ikan setiap saat, kami dapat menjamin anda akan memiliki waktu yang menyenangkan! Keuntungan terbesar dari pekerjaan kami adalah melihat banyak pelanggan kami menjadi teman dekat.
+
+Cara Bagus untuk Membuat Teman Baru!
+Pesta di dermaga kami adalah cara yang fantastis untuk membuat teman baru! Semua orang dipersilakan! Kegiatan ini menciptakan suasana santai di mana para tamu dapat berbagi cerita, bertukar tips memancing, dan menjalin ikatan atas kecintaan mereka terhadap lautan. Baik anda seorang pemancing berpengalaman atau baru pertama kali, anda akan menemukan komunitas yang ramah di charters kami.
+
+Kenali Andrea
+Andrea mengelola seluruh operasi, mulai dari membahas kebutuhan awal anda melalui telepon atau email hingga memastikan anda memiliki cukup keripik kentang untuk perjalanan anda. Dengan pengalaman luas sebagai concierge di banyak resor internasional, dia sepenuhnya memahami harapan tinggi pengunjung dari seluruh dunia. Andrea berkomitmen untuk membuat pengalaman memancing anda berjalan lancar dan menyenangkan, memastikan setiap detail diurus sebelum anda bahkan melangkah ke kapal.
+
+“Hidup adalah Permainan, tetapi Memancing adalah Serius!”
+Tidak seperti banyak operator tur, kru kami sangat dihargai dan telah bersama kami sejak hari pertama. Setiap anggota membawa kepribadian dan selera humor yang unik ke kapal, memahami pentingnya membuat hari anda sempurna. Bagi kami, ungkapan itu benar: “Hidup adalah permainan, tetapi memancing adalah serius!” Kecintaan kru kami terhadap memancing sebanding dengan komitmen mereka untuk memberikan pengalaman yang tak terlupakan bagi anda.
+
+Trip Advisor
+Rencanakan Perjalanan anda!
+Jangan hanya percaya pada kata-kata kami; dengarkan apa kata tamu kami!
+
+“AJ dan Earl luar biasa. Putra saya dan saya melakukan perjalanan setengah hari ke laut dalam, dan meskipun ikan tidak terlalu kooperatif, mereka melakukan segala cara untuk mendapatkan ikan. Mereka sangat berpengetahuan tentang perairan ini, dan putra saya sangat senang berhasil menangkap barracuda yang bagus. Keesokan harinya, istri, putri, dan putra saya bergabung untuk petualangan lainnya!”
+
+“Saat kami tiba, kru membuat kami merasa seperti di rumah. Mereka memastikan kami merasa nyaman dan menjawab semua pertanyaan kami. Tim bekerja keras sepanjang hari untuk mengantarkan kami mendapatkan ikan, dan kami berhasil menangkap Wahoo berukuran bagus, meskipun cuaca tidak mendukung. Seluruh hari itu sangat menyenangkan, dan saya sangat merekomendasikan Grand Slam Fishing Charters untuk siapa pun yang ingin menciptakan kenangan yang abadi!”
+
+Pesan Petualangan anda Hari Ini!
+Apakah anda merencanakan acara keluarga, petualangan kelompok, atau perjalanan memancing solo, Grand Slam Fishing Charters memiliki sesuatu untuk semua orang. Kami menawarkan berbagai paket yang disesuaikan untuk memenuhi kebutuhan anda, memastikan bahwa pengalaman anda seunik diri anda. Bergabunglah dengan kami untuk sehari di atas air, dan biarkan kami membantu anda menciptakan kenangan tak terlupakan yang akan bertahan seumur hidup.
+
+Hubungi kami hari ini untuk memesan petualangan anda dan mulai merasakan kesenangan!
+"
+"Pertanyaan: Mengapa Mundungus dilarang masuk ke Hog's Head?
+
+Dalam ""Order of the Phoenix,"" ketika Harry, Ron, dan Hermione mengunjungi Hog's Head untuk pertama kalinya guna merencanakan pembentukan Dumbledore's Army, mereka menemukan bahwa Mundungus Fletcher, yang dikenal sebagai ""Dung,"" telah bersembunyi di pub dengan menyamar. Menurut Sirius, dia dilarang masuk ke Hog's Head 20 tahun yang lalu.
+
+Poin pertama yang menarik adalah alasan di balik larangannya. Ada kemungkinan insiden ini berkaitan dengan suatu bantuan sebelumnya dari Albus Dumbledore, yang mungkin telah menumbuhkan kesetiaan Dung kepadanya.
+
+Kedua, ini menimbulkan pertanyaan tentang bagaimana Dung dapat berbicara dengan Aberforth Dumbledore di ""Half-Blood Prince"" meskipun ada larangan. Jika larangan tersebut disebabkan oleh sesuatu yang sangat serius, 20 tahun adalah waktu yang lama untuk tetap dikeluarkan dari pub. Meskipun mungkin saja Dung dan Aberforth terlibat dengan Orde Phoenix pada waktu itu, perilaku Aberforth dalam ""Deathly Hallows"" menunjukkan bahwa dia mungkin tidak begitu ramah terhadap Dung.
+
+Kita belajar bahwa Hog's Head adalah pusat berbagai transaksi ilegal, yang bisa berarti bahwa Dung masih menjalankan bisnis dengan Aberforth di luar pub, mungkin melibatkan barang-barang seperti cermin Sirius dan artefak lainnya yang milik keluarga Black.
+
+Apakah ada yang memiliki wawasan dari kanon atau penjelasan yang masuk akal mengenai situasi ini?
+
+---
+
+Jawaban: Mengapa dia dilarang?
+
+Tidak ada informasi kanon spesifik yang tersedia mengenai alasan larangan Mundungus dari Hog's Head, baik dari pencarian teks maupun wawancara.
+
+Bagaimana dia bisa berbicara dengan Aberforth di ""Half-Blood Prince""?
+
+Dalam ""Half-Blood Prince,"" Mundungus berbicara dengan Aberforth saat mereka tidak berada di dalam Hog's Head. Percakapan tersebut berfokus pada Dung yang menjual barang-barang yang dia curi dari rumah Sirius.
+
+Dalam wawancara Juli 2007, J.K. Rowling menjelaskan bahwa Aberforth menemui Mundungus di Hogsmeade, di mana Dung menjual cermin Sirius kepadanya. Ini signifikan karena salah satu cermin yang dijual adalah cermin dua arah yang kemudian digunakan Harry untuk meminta bantuan saat dia dan teman-temannya terjebak di Malfoy Manor dalam ""Deathly Hallows.""
+
+Meskipun Mundungus dilarang dari pub—kemungkinan untuk mencegah masalah lebih lanjut bagi Aberforth—ini tidak menghalangi mereka untuk berbicara atau melakukan bisnis di tempat lain.
+"
+"Perempuan Pekerja, Ketentuan Khusus, dan Debat tentang Kesetaraan
+
+Baru-baru ini, media banyak meliput kemungkinan menawarkan cuti berbayar bagi perempuan yang bekerja selama masa menstruasi mereka. Ini telah memunculkan beragam respons terkait diskusi yang telah berlangsung lama tentang ‘kesetaraan’ dan ‘perbedaan’: apakah kesetaraan perempuan lebih baik dicapai dengan memperlakukan mereka sama seperti laki-laki atau dengan membuat ketentuan yang mengakui perbedaan mereka dalam hal konstitusi fisiologis dan fungsi biologis?
+
+Jika Inggris memperkenalkan inisiatif seperti itu, negara tersebut tidak akan menjadi negara pertama di dunia kontemporer yang melakukannya. Banyak negara di Asia sudah memiliki ketentuan tersebut, dan Rusia sempat mempertimbangkan untuk memperkenalkan undang-undang pada tahun 2013. Kebijakan ini juga memiliki preseden sejarah yang signifikan. Seluruh bab dalam buku saya yang berjudul Women Workers in the Soviet Interwar Economy: From ‘Protection’ to ‘Equality’ (Macmillan, 1999), yang berdasarkan penelitian ekstensif yang saya lakukan untuk gelar PhD saya, dikhususkan untuk ‘Ketentuan untuk “Cuti Menstruasi”’.
+
+Pada tahun 1920-an, para peneliti ilmiah dan spesialis higiene kerja di Uni Soviet melakukan investigasi mendalam mengenai dampak menstruasi terhadap kapasitas kerja perempuan dalam pekerjaan manual dan industri yang memerlukan tingkat tenaga fisik yang signifikan. Rekomendasi mereka mengarah pada penerbitan dua dekret yang menargetkan kategori tertentu dari pekerja perempuan:
+
+1. Dekret ‘Tentang pembebasan dari kerja selama menstruasi bagi operator mesin dan pekerja cetakan besi yang bekerja di mesin pemotong tanpa gigi mekanis di industri garmen’, 11 Januari 1922.
+   
+2. Dekret ‘Tentang kondisi kerja perempuan pengemudi traktor dan truk’, 9 Mei 1931.
+
+Dekret-dekret ini muncul dari penelitian yang menunjukkan, antara lain, bahwa kursi yang tidak memadai di mesin dan di traktor menyebabkan kemacetan dan ketegangan di perut yang semakin parah selama menstruasi. Dalam praktiknya, dekret tersebut tidak memberikan ketentuan untuk ketidakhadiran yang rutin dari kerja. Perempuan yang ingin mendapatkan manfaat dari ketentuan tersebut harus menyediakan surat keterangan dokter, mirip dengan persyaratan biasanya untuk cuti sakit.
+
+Penelitian resmi mengenai dampak menstruasi terhadap kapasitas kerja perempuan dan penerapan dekret-dekret tersebut dalam praktik menimbulkan sejumlah masalah dari kedua sisi argumen. Saya hanya memberikan ringkasan temuan penelitian kontemporer dan komentar pengamat di sini:
+
+Dukungan terhadap ketentuan:
+- Pengusaha memiliki tanggung jawab untuk melindungi kesehatan pekerja mereka, dan lingkungan kerja yang tidak sehat, buruk, dan tidak memadai dapat berdampak merugikan pada kesehatan reproduksi perempuan.
+- Produktivitas dan output kerja perempuan akan meningkat sebagai hasilnya.
+- Penting untuk melindungi profesionalisme kategori tertentu dari pekerja: debat di sini berfokus pada seniman pertunjukan dan karyawan teater perempuan yang terlibat dalam pekerjaan yang sangat fisik dan emosional.
+- Pekerjaan fisik berat dan latihan yang melelahkan dapat mengganggu siklus menstruasi.
+- Kapasitas fisik dan intelektual perempuan berkurang selama menstruasi; perempuan kehilangan kekuatan otot dan daya konsentrasi.
+- Konstitusi biologis perempuan dan fungsi reproduksinya memerlukan pengakuan khusus dalam hukum.
+
+Menentang ketentuan:
+- Pengusaha cenderung kurang memilih perempuan jika mereka dijamin waktu cuti berbayar selama menstruasi.
+- (sering kali dari pekerja laki-laki, yang memandang kehadiran perempuan sebagai kompetisi) perempuan seharusnya tidak dipekerjakan dalam pekerjaan yang mereka tidak memiliki kekuatan fisik dan kapasitas mental yang memadai.
+- Jika perlu, perempuan dapat dipindahkan ke tugas yang lebih ringan selama menstruasi.
+- Ketentuan ini akan terbuka untuk penerapan yang tidak merata dan penyalahgunaan.
+- Perempuan tidak dapat mengharapkan dianggap setara dengan laki-laki jika mereka diberikan perlakuan khusus dalam hukum.
+
+Perlu dicatat juga bahwa berbagai proyek penelitian sering kali menunjukkan bahwa mayoritas besar perempuan melaporkan tidak mengalami masalah atau kelainan menstruasi secara rutin, dan bahwa laki-laki umumnya melaporkan tingkat sakit yang lebih tinggi daripada rekan perempuan mereka. Banyak masalah yang dialami perempuan di tempat kerja dapat diminimalkan dengan memperkenalkan perbaikan pada kondisi kerja fisik mereka (tidak duduk atau berdiri dalam posisi yang sama untuk waktu yang lama) atau dengan memperkenalkan jeda yang sangat singkat yang memungkinkan perempuan untuk berjalan dan berolahraga.
+
+Debat di Inggris, di televisi dan di media, kemungkinan besar tidak akan mencapai konsensus mengenai isu ini. Apa pendapat Anda?
+"
+"Pertanyaan:
+
+Dengan menggunakan M-Test untuk menunjukkan bahwa saya dapat membedakan setiap suku, saya memiliki deret 
+
+\[
+\sum_{n=1}^\infty \frac{\lambda^{n-1} n}{n!} = \sum_{n=1}^\infty \frac{d}{d\lambda}\left(\frac{\lambda^n}{n!}\right).
+\]
+
+Saya ingin menulis ulang ini sebagai 
+
+\[
+\frac{d}{d\lambda}\left(\sum_{n=1}^\infty \frac{\lambda^n}{n!}\right).
+\]
+
+Saya sedang mencoba menunjukkan bahwa urutan fungsi ini konvergen secara uniform pada \((0, \infty)\) untuk menerapkan M-Test. Untuk melakukan ini, saya perlu menemukan batas \(M_n\) untuk \(\left|\frac{\lambda^n}{n!}\right|\) sehingga \(\sum M_n\) konvergen. 
+
+Terima kasih!
+
+---
+
+Jawaban:
+
+Anda sedang bekerja dengan deret pangkat yang memiliki jari-jari konvergensi \(R = +\infty\), yang memungkinkan Anda untuk membedakan setiap suku.
+
+Untuk menemukan batas yang sesuai \(M_n\) untuk \(\left|\frac{\lambda^n}{n!}\right|\), perhatikan bahwa untuk \(\lambda > 0\), suku-suku \(\frac{\lambda^n}{n!}\) dapat dibatasi. Secara spesifik, Anda dapat menggunakan ketidaksamaan:
+
+\[
+\frac{\lambda^n}{n!} \leq \frac{\lambda^n}{(n/e)^n} = \left(\frac{e\lambda}{n}\right)^n,
+\]
+
+untuk \(n\) yang cukup besar. Deret \(\sum_{n=1}^\infty \left(\frac{e\lambda}{n}\right)^n\) konvergen untuk \(\lambda\) tetap, memberikan pilihan yang valid untuk \(M_n\). Ini menunjukkan bahwa \(\sum M_n\) konvergen, sehingga mengonfirmasi kondisi M-Test, dan memungkinkan untuk perbedaan suku demi suku dari deret tersebut.
+"
+"Bagaimana Mengajarkan Kemandirian?  
+Jeanette Sawyer Cohen, PhD, asisten profesor klinis psikologi dalam pediatri di Weill Cornell Medical College, New York City
+
+Psikolog Anak
+
+Bagaimana cara mengajarkan balita saya untuk melakukan hal-hal secara mandiri?
+
+Anda mungkin sudah menjadi lebih sabar sejak memulai perjalanan menjadi orang tua. Dan Anda akan perlu lebih banyak berlatih kesabaran saat balita Anda belajar untuk menjadi lebih mandiri.
+
+Misalnya, dia memberi tahu Anda bahwa dia tidak bisa menyelesaikan puzzle yang sedang dia kerjakan. Alih-alih langsung terjun dan memberi tahu dia potongan mana yang harus diletakkan di mana, Anda perlu memberitahu dia bahwa Anda akan membantu sedikit. Silakan bantu, tetapi biarkan dia melakukan sebagian besar pekerjaan itu sendiri, dan pastikan dia yang menyelesaikan tugas tersebut. Itu akan memberinya rasa pencapaian dan kepercayaan diri untuk mencoba lagi di lain waktu.
+
+Ingat bahwa setiap anak berkembang dengan kecepatannya sendiri. Tidak selalu cepat—dan akan ada kemunduran di sepanjang jalan. Tetapi semakin banyak yang bisa Anda biarkan mereka lakukan sendiri tanpa campur tangan, semakin besar kemungkinan mereka akan mencoba sendiri lagi dan lagi.
+
+Dorong Pemecahan Masalah  
+Mendorong balita Anda untuk memecahkan masalah secara mandiri sangat penting untuk mengembangkan keterampilan kognitif mereka. Ketika mereka menghadapi tantangan, ajukan pertanyaan terbuka yang mendorong mereka untuk berpikir kritis. Misalnya, jika mereka kesulitan memasukkan blok ke dalam alat pemisah bentuk, alih-alih melakukannya untuk mereka, tanyakan, ""Apa yang kamu pikir akan terjadi jika kamu mencoba memutarnya seperti ini?"" Ini tidak hanya mendorong kemandirian tetapi juga meningkatkan kemampuan mereka untuk bernalar dan berpikir kreatif.
+
+Buat Area Permainan Mandiri  
+Menciptakan ruang yang ditentukan untuk permainan mandiri dapat sangat meningkatkan kemampuan balita Anda untuk menjelajah dan belajar secara mandiri. Isi area ini dengan mainan dan aktivitas yang sesuai untuk usia yang memerlukan sedikit intervensi dari orang dewasa. Ruang ini memungkinkan mereka untuk terlibat dalam permainan yang diarahkan sendiri, yang sangat penting untuk mengembangkan otonomi dan keterampilan pengambilan keputusan. Pastikan untuk memutar mainan secara teratur agar minat mereka tetap terjaga dan mendorong eksplorasi.
+
+Berikan Pilihan  
+Menawarkan pilihan kepada balita Anda dalam situasi sehari-hari membantu mereka merasa lebih memiliki kendali dan meningkatkan kepercayaan diri mereka. Pilihan sederhana seperti “Apakah kamu ingin mengenakan kaus merah atau kaus biru hari ini?” atau “Apakah kamu ingin bermain dengan blok atau membaca buku?” memberdayakan mereka untuk membuat keputusan. Praktik ini tidak hanya mendorong kemandirian tetapi juga membantu mereka memahami konsekuensi dari pilihan mereka, aspek penting dalam mengembangkan tanggung jawab.
+
+Puji Usaha, Bukan Hanya Hasil  
+Saat anak Anda mengambil tugas baru, sangat penting untuk memuji usaha mereka daripada hanya keberhasilan penyelesaian tugas. Pernyataan seperti “Saya suka betapa kerasnya kamu berusaha menyusun puzzle itu!” memperkuat tekad mereka dan mendorong mereka untuk terus mencoba, bahkan jika mereka tidak berhasil pada percobaan pertama. Merayakan usaha di atas pencapaian menanamkan pola pikir berkembang, membantu mereka memahami bahwa ketekunan itu berharga.
+
+Contohkan Kemandirian  
+Anak-anak belajar dengan mengamati orang tua dan pengasuh mereka. Tunjukkan kemandirian dalam aktivitas sehari-hari Anda, apakah itu memasak makanan, mengelola tugas di tempat kerja, atau memecahkan masalah. Jelaskan proses berpikir Anda saat menghadapi tantangan, dengan menggunakan frasa seperti “Saya perlu mencari cara untuk memperbaiki ini,” atau “Mari kita lihat apa yang terjadi jika saya mencobanya seperti ini.” Dengan mengamati perilaku Anda, balita Anda akan belajar untuk mendekati tugas mereka sendiri dengan pola pikir yang serupa.
+
+Terima Kesalahan  
+Kesalahan adalah bagian tak terhindarkan dari belajar. Dorong balita Anda untuk melihat kesalahan sebagai kesempatan untuk tumbuh daripada kemunduran. Jika mereka membuat kekacauan atau kesulitan dengan tugas, tanggapi dengan empati dan jaminan. Misalnya, mengatakan, “Tidak apa-apa untuk membuat kesalahan. Itulah cara kita belajar! Apa yang bisa kita lakukan dengan berbeda lain kali?” membantu mereka mengembangkan ketahanan dan kemauan untuk mencoba lagi.
+
+Kesimpulan  
+Mengajarkan kemandirian kepada balita Anda adalah proses bertahap yang memerlukan kesabaran, dorongan, dan dukungan. Dengan menciptakan lingkungan yang mendukung eksplorasi, pemecahan masalah, dan pengambilan keputusan, Anda dapat membantu anak Anda membangun kepercayaan diri dalam kemampuan mereka. Ingat, setiap langkah kecil menuju kemandirian adalah tonggak penting dalam perkembangan mereka, membuka jalan bagi individu yang lebih mandiri dan mampu di masa depan.
+"
+"Q:
+
+Apa cara termudah untuk melewatkan sebuah file sebagai argumen dalam skrip shell?
+
+Skrip berikut berfungsi baik di macOS:
+
+```bash
+#!/bin/bash
+R CMD Sweave myfile.Rnw
+pdflatex myfile.tex
+open myfile.pdf
+```
+
+Saya menyadari bahwa ketiga baris kode ini sangat membantu untuk pekerjaan saya, terlepas dari file spesifiknya. Saya ingin memodifikasi skrip agar menerima nama file sebagai argumen. Meskipun saya tahu cara menggunakan argumen, saya kesulitan membagi nama file input setelah string dan menggabungkannya kembali. Idealnya, saya ingin membagi argumen nama file seperti ini:
+
+```bash
+split($1,""."")  # Keluaran yang diharapkan: (""name"",""ext"")
+```
+
+Apakah ada cara yang lebih sederhana atau lebih efisien untuk mencapai ini tanpa menggunakan Python dalam skrip shell? Terima kasih sebelumnya atas saran umum dan contoh!
+
+---
+
+A:
+
+Jika Anda nyaman dengan Python, Anda mungkin akan menemukan lebih mudah untuk melakukan skrip shell di sana karena lebih mudah dibaca, kuat, dan lintas platform.
+
+---
+
+A:
+
+Anda bisa cukup mengambil nama dasar sebagai argumen dan menggunakan `$1.Rnw`, `$1.tex`, dan `$1.pdf` dalam skrip Anda. Meskipun Python bagus untuk tugas yang lebih kompleks, untuk skrip pendek seperti ini, tetap menggunakan bash seringkali lebih sederhana. Jika Anda ingin mengekstrak nama dasar dari nama file, Anda bisa menggunakan:
+
+```bash
+basename=""${1%.*}""  # Ini menghapus ekstensi
+```
+
+Atau, untuk mendapatkan hanya nama dan ekstensi secara terpisah, Anda bisa menggunakan:
+
+```bash
+name=$(echo ""$1"" | cut -f 1 -d '.')
+ext=$(echo ""$1"" | cut -f 2 -d '.')
+```
+
+Dengan cara ini, Anda bisa menangani file secara dinamis.
+"

@@ -1,0 +1,306 @@
+Q:
+
+StAX and arraylist java
+
+I'm trying to read an xml document with StAX but I have a little problem and i don't know how to fix it, I've tried to look for over internet (maybe i'm using the wrong key word for my problem :/)
+so I've this XML:
+<questionReponses
+xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xmlns='http://polytis.fr/studentest'
+xsi:schemaLocation='http://polytis.fr/studentest qanda.xsd'>
+<questionReponse>
+    <categorie>Biologie</categorie>
+    <question>Question 1</question>
+    <reponse>reponse correcte 1</reponse>
+    <mauvaiseReponse>reponse fausse 1.1</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 1.2</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 1.3</mauvaiseReponse>
+</questionReponse>
+<questionReponse>
+    <categorie>Chimie</categorie>
+    <question>Question 2</question>
+    <reponse>reponse correcte 2</reponse>
+    <mauvaiseReponse>reponse fausse 2.1</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 2.2</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 2.3</mauvaiseReponse>
+</questionReponse>
+<questionReponse>
+    <categorie>CultureG</categorie>
+    <question>Question 3</question>
+    <reponse>reponse correcte 3</reponse>
+    <mauvaiseReponse>reponse fausse 3.1</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 3.2</mauvaiseReponse>
+    <mauvaiseReponse>reponse fausse 3.3</mauvaiseReponse>
+</questionReponse>
+
+here is my parser:
+try {
+        // instanciation du parser
+        InputStream in = new FileInputStream(nomFichier);
+        XMLInputFactory factory = XMLInputFactory.newInstance();
+        XMLStreamReader parser = factory.createXMLStreamReader(in);
+
+        // lecture des evenements
+        for (int event = parser.next(); event != XMLStreamConstants.END_DOCUMENT; event = parser.next()) {
+            // traitement selon l'evenement
+            switch (event) {
+                case XMLStreamConstants.START_ELEMENT:
+                    break;
+                case XMLStreamConstants.END_ELEMENT:
+                    if (parser.getLocalName().equals("questionReponse")) {
+                        question = new Question(categorieCourante,questionCourante,bonneReponseCourante,mauvaisesReponses);
+                        quizz.add(question);
+                    }               
+                    if (parser.getLocalName().equals("categorie")) {
+                        categorieCourante = donneesCourantes;
+                    }
+                    if (parser.getLocalName().equals("question")) {
+                        questionCourante = donneesCourantes;
+                    }
+                    if (parser.getLocalName().equals("reponse")) {
+                        bonneReponseCourante = donneesCourantes;
+                    }
+                    if (parser.getLocalName().equals("mauvaiseReponse")) {
+                        mauvaisesReponses.add(donneesCourantes);
+                    }
+                    break;
+                case XMLStreamConstants.CHARACTERS:
+                    donneesCourantes = parser.getText();
+                    break;
+            } // end switch
+        } // end for
+        parser.close();
+    }
+
+and the result is not the one expected:
+question 1
+[categorie = 
+Biologie
+question = 
+Question 1
+bonne reponse = 
+reponse correcte 1
+mauvaises reponse = 
+reponse fausse 1.1
+reponse fausse 1.2
+reponse fausse 1.3
+reponse fausse 2.1
+reponse fausse 2.2
+reponse fausse 2.3
+reponse fausse 3.1
+reponse fausse 3.2
+reponse fausse 3.3
+
+, categorie = 
+Chimie
+question = 
+Question 2
+bonne reponse = 
+reponse correcte 2
+mauvaises reponse = 
+reponse fausse 1.1
+reponse fausse 1.2
+reponse fausse 1.3
+reponse fausse 2.1
+reponse fausse 2.2
+reponse fausse 2.3
+reponse fausse 3.1
+reponse fausse 3.2
+reponse fausse 3.3
+
+, categorie = 
+CultureG
+question = 
+Question 3
+bonne reponse = 
+reponse correcte 3
+mauvaises reponse = 
+reponse fausse 1.1
+reponse fausse 1.2
+reponse fausse 1.3
+reponse fausse 2.1
+reponse fausse 2.2
+reponse fausse 2.3
+reponse fausse 3.1
+reponse fausse 3.2
+reponse fausse 3.3
+
+]
+
+and it's the same for the 3 question i have. When i parse "mauvaiseReponse" all the the "mauvaiseReponse" balise are streamed and added.
+the result i'm looking for is something like this:
+question 1
+categorie = 
+Biologie
+question = 
+Question 1
+bonne reponse = 
+reponse correcte 1
+mauvaises reponse = 
+reponse fausse 1.1
+reponse fausse 1.2
+reponse fausse 1.3
+
+i'm sorry if my english isn't that good, i hope you will undestand my problem and can help me with this
+
+A:
+
+Explanation
+Simply, you must renew your badAnswers (mauvaisesReponses) list on each completed Question instance.
+I've written a sample code for the provided input xml file. For simplicity, I've created the Question class in the same file with solution;
+    // A - first instantiation of badAnswers list
+    List<String> badAnswers = new LinkedList<>();
+    for (int event = parser.next(); event != XMLStreamConstants.END_DOCUMENT; event = parser.next()) {
+
+        switch (event) {
+            case XMLStreamConstants.START_ELEMENT:
+                break;
+
+            case XMLStreamConstants.END_ELEMENT:
+                if (parser.getLocalName().equals("questionReponse")) {
+                    Question question = new Question(currentCategory, currentQuestion, currentRightAnswer, badAnswers);
+                    quiz.add(question);
+                    // B - Renew badAnswers after each Question entry insert
+                    badAnswers = new LinkedList<>();    
+                }   
+
+Please also note that I've used LinkedList implementation here to demonstrate that your problem is not related to the List implementation, it is implementation-agnostic.
+Solution Code
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamConstants;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
+
+public class Solution {
+
+    public static void main(String[] args)  {
+        List<Question> quiz = getQuiz("inputFile.xml");
+
+        printQuiz(quiz);
+    }
+
+    public static List<Question> getQuiz(String fileName) {
+        List<Question> quiz = null;
+
+        try {
+            // parser instantiation
+            InputStream in = new FileInputStream(fileName);
+            XMLInputFactory factory = XMLInputFactory.newInstance();
+            XMLStreamReader parser = factory.createXMLStreamReader(in);
+
+            String currentData = null, currentCategory = null, currentQuestion = null, currentRightAnswer = null;
+            quiz = new LinkedList<>();
+            List<String> badAnswers = new LinkedList<>();   // first instantiation of badAnswers list
+            for (int event = parser.next(); event != XMLStreamConstants.END_DOCUMENT; event = parser.next()) {
+
+                switch (event) {
+                    case XMLStreamConstants.START_ELEMENT:
+                        break;
+
+                    case XMLStreamConstants.END_ELEMENT:
+                        if (parser.getLocalName().equals("questionReponse")) {
+                            Question question = new Question(currentCategory, currentQuestion, currentRightAnswer, badAnswers);
+                            quiz.add(question);
+                            badAnswers = new LinkedList<>();    // Renew badAnswers after each Question entry insert
+                        }               
+                        if (parser.getLocalName().equals("categorie")) {
+                            currentCategory = currentData;
+                        }
+                        if (parser.getLocalName().equals("question")) {
+                            currentQuestion = currentData;
+                        }
+                        if (parser.getLocalName().equals("reponse")) {
+                            currentRightAnswer = currentData;
+                        }
+                        if (parser.getLocalName().equals("mauvaiseReponse")) {
+                            badAnswers.add(currentData);
+                        }
+                        break;
+
+                    case XMLStreamConstants.CHARACTERS:
+                        currentData = parser.getText();
+                        break;
+                }
+            }   // end of for loop
+            parser.close();
+
+        } catch (FileNotFoundException | XMLStreamException e) {
+            e.printStackTrace();
+        }
+
+        return quiz;
+    }
+
+    public static void printQuiz(List<Question> quiz) {
+        int i = 1;
+        for(Question q : quiz) {
+            System.out.println("Question    : " + i++);
+            System.out.printf("\tCategory   : %s\n" , q.getCurrentCategory());
+            System.out.printf("\tQuestion   : %s\n" , q.getCurrentQuestion());
+            System.out.printf("\tAnswer     : %s\n" , q.getCurrentRightAnswer());
+            System.out.printf("\tBad Answers: %s\n" , q.getBadAnswers());
+            System.out.println("***********************\n");
+        }
+    }
+
+}
+
+class Question {
+
+    private String currentCategory;
+    private String currentQuestion;
+    private String currentRightAnswer;
+    private List<String> badAnswers;
+
+    public Question(String currentCategory, String currentQuestion, String currentRightAnswer, List<String> badAnswers) {
+        this.currentCategory = currentCategory;
+        this.currentQuestion = currentQuestion;
+        this.currentRightAnswer = currentRightAnswer;
+        this.badAnswers = badAnswers;
+    }
+
+    public String getCurrentCategory() {
+        return currentCategory;
+    }
+
+    public String getCurrentQuestion() {
+        return currentQuestion;
+    }
+
+    public String getCurrentRightAnswer() {
+        return currentRightAnswer;
+    }
+
+    public List<String> getBadAnswers() {
+        return badAnswers;
+    }
+
+}
+
+Demo Output
+Question    : 1
+    Category   : Biologie
+    Question   : Question 1
+    Answer     : reponse correcte 1
+    Bad Answers: [reponse fausse 1.1, reponse fausse 1.2, reponse fausse 1.3]
+***********************
+
+Question    : 2
+    Category   : Chimie
+    Question   : Question 2
+    Answer     : reponse correcte 2
+    Bad Answers: [reponse fausse 2.1, reponse fausse 2.2, reponse fausse 2.3]
+***********************
+
+Question    : 3
+    Category   : CultureG
+    Question   : Question 3
+    Answer     : reponse correcte 3
+    Bad Answers: [reponse fausse 3.1, reponse fausse 3.2, reponse fausse 3.3]
+***********************

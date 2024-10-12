@@ -1,0 +1,44 @@
+Q:
+
+Python: Variabel return saya selalu None
+
+Saya mengalami masalah di Python ketika mencoba mengembalikan parameter opsional, atau setidaknya saya pikir itu penyebabnya. Berikut adalah kode saya:
+
+```python
+def reverse(string, output=""):
+    if string == "":
+        print("winner:", output)
+        return output
+    output = output + string[-1]
+    string = string[:-1]
+    reverse(string, output=output)
+```
+
+Dan berikut adalah apa yang terjadi ketika saya menjalankannya:
+
+```python
+>>> output = reverse("hello")
+winner: olleh
+>>> print(output)
+None
+```
+
+Apakah ada yang tahu mengapa nilai return saya selalu `None`?
+
+---
+
+A:
+
+Masalahnya adalah Anda tidak mengembalikan hasil dari panggilan rekursif dalam fungsi `reverse` Anda. Anda perlu mengembalikan nilai dari panggilan rekursif seperti ini:
+
+```python
+def reverse(string, output=""):
+    if string == "":
+        print("winner:", output)
+        return output
+    output = output + string[-1]
+    string = string[:-1]
+    return reverse(string, output=output)
+```
+
+Dengan cara ini, nilai return dari fungsi rekursif akan diteruskan kembali melalui setiap tingkat rekursi.

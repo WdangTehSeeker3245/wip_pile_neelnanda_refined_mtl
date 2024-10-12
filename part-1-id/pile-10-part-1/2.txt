@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<segment>
+    <name>PD1</name>
+    <description>Demografi Tambahan Pasien</description>
+    <elements>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.1</name>
+            <description>Ketergantungan Hidup</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.2</name>
+            <description>Pengaturan Tempat Tinggal</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.3</name>
+            <description>Fasilitas Utama Pasien</description>
+            <datatype>XON</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.4</name>
+            <description>Nama dan No. ID Penyedia Perawatan Utama Pasien</description>
+            <datatype>XCN</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.5</name>
+            <description>Indikator Mahasiswa</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.6</name>
+            <description>Kecacatan</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.7</name>
+            <description>Kode Surat Wasiat Hidup</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.8</name>
+            <description>Kode Donor Organ</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.9</name>
+            <description>Tagihan Terpisah</description>
+            <datatype>ID</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.10</name>
+            <description>Pasien Duplikat</description>
+            <datatype>CX</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.11</name>
+            <description>Kode Publikasi</description>
+            <datatype>CE</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.12</name>
+            <description>Indikator Perlindungan</description>
+            <datatype>ID</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.13</name>
+            <description>Tanggal Efektif Indikator Perlindungan</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.14</name>
+            <description>Tempat Ibadah</description>
+            <datatype>XON</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.15</name>
+            <description>Kode Arahan Lanjutan</description>
+            <datatype>CE</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.16</name>
+            <description>Status Registri Imunisasi</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.17</name>
+            <description>Tanggal Efektif Status Registri Imunisasi</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.18</name>
+            <description>Tanggal Efektif Kode Publikasi</description>
+            <datatype>DT</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.19</name>
+            <description>Cabang Militer</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.20</name>
+            <description>Pangkat/Grup Militer</description>
+            <datatype>IS</datatype>
+        </field>
+        <field minOccurs="0" maxOccurs="0">
+            <name>PD1.21</name>
+            <description>Status Militer</description>
+            <datatype>IS</datatype>
+        </field>
+    </elements>
+</segment>
+

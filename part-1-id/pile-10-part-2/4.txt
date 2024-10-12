@@ -1,0 +1,72 @@
+Q:
+
+Mengapa, dalam loop JavaScript ini, variabel dicetak dimulai dari `counter` dan bukan `counter-1`?
+
+Saat saya belajar pemrograman secara mandiri, saya menemukan konsep rekursi dan menemukan kode sederhana ini. Pertanyaan saya adalah: karena variabel `counter` dimulai dari 10, dan di dalam loop `while`, nilainya berkurang 1, mengapa output masih menampilkan nilai yang dimulai dari 10? Saya tahu jika saya ingin memulai dari 10, saya bisa mengatur `counter` menjadi 11, tetapi saya penasaran dan belum sepenuhnya memahami mengapa hal ini terjadi.
+
+```javascript
+var counter = 10;
+while(counter > 0) {
+    console.log(counter--);
+}
+```
+
+Output:
+
+```
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
+
+A:
+
+Alasannya sangat sederhana. Dalam rekursi (dan iterasi), Anda biasanya mengoper variabel atau array untuk memodifikasi atau mencetak nilainya. Dalam kasus Anda, Anda mencoba mengurangkan angka pada setiap iterasi di dalam loop `while`. Namun, Anda menginginkan output yang menunjukkan `9` terlebih dahulu, berdasarkan logika yang Anda gunakan. Meskipun ini tidak sepenuhnya salah, hal itu tidak akan bekerja seperti yang Anda harapkan karena alasan berikut.
+
+Dalam kode Anda, Anda menggunakan `console.log(counter--)`, yang mencetak nilai dari `counter` terlebih dahulu, kemudian mengurangkan `1`. Meskipun pengurangan terjadi dalam iterasi yang sama, JavaScript mencetak variabel terlebih dahulu sebelum melakukan pengurangan, karena begitulah cara operator `--` bekerja ketika ditempatkan setelah variabel (post-decrement). Ini seperti kode Anda dipecah menjadi dua bagian:
+
+Contoh:
+```javascript
+var counter = 10;
+while(counter > 0) {
+    console.log(counter); // Pertama, nilai saat ini dibaca dan dicetak.
+    counter--; // Kemudian, nilainya dikurangi 1.
+}
+```
+
+Hal ini terjadi karena JavaScript secara internal memperlakukan operasi `counter--` sebagai dua tindakan terpisah. Pada saat pengurangan terjadi, nilainya sudah dicetak di layar.
+
+Contoh visual:
+
+- Iterasi pertama:
+  - `counter = 10 | counter-- | counter = 9`
+- Iterasi kedua:
+  - `counter = 9 | counter-- | counter = 8`
+- ...
+- Iterasi terakhir:
+  - `counter = 1 | counter-- | counter = 0`
+
+Ketika `counter = 0`, loop berhenti, sehingga tidak ada yang dicetak lebih lanjut.
+
+Untuk mendapatkan output di mana `9` dicetak terlebih dahulu, Anda harus mengubah kode sebagai berikut:
+
+```javascript
+var counter = 10;
+while(counter > 0) {
+    counter--; // Kurangi dulu
+    console.log(counter); // Kemudian cetak nilainya
+}
+```
+
+Dengan cara ini, pengurangan terjadi sebelum nilai dicetak, menghasilkan output yang Anda harapkan.
+
+```css
+.as-console-wrapper { max-height: 100% !important; top: 0; }
+```

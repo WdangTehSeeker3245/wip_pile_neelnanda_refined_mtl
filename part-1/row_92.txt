@@ -1,0 +1,76 @@
+Q:
+
+Where to get flight dynamics for a flight sim model?
+
+Once, a while ago, I tried to create a Flight Simulator X model for an aircraft that I wanted a model of, but was soon overwhelmed by having to guess so much of the flight dynamics. Is there somewhere where I could get detailed information about the flight dynamics of aircraft without contacting the manufacturer, a pilot, or having the plane itself to run tests on? I mean for things like drag at different mach, drag coefficient created by the landing gear, lift coefficient created by the flaps, detailed stuff about the engines, etc.
+
+A:
+
+Unfortunately I have no experience with how FSX models aircraft, but at a guess, it's model requires extensive experimental data from a real aircraft to truly get the right parameters.
+And that's something no hobbyist is likely to be able to do. For that matter, it's pretty difficult for a pilot to do, since actually recording the relevant data is difficult, and some of what you need to know requires doing things with the aircraft you probably shouldn't do in most circumstances.
+X-Plane's flight model and aircraft creation tool is far more forgiving. You still end up having to guess a lot of parameters, but they are generally less critical to basic handling.
+All you really need to get a decent flight model out of X-Plane is a good set of reverence pictures, an eye for detail (so your model matches the geometry properly), and ideally the correct airfoil profiles and engine specifications.
+(Primarily the thrust and power)
+For the most part, good reference models and diagrams, and the information you'd find in the Pilot's operating handbook is enough to create a decent flight model in X-Plane.
+It certainly won't be perfect, and you'll probably have to tune it, but it's a much easier task than getting that data needed for an FSX model.
+I have the good fortune of being a student pilot, and as such I decided to attempt a model in X-Plane, and found that while it was far from perfect, (and needs a lot of improvement to be a 'good') model, it's behaviour was much closer to the real aircraft that I fly regularly than I was ever expecting given how much I had to guess.
+I had to guess everything from the aileron deflection angles to the propeller geometry, wing airfoil choices and more, and still the resulting model was only slightly off from the real thing insofar as I know how the real aircraft flies.
+I guess that's not an overly helpful answer in a direct sense for an FSX flight model, but I fear it just isn't going to be at all easy to find the information you need to make a flight model that isn't fundamentally broken in FSX, let alone accurate.
+X-Plane is just far simpler to work with when you don't have a lot of information...
+Whether that's worth the downsides of X-Plane (especially the consequences of switching if you already have a heavy investment in FSX), I don't know.
+But it's worth keeping in mind if you are particularly fond of amateur aircraft design.
+(It's even plausible to create fictional designs in x-plane for which no real-world data could ever exist in theory, and still get a good idea of how such a design likely would fly if it did exist.)
+As for FSX potentially having better flight models in some cases? Maybe. But this is likely going to be the flight models of expensive add-on aircraft models that were made with the help of the manufacturer and pilots qualified to fly the real aircraft.
+That's not going to help you any if you don't have access to those kinds of resources.
+A hand-tuned model matched to exact real-world data may well work better than a physics based model if you have good source data.
+But if your source data is lousy (as it is for most of us unfortunately), then the physics based model will be much more reliable most of the time...
+
+A:
+
+Decent aerodynamic (wind tunnel) data is available courtesy of NASA / NTRS.
+Windtunnel derived aerodynamic data sources is where I have collected together detailed data for the B747, F-14 and F-15.
+B747 Aerodynamic data
+
+NASA CR-1756 The Simulation of a Large Jet Transport Aircraft Volume I: Mathematical Model, C. Rodney Hanke
+March 1971 
+D6-30643 THE SIMULATION OF A JUMBO JET TRANSPORT AIRCRAFT - VOLUME 11: MODELING DATA, C. Rodney Hanke and Donald R. Nordwall September 1970
+
+F-14 Aerodynamic data
+These are the data sources for my F-14 for FlightGear
+
+F-14A Aerodata plots F-14A Aerodata plots from AFWAL-TR-80-3141. These are in the TR; and don't reflect the JSBSim model as that has more data; this is just what I made for reference whilst modelling.
+Richard Harrison
+AFWAL-TR-80-3141, Part I Investigation of High-Angle-of-Attack Maneuver-limiting factors, Part I: Anaylsis and simulation
+Donald E. Johnston, David G. Mitchell, Thomas T. Myers
+1980
+AFWAL-TR-80-3141, Part III: Investigation of High-Angle-of-Attack Maneuver-limiting factors, Part III: Appendices aerodynamic models
+Donald E. Johnston, David G. Mitchell, Thomas T. Myers
+1980
+NASA TN D-6909 DYNAMIC STABILITY DERIVATIVES AT ANGLES OF ATTACK FROM -5deg TO 90deg FOR A VARIABLE-SWEEP FIGHTER CONFIGURATION WITH TWIN VERTICAL TAILS
+Sue B. Grafton and Ernie L. Anglin
+1972
+NASA-TM-101717 Flutter clearance to the F-14A Variable-Sweep Transition Flight Expirement Airplane - Phase 2
+Lawrence C. Freudinger and Michael W. Kehoe
+July 1990
+N89 - 20931 APPLIED TRANSONICS AT GRUMMAN
+W. H. Davis
+
+F-15 Aerodynamic data sources
+These are the data sources / references for F-15 for FlightGear. The FDM is based on the windtunnel derived aerodynamic data found in (AFIT/GAE/ENY/90D-16).
+
+Richard Harrison, rjh@zaretto.com: F-15 Aerodynamic data from (AFIT/GAE/ENY/90D-16); CG 25.65%, ZDAT/AED/2014/12-2, December, 2014: F-15 Aerodynamic data extracted from AFIT/GAE/ENY/90D-16
+Robert J. McDonnell, B.S., Captain, USAF: INVESTIGATION OF THE HIGH ANGLE OF ATTACK DYNAMICS OF THE F-15B USING BIFURCATION ANALYSIS, AFIT/GAE/ENY/90D-16, December 1990: ADA230462.pdf
+Richard L. Bennet, Major, USAF: ANALYSIS OF THE EFFECTS OF REMOVING NOSE BALLAST FROM THE F-15 EAGLE, AFIT/GA/ENY/91D-1, December 1991: ADA244044.pdf
+DR. J. R. LUMMUS, G. T. JOYCE, O C. D. O MALLEY: ANALYSIS OF WIND TUNNEL TEST RESULTS FOR A 9.39-PER CENT SCALE MODEL OF A VSTOL FIGHTER/ATTACK AIRCRAFT : VOLUME I - STUDY OVERVIEW, NASA CR-152391-VOL-1 Figure 3-2 p54, October 1980: 19810014497.pdf
+Frank W. Burcham, Jr., Trindel A. Maine, C. Gordon Fullerton, and Lannie Dean Webb: Development and Flight Evaluation of an Emergency Digital Flight Control System Using Only Engine Thrust on an F-15 Airplane, NASA TP-3627, September 1996: 88414main_H-2048.pdf
+Thomas R. Sisk and Neil W. Matheny: Precision Controllability of the F-15 Airplane, NASA-TM-72861, May 1979 87906main_H-1073.pdf
+Aircraft handling data
+
+NT-a3A, F-104A, F-4C, X-15, HL-10, Jetstar, CV-880M, B-747, C-5A, and XB-70A.
+
+Robert K. Heffley and Wayne F. Jewell, NASA CR-2144 AIRCRAFT HANDLING QUALITIES DATA,
+December 1972
+
+JSBSim implementations of the aerodynamics models can be viewed in my GitHub repository F-14 and F-15. These are both useful references in how to implement an aerodynamic model using JSBSim.
+Where no such data is available OpenVSP using VSPAero is a useful tool for generating coefficients from geometry.
+Any computational method (including OpenVSP and X-Plane) will not be able to attain the accuracy gained from windtunnel measurements, especially as you reach the edge of the flight envelope. All FAA Level D simulators use wind tunnel derived aerodyanmic data packages for this reason.

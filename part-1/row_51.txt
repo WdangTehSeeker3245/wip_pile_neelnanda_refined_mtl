@@ -1,0 +1,41 @@
+At our best, we motivate ourselves every day to get dressed and go to work or school. Although there are larger incentives at work, it's our own volition that powers us through our innumerable daily tasks.
+
+If we could learn to control the motivational centers of our brains that drive volition, would it lead us toward healthier, more productive lives? Using a new brain imaging strategy, Duke University scientists have now taken a first step in understanding how to manipulate specific neural circuits using thoughts and imagery.
+
+The technique, which is described in the March 16 issue of the journal Neuron, is part of a larger approach called 'neurofeedback,' which gives participants a dynamic readout of brain activity, in this case from a brain area critical for motivation.
+
+"These methods show a direct route for manipulating brain networks centrally involved in healthy brain function and daily behavior," said the study's senior investigator R. Alison Adcock, an assistant professor of psychiatry and behavioral sciences and associate director of the Center for Cognitive Neuroscience in the Duke University Institute for Brain Sciences.
+
+Neurofeedback is a specialized form of biofeedback, a technique that allows people to monitor aspects of their own physiology, such as heart rate and skin temperature. It can help generate strategies to overcome anxiety and stress or to cope with other medical conditions.
+
+Neurofeedback has historically relied on electroencephalography or EEG, in which patterns of electrical activity are monitored noninvasively by electrodes attached to the scalp. But these measures provide only rough estimates of where activity occurs in the brain.
+
+advertisement
+
+In contrast, the new study employed functional magnetic resonance imaging (fMRI), which measures changes in blood oxygen levels, allowing more precisely localized measurements of brain activity.
+
+Adcock's team has been working on ways to use thoughts and behavior to tune brain function for the past eight years. In this time, they've developed tools allowing them to analyze complex brain imaging data in real time and to display it to participants as neurofeedback while they are in the fMRI scanner.
+
+This study focused on the ventral tegmental area (VTA), a small area deep within the brain that is a major source of dopamine, a neurochemical well known for its role in motivation, experiencing rewards, learning, and memory.
+
+According to Adcock's previous research, when people are given incentives to remember specific images, an increase in VTA activation before the image appears predicts whether the participants are going to successfully remember the image.
+
+External incentives like money work well to stimulate the VTA, but it was unclear whether people could exercise this area on their own, said co-author Jeff MacInnes, a postdoctoral researcher in Adcock's lab.
+
+advertisement
+
+In the new study, the team encouraged participants in the scanner to generate feelings of motivation -- using their own personal strategies -- during 20-second intervals. They weren't able to raise their VTA activity consistently on their own.
+
+But when the scientists provided participants with neurofeedback from the VTA, presented in the form of a fluctuating thermometer, participants were able to learn which strategies worked, and ultimately adopt more effective strategies. Compared to control groups, the neurofeedback-trained participants successfully elevated their VTA activity.
+
+Participants reported using a variety of different motivational strategies, from imagining parents or coaches encouraging them, to playing out hypothetical scenarios in which their efforts were rewarded, said co-author Kathryn Dickerson, a postdoctoral researcher in Adcock's group.
+
+The self-generated boost in VTA activation worked even after the thermometer display was removed. Only the participants who had received accurate neurofeedback were able to consistently raise their VTA levels.
+
+"Because this is the first demonstration of its kind, there is much still to be understood," Adcock added. "But these tools could offer benefits for everyone, particularly those with depression or attention problems."
+
+The neurofeedback training also activated other regions involved in learning and experiencing rewards, confirming that, at least in the short term, the brain changes its activity more broadly as a result of neurofeedback, Dickerson said.
+
+Adcock said one caveat of the study is that the team has not tested whether the neurofeedback drove changes in behavior. The group is working on those studies now and also plans to conduct the same study in participants with depression and attention deficit hyperactivity disorder (ADHD).
+
+This research was supported by the National Institute of Mental Health (MH9743, MH100764), the Alfred P. Sloan Foundation, the Esther A. & Joseph Klingenstein Fund, and the Dana Foundation.

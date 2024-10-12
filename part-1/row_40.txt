@@ -1,0 +1,27 @@
+Q:
+
+HP MSA70 / P800 Array Failure - Shows 2 drives in each slot, 13/25 drives "missing"
+
+We have an HP MSA70 with 25 x 600GB HP SAS 10k DP drives, connected to an HP P800 controller.  The drives are configured in RAID 6.  
+Yesterday, some kind of unknown "event" occurred and the array dropped offline.  We rebooted the server (running CENTOS 6.2) and upon startup, the Array Controller reported that 13 of the drives are "missing".  When we look at the volume in the Array management, there are two entries for each slot for slots 1-12.  One shows a 600gb drive and one shows a 0gb drive.  There are no more entries after 12.
+We contacted HP support, who sent us to Tier 2 support, and after many hours gave up.  They said they have never seen this, before (my favorite thing to hear from a vendor).
+Has anybody seen this before, and have we lost all of the data?
+Thank you.
+
+A:
+
+Old, old, old, old...
+
+CentOS 6.2 is old (6.2, 6 December 2011 (kernel 2.6.32-220))
+HP StorageWorks MSA70 is old. (End of Life - October 2010)
+HP Smart Array P800 is old. (End of Life - 2010)
+
+So this makes me think that firmware and drivers are also old. E.g. there's no reason to run CentOS 6.2 in 2015... And I'm assuming no effort was made to keep anything current.
+This also makes me think that the systems are not being monitored. Assuming HP server hardware, what did the system IML logs say? Are you running HP management agents? If not, important messages about the server and storage health could have been missed.
+Did you check information from the HP Array Configuration Utility (or HP SSA)?
+But in the end, you've probably suffered a port failure or expander/backplane failure:
+
+How many SAS cables are connected to the enclosure? If 1 cable is connected, then you likely have a backplane issue because of the SAS expander in the enclosure. 
+If two cables are connected, you may have a SAS cable, MSA70 controller or P800 port failure.
+
+Your data is likely intact, but you need to isolate the issue and determine which one of the above issues is the culprit. Replacing a SAS cable is a lot easier than swapping the MSA70 controller or RAID controller card... but I guess you can get another MSA70 for $40 on eBay...

@@ -1,0 +1,11 @@
+Q:
+
+sql queries and inserts
+
+I have a random question. If I were to do a sql select and while the sql server was querying my request someone else does a insert statement... could that data that was inputted in that insert statement also be retrieved from my select statement?
+
+A:
+
+Queries are queued, so if the SELECT occurs before the INSERT there's no possibility of seeing the newly inserted data.
+Using default isolation levels, SELECT is generally given higher privilege over others but still only reads COMMITTED data.  So if the INSERT data has not been committed by the time the SELECT occurs--again, you wouldn't see the newly inserted data.  If the INSERT has been committed, the subsequent SELECT will include the newly inserted data.
+If the isolation level allowed reading UNCOMMITTED (AKA dirty) data, then yes--a SELECT occurring after the INSERT but before the INSERT data was committed would return that data.  This is not recommended practice, because UNCOMMITTED data could be subject to a ROLLBACK.

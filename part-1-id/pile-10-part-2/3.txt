@@ -1,0 +1,24 @@
+PCI Alternatif Menggunakan Latihan Berkelanjutan (PAUSE): Rasional dan Desain Uji Coba
+
+Penyakit kardiovaskular (CVD) tetap menjadi penyebab utama kematian di Amerika Serikat, dengan hampir satu juta jiwa yang hilang setiap tahun dan menyumbang hampir 40% dari seluruh kematian. Di antara spektrum ini, penyakit arteri koroner (CAD) bertanggung jawab atas sebagian besar kematian tersebut. Selama beberapa dekade terakhir, pengobatan untuk CAD sebagian besar berfokus pada intervensi bedah dan pendekatan berbasis kateter, khususnya intervensi koroner perkutan (PCI). Penggunaan PCI telah meningkat secara signifikan sejak diperkenalkan lebih dari 30 tahun yang lalu. Namun, belakangan ini muncul pertanyaan tentang efektivitas biaya, kecocokan, dan potensi penggunaan PCI yang berlebihan, sehingga memunculkan minat pada pengobatan alternatif yang mungkin menawarkan hasil yang sebanding atau lebih baik tanpa prosedur invasif.
+
+Kekhawatiran Tentang PCI
+Meskipun adopsi PCI sangat luas, penelitian menunjukkan bahwa PCI tidak secara signifikan meningkatkan kelangsungan hidup jangka panjang bagi banyak pasien, terutama pada kasus CAD yang stabil. Biaya tinggi yang terkait dengan PCI, ditambah dengan penggunaannya yang sering pada kasus non-darurat, telah menimbulkan kekhawatiran bahwa beberapa pasien mungkin mendapatkan hasil yang lebih baik melalui terapi medis optimal (OMT), termasuk modifikasi gaya hidup dan intervensi farmakologis, daripada segera menjalani PCI.
+
+Potensi Terapi Latihan
+Salah satu alternatif yang menjanjikan dan semakin menarik perhatian adalah terapi latihan. Berbagai studi telah menunjukkan bahwa latihan berkelanjutan dapat memberikan manfaat fisiologis yang signifikan bagi individu dengan CAD. Manfaat ini termasuk peningkatan fungsi kardiovaskular, kesehatan vaskular yang lebih baik, dan penurunan angka kematian secara keseluruhan. Secara khusus, program latihan terstruktur yang menargetkan rehabilitasi jantung telah dikaitkan dengan penurunan kejadian jantung sekunder dan peningkatan kualitas hidup. Berdasarkan hasil ini, terapi latihan mungkin merupakan pilihan pengobatan yang kurang dimanfaatkan yang dapat mengurangi ketergantungan pada PCI, terutama untuk pasien stabil yang tidak memerlukan intervensi mendesak.
+
+Studi PAUSE: Tujuan dan Desain
+Untuk mengevaluasi pendekatan alternatif ini, kami mengusulkan uji coba PCI Alternatif Menggunakan Latihan Berkelanjutan (PAUSE). PAUSE bertujuan untuk menentukan apakah pasien yang diacak ke dalam program intervensi latihan dan perubahan gaya hidup mengalami peningkatan fungsi dan anatomi koroner yang lebih besar dibandingkan mereka yang menjalani PCI. Studi ini akan fokus pada pasien dengan CAD stabil yang umumnya menjadi kandidat PCI tetapi dapat memperoleh manfaat dari terapi non-invasif.
+
+Titik akhir utama dari studi PAUSE adalah penilaian fungsi dan anatomi koroner menggunakan teknik pencitraan canggih. Secara khusus, kami akan menggunakan tomografi emisi positron yang dikombinasikan dengan angiografi tomografi terkomputasi (PET/CTA) untuk mengevaluasi kesehatan koroner secara non-invasif. PET/CTA memberikan pandangan rinci tentang struktur dan fungsi arteri koroner, menawarkan cara yang akurat dan andal untuk menilai efektivitas pengobatan.
+
+Tujuan Sekunder
+Selain fungsi koroner, uji coba PAUSE akan menyelidiki beberapa hasil sekunder, termasuk:
+1. Kapasitas latihan: Diukur melalui pengujian latihan standar untuk mengukur peningkatan kebugaran fisik.
+2. Kualitas hidup: Menggunakan kuesioner terverifikasi untuk menentukan dampak dari masing-masing pendekatan pengobatan terhadap kesejahteraan pasien.
+3. Kejadian jantung: Melacak kejadian seperti infark miokard atau kebutuhan untuk revaskularisasi lanjutan.
+4. Biaya perawatan kesehatan: Membandingkan dampak ekonomi terapi latihan dengan PCI, dengan fokus pada keberlanjutan keuangan jangka panjang dari kedua pendekatan tersebut.
+
+Kesimpulan
+Uji coba PAUSE berusaha mengeksplorasi potensi latihan berkelanjutan sebagai alternatif yang layak untuk PCI dalam pengobatan CAD stabil. Dengan memanfaatkan teknik pencitraan non-invasif, kami bertujuan untuk menunjukkan bahwa terapi latihan dapat meningkatkan fungsi dan anatomi koroner sekaligus mengurangi ketergantungan pada prosedur invasif yang mahal. Pada akhirnya, PAUSE dapat membuka jalan bagi pergeseran paradigma pengobatan, yang menekankan pencegahan, rehabilitasi, dan peningkatan kesehatan jangka panjang melalui latihan daripada intervensi bedah segera.

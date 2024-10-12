@@ -1,0 +1,122 @@
+Q:
+
+Como passar objetos entre controllers no MVC utilizando POO
+
+Basicamente, eu preciso que ser o login for bem sucedido salvar o nome de usuário em uma variável e utilizar-lá em outro controller.
+Model.php:
+   public function login($email, $password) {
+    session_start();
+
+    $sql = "SELECT * FROM users WHERE email = :email AND password= :password;";
+    $query = $this->db->prepare($sql);
+
+    $parameters = array(':email' => $email, ':password' => $password);
+    $query->execute($parameters);
+    $rows = $query->fetch(PDO::FETCH_NUM);
+
+    if($rows > 0) {
+        header ("Location: " . URL . "home");
+    } else {
+        exit ('Email or password incorrect');
+    }
+}
+
+Controller.php 
+  public function login() {
+    if (isset($_POST['login_submit']) AND isset($_POST['email']) AND isset($_POST['password'])) {
+        $this->model->login($_POST['email'], $_POST['password']);
+    }
+}
+
+A:
+
+Não foi explicito mas parece que você quer que seja mandado por session. Sendo assim você pode simplesmente setar na sessão e pegar de volta  no outro controle.
+<?php
+// declaração da classe Pessoa
+class Pessoa {
+    public $nome;
+}
+
+// No Controller que envia os parametros
+session_start();
+$joao = new Pessoa();
+$joao->nome = "João";
+$_SESSION['pessoa'] = $joao;
+
+// No Controller que recebe os dados
+session_start();
+$joao = $_SESSION['pessoa'];
+print_r($joao);
+
+Ou se quiser padronizar isso e jogar no paradigma de orientação a objetos
+<?php
+
+// controller que envia 
+$joao = new Pessoa();
+$joao->nome = "João";
+SessionUtils::setPropriedade('pessoa', $joao);
+
+// controller que recebe 
+$joao = SessionUtils::getPropriedadeLimpar('pessoa');
+print_r($joao);
+
+// declaração da classe Pessoa
+class Pessoa {
+    public $nome;
+}
+
+// classe util para a sessão
+class SessionUtils {
+
+    private static $BASE_PROPRIEDADES = "props";
+
+    /**
+     * Pega uma propriedade da sessão 
+     * @return a propriedade ou null se não existir
+     */
+    public static function getPropriedade($nome){
+        self::configurarSessao();
+        $sessao = self::getSessao();
+        return @$sessao[$nome];
+    }
+
+    /**
+     * Pega uma propriedade da sessão e depois a exclui da mesma
+     * @return a propriedade ou null se não existir
+     */
+    public static function getPropriedadeLimpar($nome){
+        self::configurarSessao();
+        $sessao = self::getSessao();
+        $valor  = @$sessao[$nome];
+        self::setPropriedade($nome, null);
+        return $valor;
+    }
+
+    /**
+     * Seta uma propriedade na sessão
+     */
+    public static function setPropriedade($nome, $valor){
+        self::configurarSessao();
+        $_SESSION[self::$BASE_PROPRIEDADES][$nome] = $valor;
+    }
+
+    /**
+     * Configura a sessão para guardar os itens
+     */
+    private static function configurarSessao(){
+        if(!isset($_SESSION)){
+            session_start();
+        }
+        if(!self::getSessao() || !is_array(self::getSessao())){
+            self::setSessao(array());
+        }
+    }
+
+    private static function getSessao(){
+        return $_SESSION[self::$BASE_PROPRIEDADES];
+    }
+
+    private static function setSessao($valor){
+        $_SESSION[self::$BASE_PROPRIEDADES] = $valor;
+    }
+}

@@ -1,0 +1,65 @@
+Q:
+
+Not populating tableview with structure array
+
+I need to populate my tableView with an array of a structure. The first property of the structure is the name. This is what I tried...
+var menuArray:[Restaurant] = [Restaurant]()
+ override func viewDidLoad() {
+    super.viewDidLoad()
+let shake = Item(name: "Shake", carbs: 20)
+    let fries = Item(name: "Fries", carbs: 30)
+
+    let beverages = Category(name: "Beverages", items: [shake])
+    let chips_fries = Category(name: "Chips & Fries", items: [fries])
+    let desserts = Category(name: "Desserts", items: [])
+    let other = Category(name: "Other Menu Items", items: [])
+    let sandwiches_burgers = Category(name: "Sandwiches & Burgers", items: [])
+    let sides = Category(name: "Sides", items: [])
+
+    a_w = Restaurant(name: "A&W", categories: [beverages, chips_fries, desserts, other, sandwiches_burgers, sides])
+
+    let menuArray = [a_w]
+
+}
+
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let currentCell = tableView.dequeueReusableCell(withIdentifier: "cell")
+    let currentRestaurant = menuArray[indexPath.row]
+    currentCell?.textLabel!.text = currentRestaurant.name
+    return currentCell!
+}
+override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+
+    return menuArray.count
+}
+
+Why won't it populate my tableView
+Here is my class also...
+import Foundation
+
+struct Item {
+    let name: String
+    let carbs: Int
+}
+
+struct Category {
+    let name: String
+    let items: [Item]
+}
+
+struct Restaurant {
+    let name: String
+    let categories: [Category]
+
+}
+
+A:
+
+In this line
+let menuArray = [a_w]
+
+you are creating a local variable menuArray which is different from the property with the same name representing the data source array.
+Omit let
+menuArray = [a_w]
+
+PS: Please use more descriptive variable names than a_w.

@@ -1,0 +1,1666 @@
+The summaries of the Colorado Court of Appeals published opinions
+  constitute no part of the opinion of the division but have been prepared by
+  the division for the convenience of the reader. The summaries may not be
+    cited or relied upon as they are not the official language of the division.
+  Any discrepancy between the language in the summary and in the opinion
+           should be resolved in favor of the language in the opinion.
+
+
+                                                                  SUMMARY
+                                                            February 8, 2018
+
+                                2018COA12
+
+No. 14CA0144, People v. Trujillo — Criminal Law — Sentencing
+— Probation — Indeterminate Sentence
+
+     A division of the court of appeals considers whether a
+
+Colorado statute authorizes imposition of a sentence to an
+
+indeterminate term of probation and whether the defendant was
+
+entitled to the benefit of amendments to the statute criminalizing
+
+theft. Relying on People v. Jenkins, 2013 COA 76, 305 P.3d 420,
+
+the division concludes that section 18-1.3-202(1), C.R.S. 2017,
+
+provides statutory authority for the imposition of an indeterminate
+
+probation sentence. Following People v. Stellabotte, 2016 COA 106,
+
+___ P.3d ___ (cert. granted Feb. 6, 2017), the majority further
+
+concludes that the defendant is entitled to the benefit of
+
+amendments to the theft statute. The partial dissent concludes
+that the amendments to the theft statute do not apply retroactively,
+
+and would therefore affirm the sentence in full.
+
+     Additionally, the division rejects the defendant’s contentions
+
+that reversal is required due to the trial court’s rejection of
+
+defense-tendered jury instructions, wrongfully admitted character
+
+evidence, and prosecutorial misconduct. However, the division
+
+remands for the trial court to make findings of fact concerning the
+
+assessment of the costs of prosecution.
+
+     Accordingly, the division affirms the conviction, affirms the
+
+sentence in part, vacates the sentence in part, and remands the
+
+case with directions.
+COLORADO COURT OF APPEALS                                          2018COA12
+
+
+Court of Appeals No. 14CA0144
+Mesa County District Court No. 11CR447
+Honorable Valerie J. Robison, Judge
+
+
+The People of the State of Colorado,
+
+Plaintiff-Appellee,
+
+v.
+
+Michael Floyd Trujillo,
+
+Defendant-Appellant.
+
+
+         JUDGMENT AFFIRMED, SENTENCE AFFIRMED IN PART AND
+        VACATED IN PART, AND CASE REMANDED WITH DIRECTIONS
+
+                                  Division I
+                        Opinion by JUDGE TAUBMAN
+                             Richman, J., concurs
+                Furman, J., concurs in part and dissents in part
+
+                          Announced February 8, 2018
+
+
+Cynthia H. Coffman, Attorney General, Joseph G. Michaels, Assistant Attorney
+General, Denver, Colorado, for Plaintiff-Appellee
+
+Douglas K. Wilson, Colorado State Public Defender, James S. Hardy, Deputy
+State Public Defender, Denver, Colorado, for Defendant-Appellant
+¶1    Defendant, Michael Floyd Trujillo, appeals his judgment of
+
+ conviction entered on a jury verdict finding him guilty of one count
+
+ of theft of more than $20,000 and one count of criminal mischief of
+
+ $20,000 or more. He also appeals his sentence. We perceive no
+
+ basis for reversing his convictions, but remand for the trial court to
+
+ make findings of fact regarding the assessment of the costs of
+
+ prosecution and to reclassify his theft conviction as a class 4 felony.
+
+                            I. Background
+
+¶2    In 2007, Trujillo began building a home, doing much of the
+
+ labor himself and initially using his own money to fund the project.
+
+ He later took out a construction loan from the victim, a bank, for
+
+ just under $255,000. After construction was completed on the
+
+ house, Trujillo stopped making his monthly loan payments. The
+
+ bank declined to restructure the loan and initiated foreclosure
+
+ proceedings in September 2010.
+
+¶3    Before the foreclosure sale, Trujillo removed or destroyed
+
+ property in the house, including kitchen cabinets, countertops,
+
+ interior and exterior doors, doorjambs and casings, flooring,
+
+ baseboards, light fixtures, bathroom fixtures, the fireplace,
+
+ handrails, the boiler, the air conditioner, and the garage door.
+
+
+                                    1
+ Because of this damage, the house was appraised at $150,000;
+
+ however, the appraiser estimated that if the house were in good
+
+ repair, it would have been worth $320,000.
+
+¶4    Trujillo was charged with defrauding a secured creditor, theft
+
+ of $20,000 or more, but less than $100,000, and criminal mischief
+
+ of $20,000 or more, but less than $100,000. The jury found him
+
+ not guilty of defrauding a secured creditor and guilty of theft and
+
+ criminal mischief.
+
+¶5    On appeal, Trujillo raises six contentions: (1) the trial court
+
+ erred in rejecting defense-tendered jury instructions; (2) the trial
+
+ court erred in allowing evidence of a prior foreclosure against
+
+ Trujillo; (3) prosecutorial misconduct during direct examination of a
+
+ witness and closing rebuttal argument warrants reversal; (4) the
+
+ trial court imposed an illegal sentence of indeterminate probation;
+
+ (5) the trial court erred in awarding the People costs of prosecution;
+
+ and (6) an amendment to the theft statute applies to his conviction.
+
+ We perceive no basis for reversal with respect to the first four
+
+ contentions, but agree with Trujillo’s final two contentions. We
+
+ therefore affirm the convictions and the sentence in part but vacate
+
+ the sentence in part and remand with directions.
+
+
+                                    2
+                          II. Jury Instructions
+
+¶6    Trujillo asserts that the trial court erred in rejecting various
+
+ jury instructions regarding his theory of the case. We disagree.
+
+                           A. Additional Facts
+
+¶7    Throughout trial, the defense’s theory of the case was that
+
+ Trujillo lacked the requisite intent to commit the charged offenses
+
+ because he believed that the property he removed from the house
+
+ belonged to him. The defense tendered five jury instructions related
+
+ to this theory of the case.
+
+¶8    Trujillo’s tendered jury instructions detailed property law
+
+ concepts. For example, the first tendered instruction stated that
+
+ “the person who has title to real property is still the owner of the
+
+ property even if there is a lien or secured interest on the property.”
+
+ Another tendered instruction defined “title,” “deed of trust,” and
+
+ “holder of a certificate of purchase[].” One instruction described the
+
+ lien theory detailed in section 38-35-117, C.R.S. 2017, and another
+
+ instructed that title to property “does not vest with the purchaser
+
+ until eight days after [a] foreclosure sale.”
+
+¶9    The trial court declined to give these instructions as tendered.
+
+ However, portions of the defense-tendered instructions were
+
+
+                                     3
+  included in a final definitional jury instruction. The final
+
+  instructions defined “deed of trust” and stated that the title to
+
+  property is transferred to the holder of the certificate of purchase
+
+  eight days after a foreclosure sale. Though it rejected other
+
+  portions of the defense-tendered instructions, the trial court
+
+  permitted defense counsel to argue the issues raised in the
+
+  instructions during closing argument.
+
+¶ 10   The defense also tendered an instruction which the trial court
+
+  modified and gave as a theory of the case instruction. That
+
+  instruction stated, “Trujillo contends that the items removed from
+
+  the home . . . were his; purchased by him and installed by him. . . .
+
+  Trujillo conten[d]s that the items that he took and damaged were
+
+  his sole property.”
+
+                         B. Standard of Review
+
+¶ 11   We review jury instructions de novo to determine whether, as
+
+  a whole, they accurately informed the jury of the governing law.
+
+  Riley v. People, 266 P.3d 1089, 1092-93 (Colo. 2011). If the jury
+
+  instructions properly inform the jury of the law, the district court
+
+  has “broad discretion to determine the form and style of jury
+
+  instructions.” Day v. Johnson, 255 P.3d 1064, 1067 (Colo. 2011).
+
+
+                                     4
+  Accordingly, we review a trial court’s decision concerning a
+
+  proposed jury instruction for an abuse of discretion and will not
+
+  disturb the ruling unless it is manifestly arbitrary, unreasonable, or
+
+  unfair. Id.
+
+¶ 12   When a defendant objects to the trial court’s ruling on a jury
+
+  instruction, we review for nonconstitutional harmless error and will
+
+  thus affirm if “there is not a reasonable probability that the error
+
+  contributed to the defendant’s conviction.” People v. Garcia, 28
+
+  P.3d 340, 344 (Colo. 2001) (quoting Salcedo v. People, 999 P.2d
+
+  833, 841 (Colo. 2000)).
+
+                            C. Applicable Law
+
+¶ 13   “[A]n instruction embodying a defendant’s theory of the case
+
+  must be given by the trial court if the record contains any evidence
+
+  to support the theory.” People v. Nunez, 841 P.2d 261, 264 (Colo.
+
+  1992). Moreover, a trial court has “an affirmative obligation” to
+
+  work with counsel to correct a tendered theory of the case
+
+  instruction “or to incorporate the substance of such in an
+
+  instruction drafted by the court.” Id. at 265; see also People v.
+
+  Tippett, 733 P.2d 1183, 1195 (Colo. 1987) (a trial court may refuse
+
+  to give an instruction already embodied in other instructions).
+
+
+                                     5
+¶ 14   In considering whether a jury was adequately informed of a
+
+  defendant’s theory of the case, a reviewing court can take into
+
+  account whether defense counsel’s closing argument “fairly
+
+  represented” the theory to the jury. People v. Dore, 997 P.2d 1214,
+
+  1222 (Colo. App. 1999).
+
+                               D. Analysis
+
+¶ 15   Trujillo contends that the trial court abused its discretion in
+
+  rejecting the tendered instructions. We disagree.
+
+¶ 16   Trujillo asserts that the tendered instructions were essential
+
+  because they communicated his theory of the case. However, the
+
+  trial court instructed the jury on his theory of the case in an
+
+  instruction that clearly stated that he believed the property he took
+
+  from the house was “his sole property.” To the extent that the trial
+
+  court had a duty to work with the defense in crafting a proper
+
+  theory of defense instruction, we conclude that the trial court
+
+  fulfilled that duty here by giving an alternative theory of the case
+
+  instruction that encompassed Trujillo’s tendered instructions. See
+
+  Nunez, 841 P.2d at 265 n.9. Moreover, the trial court specifically
+
+  stated that defense counsel would be allowed to incorporate the
+
+
+
+
+                                     6
+  property law concepts into her closing argument, which defense
+
+  counsel did.
+
+¶ 17   Trujillo asserts that the instructions he tendered were
+
+  accurate statements of property law. In contrast, the People argue
+
+  that the instructions misstated the law as it applies in criminal
+
+  prosecutions for theft and criminal mischief. Because we conclude
+
+  that the trial court did not abuse its discretion in drafting a theory
+
+  of defense instruction that encompassed the defense’s tendered
+
+  instructions, we do not address whether the rejected instructions
+
+  were accurate statements of the law.
+
+¶ 18   The jury instructions, as a whole, “fairly and adequately
+
+  cover[ed] the issues presented.” People v. Pahl, 169 P.3d 169, 183
+
+  (Colo. App. 2006). Thus, we conclude that the trial court did not
+
+  abuse its discretion in rejecting in part the defense-tendered jury
+
+  instructions.
+
+                    III. Evidence of Prior Foreclosure
+
+¶ 19   Trujillo next asserts that the trial court erred in allowing the
+
+  People to introduce evidence that another property of his had been
+
+  foreclosed. We disagree.
+
+
+
+
+                                     7
+                           A. Additional Facts
+
+¶ 20   Before trial, Trujillo filed a motion to exclude evidence of other
+
+  acts or res gestae evidence. Trujillo’s motion addressed several
+
+  categories of other acts evidence, including evidence related to any
+
+  “financial and/or legal problems” unrelated to the charged offenses.
+
+  During a motions hearing, the People stated that they did not
+
+  intend to introduce any other acts or res gestae evidence. In a
+
+  written ruling, the trial court granted Trujillo’s motion to exclude
+
+  evidence of his unrelated financial and legal problems “unless the
+
+  prosecution fe[lt] that the ‘door ha[d] been opened.’” The trial court
+
+  further ordered that, if the People felt Trujillo introduced evidence of
+
+  his other financial and legal problems, the People could request a
+
+  bench conference during trial.
+
+¶ 21   On the first day of trial, defense counsel stated that she was
+
+  withdrawing her motion to exclude other acts evidence insofar as it
+
+  pertained to evidence of Trujillo’s bankruptcy proceedings. During
+
+  her opening statement, defense counsel then mentioned those
+
+  proceedings.
+
+¶ 22   Later, the People called the bank’s former vice president as an
+
+  expert witness. During direct examination, the prosecutor asked
+
+
+                                     8
+  the witness why the bank had declined to restructure Trujillo’s
+
+  loan. The prosecutor also asked about Trujillo’s demeanor during
+
+  interactions with the bank. Trujillo objected. After a bench
+
+  conference, the trial court allowed the witness to testify on both
+
+  matters.
+
+¶ 23   Specifically, the witness testified that, during a conversation
+
+  about restructuring the loan, Trujillo “seemed like he was very
+
+  upset.” The witness recalled, “He got into [that] he had a piece of
+
+  property that [another bank] had foreclosed on and it sounded like
+
+  they had sold it for what [Trujillo] believed was a lot less, leaving
+
+  him a large deficiency balance.”
+
+¶ 24   During closing argument, the People alluded to the witness’s
+
+  testimony and referred several times to Trujillo’s general animosity
+
+  against banks.
+
+                          B. Standard of Review
+
+¶ 25   We review a trial court’s decision to admit other acts or res
+
+  gestae evidence for an abuse of discretion. People v. Jimenez, 217
+
+  P.3d 841, 846 (Colo. App. 2008). A court abuses its discretion if its
+
+  decision to admit such evidence is manifestly arbitrary,
+
+  unreasonable, or unfair. Id.
+
+
+                                      9
+¶ 26   We review a preserved claim of nonconstitutional error for
+
+  harmless error, reversing only if any error “substantially influenced
+
+  the verdict or affected the fairness of the trial proceedings.” Hagos
+
+  v. People, 2012 CO 63, ¶ 12, 288 P.3d 116, 119 (quoting Tevlin v.
+
+  People, 715 P.2d 338, 342 (Colo. 1986)).
+
+                           C. Applicable Law
+
+¶ 27   Evidence is relevant if it has “any tendency to make the
+
+  existence of any fact that is of consequence to the determination of
+
+  the action more probable or less probable than it would be without
+
+  the evidence.” CRE 401. Generally speaking, “[t]he Colorado Rules
+
+  of Evidence strongly favor the admission of relevant evidence.”
+
+  People v. Brown, 2014 COA 155M-2, ¶ 22, 360 P.3d 167, 172.
+
+  However, relevant evidence is nevertheless inadmissible when “its
+
+  probative value is substantially outweighed by the danger of unfair
+
+  prejudice, confusion of the issues, or misleading the jury.” CRE
+
+  403. Similarly, evidence of “other crimes, wrongs, or acts” is
+
+  inadmissible to prove a person’s character “in order to show that he
+
+  acted in conformity therewith,” though it may be admissible for
+
+  other purposes, including proving intent. CRE 404(b).
+
+
+
+
+                                    10
+¶ 28   “Res gestae is a theory of relevance which recognizes that
+
+  certain evidence is relevant because of its unique relationship to the
+
+  charged crime.” People v. Greenlee, 200 P.3d 363, 368 (Colo. 2009).
+
+  However, “there is no need to consider an alternative theory of
+
+  relevance, such as res gestae, where the evidence is admissible
+
+  under general rules of relevancy.” Id.
+
+                               D. Analysis
+
+¶ 29   Trujillo contends that the evidence of the prior foreclosure
+
+  action portrayed him as a “serial defaulter” and was impermissible
+
+  under CRE 404(b) and 403. The People assert that the evidence
+
+  was admissible as “directly relevant” to Trujillo’s intent and motive.
+
+  In the alternative, the People argue that the evidence was res gestae
+
+  evidence. We agree with the People’s first argument that the
+
+  evidence was admissible under CRE 401, and was not barred by
+
+  CRE 403.1
+
+
+
+  1 During the bench conference, the trial court allowed the bank’s
+  former vice president to testify after conducting an abbreviated CRE
+  404(b) analysis that did not specifically address the four-factor test
+  set forth in People v. Spoto, 795 P.2d 1314, 1318 (Colo. 1990). The
+  trial court did not admit the evidence under the res gestae doctrine.
+  However, we can affirm a trial court’s evidentiary ruling on any
+  ground supported by the record, “even if that ground was not
+
+                                    11
+¶ 30   The evidence of the prior foreclosure was probative of the
+
+  interactions between Trujillo and the bank — it made it more
+
+  probable that Trujillo had the requisite intent to commit theft. It
+
+  was therefore relevant under CRE 401. Further, the risk of unfair
+
+  prejudice did not substantially outweigh the probative value of the
+
+  evidence, especially where the prior foreclosure was referenced only
+
+  in passing and the details of that foreclosure were not revealed.
+
+  Thus, the evidence was not barred by CRE 403.
+
+¶ 31   Because we conclude that the evidence of the prior foreclosure
+
+  was relevant under CRE 401 and admissible under CRE 403, we
+
+  need not address whether the evidence was res gestae evidence or
+
+  “other acts” evidence under CRE 404(b). See Greenlee, 200 P.3d at
+
+  368-69. Accordingly, we conclude that the trial court did not err in
+
+  allowing the testimony concerning the prior foreclosure action.
+
+                      IV. Prosecutorial Misconduct
+
+¶ 32   Trujillo argues that the prosecutor improperly commented on
+
+  the district attorney’s screening process for bringing charges and
+
+
+
+
+  articulated or considered by the trial court.” People v. Phillips, 2012
+  COA 176, ¶ 63, 315 P.3d 136, 153.
+
+                                    12
+  Trujillo’s right not to testify, and improperly denigrated defense
+
+  counsel. We perceive no basis for reversal.
+
+                           A. Additional Facts
+
+¶ 33   During redirect examination of one of the People’s expert
+
+  witnesses, an attorney who worked at the bank, the prosecutor
+
+  asked whether the bank played a role in charging Trujillo. The
+
+  prosecutor asked if the witness himself made the decision to file a
+
+  criminal case, to which the witness replied, “No.” The prosecutor
+
+  then asked, “[W]ho is it, according to your understanding, that
+
+  makes those decisions on whether a case gets filed criminally?” The
+
+  witness responded, “A complaint’s made to a police department or
+
+  sheriff’s department and they make that decision in conjunction
+
+  with I believe you.” The prosecutor clarified that “you” meant the
+
+  district attorney’s office. The defense did not object.
+
+¶ 34   During rebuttal closing argument, the prosecutor said,
+
+             Did you hear all that? [Defense counsel]’s
+             talking about all of this stuff, about what
+             Trujillo’s intent was. And then did you hear
+             her towards the end what she did? She says,
+             and correct – this part was correct of what she
+             said. My job is to prove intent, right. That is
+             my burden. And she’s absolutely right. The
+             Defendant has every right to remain silent,
+
+
+
+                                    13
+            and he exercised that right and that is
+            something that you cannot use against him.
+
+            But it is completely ridiculous for [defense
+            counsel] to get up here and say that [Trujillo]
+            didn’t testify to what his intent was and then
+            to go on and talk about what his intent
+            actually was. We don’t know what his intent
+            was because he never testified to that, which
+            he has every right to do. But did you hear
+            her? She’s up here saying his intent was this.
+
+¶ 35   Trujillo objected on the basis that the prosecutor was
+
+  denigrating defense counsel. The trial court sustained the objection
+
+  as to the prosecutor’s tone, but overruled it as to content. The
+
+  prosecutor then argued, “[I]f you go out and run somebody over and
+
+  – and think that you had the right to do that, is that gonna be a
+
+  legitimate defense by saying, well, I thought I could do that. I didn’t
+
+  – nobody ever told me. Nobody put it in writing. When I bought my
+
+  car, in the instruction manual, nothing said that about that. That’s
+
+  preposterous.” Trujillo did not renew his objection.
+
+                         B. Standard of Review
+
+¶ 36   In reviewing alleged prosecutorial misconduct, an appellate
+
+  court engages in a two-step analysis. First, we determine whether
+
+  the prosecutor’s conduct was improper based on the totality of the
+
+  circumstances. Wend v. People, 235 P.3d 1089, 1096 (Colo. 2010).
+
+
+                                    14
+  Second, we determine whether any misconduct warrants reversal
+
+  under the proper standard of review. Id.
+
+¶ 37   When the alleged misconduct is objected to at trial and is of
+
+  constitutional magnitude, we review for constitutional harmless
+
+  error. Id. When the alleged misconduct is not of a constitutional
+
+  magnitude, and when the defense objected at trial, we subject the
+
+  prosecutorial misconduct to harmless error review. Id. at 1097.
+
+  Such prosecutorial misconduct will be considered harmless
+
+  “whenever there is no reasonable probability that it contributed to
+
+  the defendant’s conviction.” Crider v. People, 186 P.3d 39, 42 (Colo.
+
+  2008). When the defense did not object to the misconduct, we
+
+  review for plain error. Wend, 235 P.3d at 1097-98.
+
+                           C. Applicable Law
+
+¶ 38   A prosecutor cannot comment on a “screening process” for
+
+  charging cases “because it both hints that additional evidence
+
+  supporting guilt exists and reveals the personal opinion of the
+
+  prosecutor.” Domingo-Gomez v. People, 125 P.3d 1043, 1052 (Colo.
+
+  2005). It is also improper for a prosecutor to make remarks “for the
+
+  obvious purpose of denigrating defense counsel.” People v. Jones,
+
+  832 P.2d 1036, 1038 (Colo. App. 1991). It is similarly improper for
+
+
+                                   15
+  a prosecutor to comment on a defendant’s decision not to testify.
+
+  Griffin v. California, 380 U.S. 609, 614 (1965); see also People v.
+
+  Martinez, 652 P.2d 174, 177 (Colo. App. 1981) (noting that a
+
+  prosecutor’s comment on a defendant’s silence constitutes
+
+  reversible error when “the prosecution argued that such silence
+
+  constituted an implied admission of guilt”).
+
+¶ 39   Nevertheless, “[a] prosecutor is allowed considerable latitude
+
+  in responding to the argument made by opposing counsel.” People
+
+  v. Ramirez, 997 P.2d 1200, 1211 (Colo. App. 1999), aff’d, 43 P.3d
+
+  611 (Colo. 2001). Further, “[a]lthough it is improper for a
+
+  prosecutor to assert that opposing counsel knows that the
+
+  accused’s case is not meritorious,” the prosecutor may permissibly
+
+  argue “that the evidence in support of defendant’s innocence lacked
+
+  substance.” Id. at 1211; see also People v. Samson, 2012 COA 167,
+
+  ¶ 31, 302 P.3d 311, 317 (stating that a prosecutor may permissibly
+
+  “comment on the absence of evidence to support a defendant’s
+
+  contentions”).
+
+¶ 40   Appellate courts consider several factors in determining
+
+  whether prosecutorial misconduct was prejudicial, including the
+
+  nature of the error, the pervasiveness of the misconduct, the
+
+
+                                    16
+  context, and the overall strength of the evidence supporting the
+
+  conviction. People v. McBride, 228 P.3d 216, 225 (Colo. App. 2009);
+
+  see also Crider, 186 P.3d at 43. For example, a reviewing court may
+
+  consider whether proper jury instructions mitigated the prejudicial
+
+  effect of prosecutorial misconduct. See People v. Castillo, 2014 COA
+
+  140M, ¶ 78, ___ P.3d ___, ___ (concluding prosecutor’s
+
+  misstatements were harmless in light of instructions from the trial
+
+  court and the defense’s closing argument) (cert. granted in part Nov.
+
+  23, 2015).
+
+                               D. Analysis
+
+¶ 41   Trujillo contends that three instances of prosecutorial
+
+  misconduct require reversal. We disagree.
+
+¶ 42   Trujillo first contends that the prosecutor improperly referred
+
+  to a screening process while examining the expert witness. We
+
+  perceive no prosecutorial misconduct. The prosecutor here did not
+
+  imply that he had engaged in a screening process to “weed out the
+
+  weaker cases and, implicitly, that the State d[id] not consider this a
+
+  weak case.” Domingo-Gomez, 125 P.3d at 1052 (concluding the
+
+  prosecutor’s comment that “it takes a lot more than somebody
+
+  saying that person did it” to bring charges was improper). Rather,
+
+
+                                    17
+  the prosecutor clarified that the bank did not bring criminal
+
+  charges and that the witness himself did not stand to gain as a
+
+  result of Trujillo’s conviction. The People assert, and we agree, that
+
+  the prosecutor’s question merely elicited testimony to establish that
+
+  the district attorney’s office was responsible for pursuing the
+
+  criminal charges against Trujillo.
+
+¶ 43   Second, Trujillo asserts that the prosecutor impermissibly
+
+  commented on his decision not to testify. We disagree. Even if we
+
+  assume the comment on Trujillo’s decision not to testify was
+
+  improper, not every comment on a defendant’s choice not to testify
+
+  requires reversal. See Martinez, 652 P.2d at 177. “The determining
+
+  factor is whether the defendant’s silence was used by the
+
+  prosecution as a means of creating an inference of guilt,” id., and
+
+  we conclude that the prosecutor’s comments here did not raise
+
+  such an inference.
+
+¶ 44   Finally, Trujillo contends that the prosecutor impermissibly
+
+  denigrated defense counsel and the defense’s theory of the case
+
+  during rebuttal closing argument. We agree that the prosecutor
+
+  improperly denigrated defense counsel and the defense’s theory of
+
+
+
+
+                                       18
+  the case when he characterized her arguments as “completely
+
+  ridiculous” and “preposterous.”
+
+¶ 45   However, we perceive no basis for reversal as a result of these
+
+  improper remarks. The comments were limited to the People’s
+
+  rebuttal closing argument. Moreover, significant evidence
+
+  corroborated the jury’s finding of guilt — specifically, the
+
+  undisputed evidence that Trujillo had removed an extensive amount
+
+  of property from the house. Viewing the record as a whole, we
+
+  cannot say that there was a “reasonable probability” that the
+
+  prosecutor’s remarks denigrating defense counsel contributed to
+
+  Trujillo’s convictions. See Crider, 186 P.3d at 42. Thus, we
+
+  determine the error was harmless.
+
+¶ 46   In sum, though we agree that the prosecutor improperly
+
+  denigrated defense counsel, we perceive no basis for reversal.
+
+                       V. Indeterminate Probation
+
+¶ 47   Trujillo contends that the trial court did not have the statutory
+
+  authority to sentence him to indeterminate probation. We disagree.
+
+                           A. Additional Facts
+
+¶ 48   During the sentencing hearing, the People requested that
+
+  Trujillo be placed on a “long period of probation . . . somewhere in
+
+
+                                    19
+  the neighborhood of eight to ten years” because they anticipated
+
+  that Trujillo would be ordered to pay substantial restitution.2
+
+  Trujillo requested unsupervised probation with a collections
+
+  investigator monitoring his restitution payments.
+
+¶ 49   The trial court imposed an “indefinite probation sentence”
+
+  because of the substantial restitution that Trujillo was expected to
+
+  owe. In imposing an indeterminate probation sentence, the trial
+
+  court stated, “There is case law that talks about whether
+
+  [indeterminate probation] is something that can or should be
+
+  imposed and it’s certainly something that is allowed regardless of
+
+  the type of conviction that has been entered.”
+
+¶ 50   The mittimus states that the sentence imposed was a term of
+
+  probation for seven years to life.
+
+                          B. Standard of Review
+
+¶ 51   The People contend that we should not consider this claim
+
+  because a sentence to probation is not ordinarily subject to
+
+
+
+  2 The trial court ultimately ordered Trujillo to pay $171,421.97 in
+  restitution. Trujillo separately appealed that order, and a division
+  of this court affirmed in part, reversed in part, and remanded for
+  reconsideration. People v. Trujillo, (Colo. App. No. 14CA2486, Oct.
+  5, 2017) (not published pursuant to C.A.R. 35(e)).
+
+                                       20
+  appellate review. However, “where, as here, a defendant contends
+
+  that ‘a court has exceeded its statutory authority’ in imposing a
+
+  probationary sentence, appellate review is warranted.” People v.
+
+  Jenkins, 2013 COA 76, ¶ 10, 305 P.3d 420, 423 (quoting People v.
+
+  Rossman, 140 P.3d 172, 174 (Colo. App. 2006)).
+
+¶ 52   “We review sentencing decisions that are within the statutory
+
+  range for an abuse of discretion.” People v. Torrez, 2013 COA 37,
+
+  ¶ 71, 316 P.3d 25, 37. However, where the defendant contends that
+
+  a court exceeded its statutory sentencing authority, our inquiry
+
+  involves statutory interpretation. Jenkins, ¶ 12, 305 P.3d at 423.
+
+  We review such issues of statutory interpretation de novo. Id.
+
+                           C. Applicable Law
+
+¶ 53   Under section 18-1.3-202(1)(a), C.R.S. 2017, a trial court “may
+
+  grant the defendant probation for such period and upon such terms
+
+  and conditions as it deems best.” Further, “[t]he length of probation
+
+  shall be subject to the discretion of the court and may exceed the
+
+  maximum period of incarceration authorized for the classification of
+
+  the offense of which the defendant is convicted.” Id.
+
+¶ 54   In Jenkins, a division of this court concluded that section 18-
+
+  1.3-202(1) “authorizes a trial court to impose an indeterminate term
+
+
+                                   21
+  of probation.” Jenkins, ¶ 38, 305 P.3d at 426. The Jenkins division
+
+  bolstered its conclusion by looking to the plain language of the
+
+  statute — which the division noted “contemplate[s] both
+
+  determinate and indeterminate terms of probation” — and to the
+
+  provision’s legislative history. Id. at ¶¶ 40, 42, 46, 305 P.3d at 426-
+
+  28. Finally, the division noted that section 18-1.3-202(1) “generally
+
+  pertains to a broad class of cases, and it simply allows a trial court
+
+  to elect an indeterminate term if it sentences an offender who has
+
+  been convicted of a felony to probation.” Id. at ¶ 50, 305 P.3d at
+
+  428 (upholding probationary sentence of ten years to life); see also
+
+  People v. Martinez, 844 P.2d 1203, 1206 (Colo. App. 1992)
+
+  (concluding that a trial court has authority to impose a term of
+
+  probation that exceeds the sentence to imprisonment in the
+
+  statutory aggravated range for an offense).
+
+                               D. Analysis
+
+¶ 55   Trujillo asserts that the trial court exceeded its statutory
+
+  authority in imposing an indeterminate probationary sentence. We
+
+  disagree.
+
+¶ 56   Like the Jenkins division, we conclude that section 18-1.3-
+
+  202(1) gives a trial court the authority to sentence a defendant
+
+
+                                    22
+  convicted of a felony to an indefinite probationary period. Trujillo
+
+  urges that the statute limits a trial court’s authority to impose an
+
+  indeterminate probation sentence. Under Trujillo’s logic, a sentence
+
+  to probation for 100 years is permissible, but an indeterminate
+
+  probation sentence is outside the trial court’s statutory authority.
+
+  The statute offers no basis for reaching this conclusion.
+
+¶ 57   Trujillo asserts that Jenkins is distinguishable because that
+
+  case concerned whether a defendant convicted of a sex offense not
+
+  falling under the supervision scheme of the Colorado Sex Offender
+
+  Lifetime Supervision Act of 1998 (SOLSA), see §§ 18-1.3-1001
+
+  to -1012, C.R.S. 2017, could nevertheless be sentenced to
+
+  indeterminate probation. Jenkins, ¶ 1, 305 P.3d at 422. Trujillo
+
+  contends that Jenkins was limited to the particular circumstances
+
+  of that case, and does not widely apply to all offenses and
+
+  defendants. However, the Jenkins division made clear that section
+
+  18-1.3-202(1) “establishes a general rule as far as the possibility of
+
+  an indeterminate probationary term for felonies” and “authorizes a
+
+  trial court to impose an indeterminate term of probation.” Id. at
+
+  ¶¶ 38, 50, 305 P.3d at 426, 428. In fact, Jenkins explicitly rejected
+
+  the argument that a sentence of indeterminate probation could be
+
+
+                                    23
+  imposed only in sex offense cases subject to SOLSA. Id. at ¶¶ 49-
+
+  50, 305 P.3d at 428. Thus, Trujillo’s argument that Jenkins is
+
+  limited to sex offenses is unavailing.
+
+¶ 58   In sum, we conclude that the trial court did not exceed its
+
+  statutory authority in imposing the probation sentence here.
+
+                         VI. Costs of Prosecution
+
+¶ 59   Trujillo next asserts that the trial court erred in awarding the
+
+  full costs of prosecution requested by the People without making a
+
+  finding on whether any portion of the costs was attributable to the
+
+  charge on which he was acquitted. We agree.
+
+                           A. Additional Facts
+
+¶ 60   Before sentencing, the People moved for reimbursement of the
+
+  costs of prosecution pursuant to section 18-1.3-701, C.R.S. 2017.
+
+  The People requested $768.70. Trujillo opposed the motion on the
+
+  basis that the People bore responsibility for the costs incurred to
+
+  prove the defrauding a secured creditor charge, of which Trujillo
+
+  was acquitted.
+
+¶ 61   During the sentencing hearing, the trial court awarded the
+
+  requested costs of prosecution, ordering Trujillo to pay $768.70.
+
+
+
+
+                                    24
+                          B. Standard of Review
+
+¶ 62   The trial court, in its discretion, may assess reasonable and
+
+  necessary costs of prosecution against a convicted defendant. See
+
+  § 18-1.3-701(2)(j.5). Thus, we review an assessment of costs of
+
+  prosecution for an abuse of discretion, reversing if the trial court’s
+
+  determination is manifestly arbitrary, unreasonable, or unfair,
+
+  People v. Palomo, 272 P.3d 1106, 1110 (Colo. App. 2011), or if the
+
+  trial court misapplied the law, People v. Jefferson, 2017 CO 35,
+
+  ¶ 25, 393 P.3d 493, 499.
+
+                             C. Applicable Law
+
+¶ 63   Under section 16-18-101(1), C.R.S. 2017, the state bears the
+
+  costs of prosecution when a defendant is acquitted. Such costs
+
+  may include witness fees, mileage, lodging expenses, transportation
+
+  costs, and other reasonable and necessary costs that directly result
+
+  from prosecuting the defendant. § 18-1.3-701(2); see also People v.
+
+  Sinovcic, 2013 COA 38, ¶¶ 15-16, 304 P.3d 1176, 1179. If a
+
+  defendant is convicted of fewer than all of the charged counts, the
+
+  court may assess only those costs attributable to the counts for
+
+  which the defendant was convicted, if an allocation is practicable.
+
+  Palomo, 272 P.3d at 1112.
+
+
+                                    25
+                               D. Analysis
+
+¶ 64   Trujillo asserts that the trial court erred in not making a
+
+  finding as to whether some portion of the requested costs of
+
+  prosecution were allocable to the acquitted charge. We agree.
+
+¶ 65   As Trujillo concedes, it is possible that the costs cannot be
+
+  allocated between the charge on which he was acquitted and the
+
+  two charges on which he was convicted. However, the trial court
+
+  did not find that such an allocation was impracticable. Because the
+
+  trial court was required to consider whether some portion of the
+
+  requested costs was practicably attributable to the acquitted
+
+  charge, the trial court abused its discretion. See DeBella v. People,
+
+  233 P.3d 664, 667 (Colo. 2010) (failure to exercise discretion
+
+  constitutes an abuse of the court’s discretion).
+
+¶ 66   Accordingly, we vacate the order awarding the People costs of
+
+  prosecution and remand for the trial court to make appropriate
+
+  findings of fact and “assess only those costs that are related to the
+
+  prosecution of the . . . counts of which [Trujillo] was convicted, to
+
+  the extent an allocation is practicable.” Palomo, 272 P.3d at 1113.
+
+
+
+
+                                    26
+                    VII. Amendment to Theft Statute
+
+¶ 67   Trujillo contends that he should have benefited from an
+
+  amendment to the theft statute reclassifying theft between $20,000
+
+  and $100,000 as a class 4 felony. We agree.
+
+                            A. Additional Facts
+
+¶ 68   The General Assembly amended the theft statute on June 5,
+
+  2013. See Ch. 373, sec. 1, § 18-4-401, 2013 Colo. Sess. Laws
+
+  2196. Under the amended statute, theft between $20,000 and
+
+  $100,000 constitutes a class 4 felony. See § 18-4-401(2)(h), C.R.S.
+
+  2017. Prior to the amendment, theft over $20,000 constituted a
+
+  class 3 felony. § 18-4-401(2)(d), C.R.S. 2011.
+
+¶ 69   Trujillo was charged with theft of $20,000 or more in April
+
+  2011. He was convicted in October 2013 and sentenced in
+
+  December 2013. His theft conviction was recorded on the mittimus
+
+  as a class 3 felony.
+
+                         B. Standard of Review
+
+¶ 70   The People assert that, because Trujillo did not make this
+
+  argument before the trial court, we should review only for plain
+
+  error. However, the division in People v. Stellabotte rejected this
+
+  argument. 2016 COA 106, ¶ 42, ___ P.3d ___, ___ (noting that plain
+
+
+                                    27
+  error review was inappropriate because “a defendant may raise a
+
+  claim at any time that his or her sentence was not authorized by
+
+  law”) (cert. granted Feb. 6, 2017). Following Stellabotte, we review
+
+  the legality of the sentence de novo. Id. at ¶ 4, ___ P.3d at ___.
+
+                             C. Applicable Law
+
+¶ 71   In determining whether to apply amendments to legislation,
+
+  we first look to the plain language of the statute. People v.
+
+  Summers, 208 P.3d 251, 253-54 (Colo. 2009). If a statute explicitly
+
+  states that it applies only to offenses committed after the effective
+
+  date, it must be applied accordingly. See People v. McCoy, 764 P.2d
+
+  1171, 1174 (Colo. 1988).
+
+¶ 72   As a general rule, “[a] statute is presumed to be prospective in
+
+  its operation.” § 2-4-202, C.R.S. 2017. However, if a statute is
+
+  silent as to whether it applies only prospectively, a defendant may
+
+  seek retroactive application if he or she benefits from a significant
+
+  change in the law. § 18-1-410(1)(f)(I), C.R.S. 2017; see also People
+
+  v. Thornton, 187 Colo. 202, 203, 529 P.2d 628, 628 (1974) (allowing
+
+  defendant to seek relief on direct appeal under statute).
+
+¶ 73   In Stellabotte, a division of this court concluded that the
+
+  amendatory theft legislation “applies retroactively to cases pending
+
+
+                                    28
+  in the trial court when the amendment was enacted.” Stellabotte,
+
+  ¶ 45, ___ P.3d at ___; People v. Patton, 2016 COA 187, ¶ 32, ___ P.3d
+
+  ___, ___; see also People v. Patton, (Colo. App. No. 14CA2359, Aug.
+
+  11, 2016) (not published pursuant to C.A.R. 35(e)) (cert. granted
+
+  Feb. 6, 2017).
+
+                                D. Analysis
+
+¶ 74   Trujillo contends that the amendment to the theft statute
+
+  requires that we vacate his sentence and remand for the trial court
+
+  to enter his theft conviction as a class 4 felony. We agree.
+
+¶ 75   As the division noted in Stellabotte, the theft amendment does
+
+  not explicitly state that it is either retroactive or prospective.
+
+  Stellabotte, ¶ 45, ___ P.3d at ___. In the face of this legislative
+
+  silence, the division held that a defendant who committed theft
+
+  prior to the statutory amendment but was not convicted until after
+
+  its passage was entitled to the benefit retroactively. See id. at
+
+  ¶¶ 39, 45, ___ P.3d at ___. The same is true here.
+
+¶ 76   Trujillo was charged with theft before the statute was
+
+  amended, but was not convicted or sentenced until after the
+
+  General Assembly lowered the classification for theft between
+
+
+
+
+                                      29
+  $20,000 and $100,000.3 Thus, like the defendant in Stellabotte,
+
+  Trujillo is entitled to the benefit of the amendment. As a result, we
+
+  vacate the sentence for the theft conviction and remand for the
+
+  conviction to be entered as a class 4 felony.
+
+¶ 77   The partial dissent looks to several statutory provisions in
+
+  support of its conclusion that Trujillo is not entitled to the benefit of
+
+  the amendatory legislation. First, the partial dissent cites section
+
+  2-4-202, which states the general presumption that statutes apply
+
+  prospectively. However, as the division noted in Stellabotte, section
+
+  18-1-410 is a specific exception to the general rule expressed in
+
+  section 2-4-202. Stellabotte, ¶ 47 n.4, ___ P.3d at ___ n.4. We
+
+  agree with that analysis. Thus, the general presumption that
+
+  statutes apply prospectively does not apply here where Trujillo
+
+  seeks the benefit of a “significant change in the law, . . . allowing in
+
+
+
+
+  3 Trujillo asserts that the theft was between $20,000 and $100,000
+  based on testimony from trial. The People do not contest the value
+  of the stolen property in this case. We therefore assume that
+  Trujillo’s offense properly fell within the value range set forth in
+  section 18-4-401(2)(h), C.R.S. 2017.
+
+                                     30
+  the interests of justice retroactive application of the changed legal
+
+  standard.”4 § 18-1-410(1)(f)(I).
+
+¶ 78   The partial dissent also invokes section 2-4-303, C.R.S. 2017,
+
+  in support of its conclusion. Section 2-4-303 states:
+
+             The repeal, revision, amendment, or
+             consolidation of any statute or part of a statute
+             or section or part of a section of any statute
+             shall not have the effect to release, extinguish,
+             alter, modify, or change in whole or in part any
+             penalty, forfeiture, or liability, either civil or
+             criminal, which shall have been incurred
+             under such statute, unless the repealing,
+             revising, amending, or consolidating act so
+             expressly provides.
+
+¶ 79   However, the supreme court has noted that the “general
+
+  saving” provision codified in this statute is not applicable to
+
+  criminal cases; instead, the court noted in dictum that it “has
+
+
+  4 The partial dissent also asserts that section 18-1-410(1)(f)(I),
+  C.R.S. 2017, does not provide any relief to Trujillo because that
+  provision requires that “there has been significant change in the
+  law, applied to the [defendant’s] conviction or sentence.” The
+  partial dissent asserts that the phrase “applied to” requires that the
+  legislation expressly state that it applies retroactively. We disagree
+  with that interpretation, and believe that our view finds authority in
+  supreme court case law. See People v. Thomas, 185 Colo. 395, 397,
+  525 P.2d 1136, 1137 (1974) (noting that “[t]he legislature intended
+  the changed legal standards to apply wherever constitutionally
+  permissible” but making no mention of whether the amendatory
+  legislation reclassifying attempted second degree burglary explicitly
+  stated that it applied retroactively).
+
+                                     31
+  consistently adhered to the principle . . . that a defendant is entitled
+
+  to the benefits of amendatory legislation when relief is sought before
+
+  finality has attached to the judgment of conviction.” Noe v. Dolan,
+
+  197 Colo. 32, 36 n.3, 589 P.2d 483, 486 n.3 (1979).
+
+¶ 80   In People v. Boyd, a division of the court of appeals concluded
+
+  that section 2-4-303 did not prevent the retroactive effect of an
+
+  amendatory constitutional provision. 2015 COA 109, ¶ 27, 395
+
+  P.3d 1128, 1134, aff’d, 2017 CO 2, 387 P.3d 755.5 The division
+
+  noted the supreme court’s language in Noe. Id. at ¶ 28, 395 P.3d at
+
+  1134. To the extent that other supreme court cases included
+
+  contrary statements, the Boyd division concluded that such
+
+  statements were dicta and that the supreme court had not
+
+  overruled or disapproved of either Noe or People v. Thomas, 185
+
+  Colo. 395, 398, 525 P.2d 1136, 1138 (1974) (holding that
+
+  “amendatory legislation mitigating the penalties for crimes should
+
+  be applied to any case which has not received final judgment”).
+
+
+
+  5 The supreme court in Boyd affirmed the Court of Appeals decision
+  on different grounds, concluding that the marijuana criminal
+  offense statute had been rendered inoperative by Amendment 64.
+  Neither the majority nor the dissent in Boyd cited section 2-4-303,
+  C.R.S. 2017.
+
+                                    32
+  Boyd, ¶¶ 29-30, 395 P.3d at 1134-35. Finally, the Boyd division
+
+  concluded that section 18-1-410(1)(f)(I) controls over section 2-4-
+
+  303 because the former sets forth a specific exception to the latter,
+
+  which codifies a “general rule[] of construction regarding
+
+  prospective effect for amendatory legislation.” Id. at ¶¶ 31-32, 395
+
+  P.3d at 1135. We agree with the Boyd division’s analysis and
+
+  therefore do not perceive section 2-4-303 as a bar to the relief
+
+  Trujillo seeks.
+
+¶ 81   In making its statutory arguments, the partial dissent relies
+
+  on the plain meaning of both section 2-4-303 and section 18-1-
+
+  410(1)(f)(I). However, as discussed, the supreme court has not
+
+  given either provision its plain meaning. Despite express reference
+
+  in section 2-4-303 to civil and criminal penalties, the supreme court
+
+  has indicated that the provision does not apply to criminal cases.
+
+  Noe, 197 Colo. at 36 n.3, 589 P.2d at 486 n.3. Similarly, while
+
+  section 18-1-410(1)(f)(I) by its express terms applies to defendants
+
+  seeking postconviction relief, the supreme court has held that the
+
+  statute also extends to defendants seeking relief on direct appeal.
+
+  Thornton, 187 Colo. at 203, 529 P.2d at 628. In light of the
+
+
+
+
+                                    33
+  supreme court’s interpretation of these statutes, we cannot give
+
+  them the meanings that the partial dissent ascribes to them.
+
+¶ 82   Finally, the partial dissent also relies on Riley v. People, in
+
+  which the supreme court noted that it has “emphasized that a
+
+  defendant is not entitled to the ameliorative effects of amendatory
+
+  legislation if the General Assembly has not clearly indicated its
+
+  intent to require such retroactive application.” 828 P.2d 254, 258
+
+  (Colo. 1992). However, we do not consider this statement to have
+
+  the controlling effect the partial dissent gives it. In Riley, the
+
+  defendant committed a crime in April 1988 and sought relief under
+
+  two sentencing provisions that expressly stated they applied to acts
+
+  “committed on or after” July 1, 1988. Id. at 255-56. The Riley
+
+  court held the defendant there was not entitled to relief because
+
+  applying the statutes retroactively would require the court to ignore
+
+  the “clear legislative determination” that the amended sentencing
+
+  provisions would apply only to acts after that date. Id. at 257.
+
+¶ 83   Thus, Riley is readily distinguishable from the present case,
+
+  where the amendments to the theft statute do not expressly provide
+
+  an effective date, and the language relied on by the partial dissent is
+
+  dicta. Accord McCoy, 764 P.2d at 1174 (noting that, where
+
+
+                                     34
+  legislation expressly stated it applied to acts committed on or after
+
+  its effective date, a “defendant does not receive any ameliorative
+
+  benefit” because “retroactive application of the amendatory
+
+  legislation is clearly not intended by its own terms”); People v.
+
+  Macias, 631 P.2d 584, 587 (Colo. 1981) (same).
+
+¶ 84   Thus, we conclude, in accordance with Stellabotte, that Trujillo
+
+  should receive the benefit of the amendment to the theft statute
+
+  reclassifying theft between $20,000 and $100,000 as a class 4
+
+  felony. See Stellabotte, ¶ 40, ___ P.3d at ___.
+
+                               VIII. Conclusion
+
+¶ 85   Accordingly, the judgment of conviction is affirmed. The
+
+  sentence is affirmed in part and vacated in part, and the case is
+
+  remanded for further proceedings consistent with the views
+
+  expressed in this opinion.
+
+       JUDGE RICHMAN concurs.
+
+       JUDGE FURMAN concurs in part and dissents in part.
+
+
+
+
+                                     35
+          JUDGE FURMAN, concurring in part and dissenting in part.
+
+¶ 86      I respectfully dissent from the majority’s opinion only as to the
+
+  effect of the 2013 amendments to the theft statute. I conclude that
+
+  the 2013 amendments to the theft statute do not apply retroactively
+
+  to Trujillo’s case. I reach this conclusion for several reasons.
+
+¶ 87      First, the General Assembly has made it clear that a “statute is
+
+  presumed to be prospective in its operation.” § 2-4-202, C.R.S.
+
+  2017. The 2013 amendments to the theft statute are silent as to
+
+  whether they apply prospectively or retroactively. Therefore, I
+
+  presume that the 2013 amendments are prospective in operation
+
+  and do not apply to Trujillo’s offense, which occurred before 2013.
+
+  See id.
+
+¶ 88      Second, an amendment to a criminal statute does not change
+
+  the penalty for crimes already committed under the statute unless
+
+  the amendatory legislation expressly provides for such a change.
+
+  See § 2-4-303, C.R.S. 2017. Section 2-4-303 provides, in relevant
+
+  part:
+
+               The . . . amendment . . . of any statute or part
+               of a statute . . . shall not have the effect to
+               release, extinguish, alter, modify, or change in
+               whole or in part any penalty, forfeiture, or
+               liability, either civil or criminal, which shall
+
+
+                                      36
+             have been incurred under such statute, unless
+             the . . . amending . . . act so expressly
+             provides, and such statute or part of a statute
+             . . . so . . . amended . . . shall be treated and
+             held as still remaining in force for the purpose
+             of sustaining any and all proper actions, suits,
+             proceedings, and prosecutions, criminal as
+             well as civil, for the enforcement of such
+             penalty, forfeiture, or liability, as well as for
+             the purpose of sustaining any judgment,
+             decree, or order which can or may be rendered,
+             entered, or made in such actions, suits,
+             proceedings, or prosecutions imposing,
+             inflicting, or declaring such penalty, forfeiture,
+             or liability.
+
+  Because the 2013 amendments to the theft statute do not expressly
+
+  provide that they apply retroactively, and Trujillo committed his
+
+  crime before 2013, he is liable for theft as it was defined when he
+
+  committed the offense. See id.
+
+¶ 89   Third, in Riley v. People, 828 P.2d 254, 258 (Colo. 1992), our
+
+  supreme court “emphasized that a defendant is not entitled to the
+
+  ameliorative effects of amendatory legislation if the General
+
+  Assembly has not clearly indicated its intent to require such
+
+  retroactive application.” Id. I consider this statement by the
+
+  supreme court about its own jurisprudence on this issue to be
+
+  controlling.
+
+
+
+
+                                    37
+¶ 90   Fourth, section 18-1-410(1)(f)(I), C.R.S. 2017, does not allow
+
+  Trujillo, on direct appeal, to seek retroactive application of the 2013
+
+  amendments to his case. Section 18-1-410(1)(f)(I) allows a
+
+  defendant to seek retroactive application of a “significant change in
+
+  the law, applied to” a defendant’s “conviction or sentence.” I believe
+
+  that the phrase “applied to” reflects the General Assembly’s intent
+
+  that, for amendatory legislation to apply retroactively to a
+
+  defendant’s conviction or sentence, the legislation must state that it
+
+  applies retroactively. Thus, because, as noted, the 2013
+
+  amendments do not state that they apply retroactively to Trujillo’s
+
+  conviction and sentence, he may not seek retroactive application
+
+  under section 18-1-410(1)(f)(I).
+
+¶ 91   Finally, and with all due respect, I decline to follow People v.
+
+  Stellabotte, 2016 COA 106 (cert. granted Feb. 6, 2017). Indeed, I
+
+  agree with Judge Dailey’s dissent in Stellabotte. See id. at ¶¶ 62-70
+
+  (Dailey, J., concurring in part and dissenting in part).
+
+
+
+
+                                     38

@@ -1,0 +1,31 @@
+Pertanyaan:
+
+Dengan menggunakan M-Test untuk menunjukkan bahwa saya dapat membedakan setiap suku, saya memiliki deret 
+
+\[
+\sum_{n=1}^\infty \frac{\lambda^{n-1} n}{n!} = \sum_{n=1}^\infty \frac{d}{d\lambda}\left(\frac{\lambda^n}{n!}\right).
+\]
+
+Saya ingin menulis ulang ini sebagai 
+
+\[
+\frac{d}{d\lambda}\left(\sum_{n=1}^\infty \frac{\lambda^n}{n!}\right).
+\]
+
+Saya sedang mencoba menunjukkan bahwa urutan fungsi ini konvergen secara uniform pada \((0, \infty)\) untuk menerapkan M-Test. Untuk melakukan ini, saya perlu menemukan batas \(M_n\) untuk \(\left|\frac{\lambda^n}{n!}\right|\) sehingga \(\sum M_n\) konvergen. 
+
+Terima kasih!
+
+---
+
+Jawaban:
+
+Anda sedang bekerja dengan deret pangkat yang memiliki jari-jari konvergensi \(R = +\infty\), yang memungkinkan Anda untuk membedakan setiap suku.
+
+Untuk menemukan batas yang sesuai \(M_n\) untuk \(\left|\frac{\lambda^n}{n!}\right|\), perhatikan bahwa untuk \(\lambda > 0\), suku-suku \(\frac{\lambda^n}{n!}\) dapat dibatasi. Secara spesifik, Anda dapat menggunakan ketidaksamaan:
+
+\[
+\frac{\lambda^n}{n!} \leq \frac{\lambda^n}{(n/e)^n} = \left(\frac{e\lambda}{n}\right)^n,
+\]
+
+untuk \(n\) yang cukup besar. Deret \(\sum_{n=1}^\infty \left(\frac{e\lambda}{n}\right)^n\) konvergen untuk \(\lambda\) tetap, memberikan pilihan yang valid untuk \(M_n\). Ini menunjukkan bahwa \(\sum M_n\) konvergen, sehingga mengonfirmasi kondisi M-Test, dan memungkinkan untuk perbedaan suku demi suku dari deret tersebut.
