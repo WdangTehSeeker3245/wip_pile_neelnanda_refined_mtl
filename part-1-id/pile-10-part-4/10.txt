@@ -1,0 +1,33 @@
+Pertanyaan:
+
+Kegagalan Array HP MSA70 / P800 - 13 dari 25 Drive Hilang dan Duplikat Entri Drive di Setiap Slot
+
+Kami memiliki HP MSA70 dengan 25 x 600GB HP SAS 10k DP drive, yang terhubung ke controller HP P800. Drive-dri ini dikonfigurasi dalam RAID 6.
+
+Kemarin, sebuah kejadian yang tidak diketahui menyebabkan array offline. Setelah merestart server (yang menjalankan CentOS 6.2), controller array melaporkan bahwa 13 dari drive tersebut "hilang." Ketika memeriksa volume di alat manajemen array, kami melihat dua entri untuk masing-masing dari 12 slot pertama: satu menunjukkan drive 600GB dan yang lainnya menunjukkan drive 0GB. Tidak ada entri di luar slot 12.
+
+Dukungan HP, termasuk Tier 2, tidak dapat menyelesaikan masalah ini, menyatakan bahwa mereka belum pernah melihat hal ini sebelumnya. Apakah ada yang pernah mengalami ini, dan adakah kemungkinan untuk memulihkan data kami?
+
+---
+
+Jawaban:
+
+Sepertinya Anda sedang bekerja dengan sistem yang cukup usang:
+
+- CentOS 6.2 sudah sangat tua (dirilis pada Desember 2011 dengan kernel 2.6.32-220).
+- HP StorageWorks MSA70 telah mencapai Akhir Masa Hidup (End of Life) pada Oktober 2010.
+- HP Smart Array P800 juga telah mencapai EOL pada tahun 2010.
+
+Ini menunjukkan bahwa firmware dan driver Anda kemungkinan sudah usang, dan sistem mungkin tidak diperbarui. Juga, sepertinya alat pemantau untuk perangkat keras mungkin tidak digunakan. Periksa Integrated Management Log (IML) untuk pesan kesalahan jika Anda menggunakan perangkat keras server HP. Apakah Anda menggunakan agen manajemen HP untuk memantau kesehatan server dan penyimpanan?
+
+Berikut adalah beberapa langkah pemecahan masalah:
+
+1. HP Array Configuration Utility atau HP SSA: Periksa utilitas ini untuk detail tambahan tentang masalah tersebut.
+2. Kabel SAS: Berapa banyak kabel SAS yang terhubung ke enclosure? Jika Anda hanya memiliki satu kabel, ini bisa menunjukkan adanya kegagalan backplane akibat SAS expander di enclosure. Jika Anda memiliki dua kabel, ini bisa menunjukkan masalah dengan kabel SAS, controller MSA70, atau port P800.
+3. Isolasi masalah: Data Anda kemungkinan besar masih utuh, tetapi Anda perlu menentukan apakah masalahnya ada pada kabel SAS, backplane, atau controller RAID. Mengganti kabel SAS jauh lebih mudah dan murah dibandingkan dengan mengganti controller.
+
+Dalam skenario terburuk, enclosure MSA70 dapat ditemukan dengan harga relatif murah secara online jika Anda memerlukan penggantian.
+
+
+
+

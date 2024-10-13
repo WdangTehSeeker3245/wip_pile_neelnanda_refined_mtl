@@ -1,0 +1,81 @@
+Q:
+
+TextView Tidak Terpusat di Aplikasi tapi Terpusat di `match_constraint`
+
+Saya telah membuat desain activity sederhana menggunakan `ConstraintLayout`. Setiap kali saya mencoba memusatkan `TextView`, tampilannya terlihat benar di blueprint, tetapi tidak terpusat di aplikasi yang sebenarnya. Saya tidak yakin apakah saya melakukan kesalahan. Berikut adalah kode XML-nya:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green"
+    tools:context="nz.co.listcosolutions.StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baby_plant" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/next"
+        android:textColor="@color/background_green"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to My App"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</android.support.constraint.ConstraintLayout>
+```
+
+Saya menggunakan versi terbaru dari `ConstraintLayout`:
+```gradle
+compile 'com.android.support.constraint:constraint-layout:1.0.2'
+```
+
+---
+
+A:
+
+Untuk memastikan `TextView` terpusat dengan benar dalam semua kasus, Anda perlu menambahkan:
+
+```xml
+android:gravity="center"
+```
+
+ke dalam `TextView`. Ini akan memastikan teks di dalam `TextView` terpusat. 
+
+Atribut `android:textAlignment="center"` tidak selalu berfungsi dengan baik, terutama di level API yang lebih rendah, sebagaimana dilaporkan oleh pengembang lain. Menggunakan `android:gravity="center"` adalah cara yang lebih dapat diandalkan untuk memusatkan teks di dalam `TextView` atau subclass-nya.
+
+

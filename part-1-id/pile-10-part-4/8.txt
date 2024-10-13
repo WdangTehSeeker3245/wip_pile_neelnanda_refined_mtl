@@ -1,0 +1,52 @@
+Q:
+
+Python Segmentation Fault?
+
+Pertama-tama, saya tidak tahu bahwa error memori/segmentation fault bisa terjadi di Python. Ini adalah hal baru yang saya pelajari!
+
+Saya memiliki database yang saya buat:
+
+```python
+database = DBManager(dbEndpoint, dbUser, dbPass, dbSchema)
+```
+
+Kemudian saya mencoba menggunakannya dalam sebuah thread:
+
+```python
+def stateTimeThreadStart():
+    database.getTable('CLIENTS')
+
+threads = []
+threads.append(threading.Thread(name='State Updater', target=stateTimeThreadStart, args=()))
+threads[0].start()
+```
+
+Output yang muncul adalah:
+
+```
+Segmentation fault: 11
+```
+
+Apa yang sebenarnya terjadi di sini? Ini jelas ada hubungannya dengan `database.getTable('CLIENTS')`, karena saat saya mengomentarinya, masalah ini tidak terjadi. Selain itu, saya juga sudah mencoba mengoper database ke thread, tetapi tetap tidak berhasil. Ada ide?
+
+Terima kasih!
+
+---
+
+A:
+
+Segmentation fault di Python bisa terjadi karena konektor database. Driver yang digunakan untuk menghubungkan ke database biasanya ditulis dalam bahasa C atau C++, sehingga jika ada masalah manajemen memori—seperti overload RAM—itu bisa menyebabkan segmentation fault.
+
+Masalah Anda semakin rumit karena penggunaan multithreading. Banyak driver database tidak thread-safe, yang berarti mereka bisa gagal jika beberapa thread mencoba menggunakan koneksi yang sama secara bersamaan. Membagikan satu koneksi database antar thread bisa menyebabkan segmentation fault.
+
+Solusi:
+- Hindari berbagi satu koneksi database antar thread. Sebagai gantinya, buat koneksi database baru untuk setiap thread. Contohnya:
+
+```python
+def stateTimeThreadStart():
+    local_database = DBManager(dbEndpoint, dbUser, dbPass, dbSchema)  # Buat koneksi baru
+    local_database.getTable('CLIENTS')
+```
+
+Dengan memastikan setiap thread memiliki koneksi sendiri, Anda bisa menghindari segmentation fault ini.
+
