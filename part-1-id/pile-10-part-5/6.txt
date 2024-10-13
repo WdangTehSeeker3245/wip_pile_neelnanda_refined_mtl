@@ -1,0 +1,76 @@
+Gambaran Umum Permohonan Paten
+
+Detail Permohonan:
+Permohonan ini didasarkan pada dan mengklaim keuntungan dari prioritas Permohonan Paten Jepang No. 2000-159163, yang diajukan pada 31 Maret 2000. Seluruh isi permohonan sebelumnya ini diintegrasikan di sini dengan referensi.
+
+Ringkasan Invensi
+
+Bidang Invensi:
+Invensi ini berkaitan dengan metode untuk membentuk anggota komposit, khususnya yang mengintegrasikan bagian konduktif ke dalam isolator. Anggota komposit ini sangat berguna dalam papan kabel untuk peralatan listrik, perangkat elektronik, dan sistem komunikasi. Selain itu, invensi ini melibatkan komposisi fotosensitif dan material isolasi yang cocok untuk memproduksi anggota komposit. Ini juga mencakup anggota komposit itu sendiri, serta papan kabel multi-lapis dan paket elektronik yang mengintegrasikan anggota komposit ini.
+
+Latar Belakang
+
+Tren Miniaturisasi dan Integrasi:
+Dalam beberapa tahun terakhir, tren menuju integrasi yang lebih tinggi dan miniaturisasi berbagai komponen listrik dan elektronik, termasuk perangkat semikonduktor, telah menjadi signifikan dan diperkirakan akan terus berlanjut. Tren ini telah mendorong pengembangan teknik pemasangan kepadatan tinggi, seperti pembentukan pola dan pitch halus dalam kabel logam serta penciptaan kabel tiga dimensi (3D).
+
+Tantangan dalam Kabel 3D:
+Kabel tiga dimensi sangat penting untuk pemasangan kepadatan tinggi, dan berbagai metode telah diusulkan untuk memproduksi papan kabel dengan kabel 3D. Metode ini sering melibatkan struktur multi-lapis, seperti papan kabel yang dibangun dan papan kabel berlapis-lapis, di mana lapisan kabel yang berdekatan dihubungkan oleh kolom konduktif yang dikenal sebagai via. Metode tradisional untuk membentuk via, seperti fotolitografi menggunakan poliimid fotosensitif atau resistensi, diikuti dengan pelapisan atau pengisian dengan pasta konduktif, sangat memakan tenaga kerja dan menghasilkan tingkat produksi yang rendah.
+
+Keterbatasan Metode Konvensional:
+- Metode Pengeboran dan Laser: Pembentukan via menggunakan bor atau laser CO2 bisa menjadi tantangan untuk menciptakan via halus (kurang dari beberapa mikron) di lokasi yang tepat.
+- Pembentukan Kelompok Hidrofilik yang Dipicu Foto: Metode yang melibatkan pengenalan kelompok hidrofilik ke dalam film berpori tiga dimensi, seperti PTFE, menggunakan cahaya dengan panjang gelombang pendek (misalnya, 185 nm dan 254 nm), dapat merusak material dan gagal membentuk via halus karena penyerapan cahaya.
+- Impregnasi Komposisi Fotosensitif: Metode lain melibatkan impregnasi anggota isolasi berpori dengan komposisi fotosensitif yang mengandung garam logam, diikuti dengan paparan cahaya dan pelapisan tanpa listrik. Namun, metode ini dapat menyebabkan pengendapan inti logam di area yang tidak diinginkan, mempengaruhi sifat isolasi dan keandalan papan kabel.
+
+Tujuan Invensi
+
+Tujuan Utama:
+- Kebebasan Desain Tinggi: Memberikan metode untuk memproduksi anggota komposit dengan tingkat kebebasan tinggi dalam desain sirkuit konduktif.
+- Integritas Material: Memastikan bahwa tubuh isolasi tidak mengalami degradasi selama proses paparan cahaya.
+- Pembentukan Pola Halus: Mencegah pengendapan abnormal logam pada tubuh isolasi untuk membentuk bagian konduktif dengan pola halus.
+
+Tujuan Tambahan:
+- Efektivitas Biaya: Mengembangkan metode yang hemat biaya dan tidak mengorbankan selektivitas material atau kemampuan kerja cetak.
+- Peningkatan Adhesi: Meningkatkan adhesi antara tubuh isolasi dan bagian konduktif untuk mencegah pengelupasan.
+- Kinerja Listrik yang Ditingkatkan: Meningkatkan koneksi listrik antara lapisan kabel dalam papan kabel berlapis-lapis dan konduktivitas kabel.
+
+Deskripsi Rinci Invensi
+
+Metode untuk Memproduksi Anggota Komposit:
+Invensi ini menyediakan beberapa metode untuk memproduksi anggota komposit di mana bagian konduktif dibentuk secara selektif dalam tubuh isolasi. Langkah kunci meliputi:
+
+1. Pembentukan Lapisan Komposisi Fotosensitif:
+   - Metode Pertama: Membentuk lapisan komposisi fotosensitif di dalam atau di permukaan tubuh isolasi. Komposisi ini mengandung senyawa yang membentuk kelompok pertukaran ion saat terpapar cahaya dengan panjang gelombang tidak kurang dari 280 nm.
+   - Metode Kedua: Membentuk lapisan komposisi fotosensitif yang mengandung senyawa dengan kelompok pertukaran ion.
+   - Metode Ketiga: Membentuk lapisan komposisi fotosensitif yang mengandung senyawa yang membentuk kelompok pertukaran ion saat terpapar cahaya, yang dipilih dari turunan garam onium, turunan ester sulfonium, turunan asam karboksilat, dan turunan diazida naphthoquinone.
+   - Metode Keempat: Membentuk lapisan komposisi fotosensitif yang mengandung senyawa dengan kelompok pertukaran ion.
+   - Metode Kelima: Membentuk lapisan komposisi fotosensitif yang mengandung senyawa yang membentuk kelompok pertukaran ion di hadapan asam dan agen penghasil asam foto.
+
+2. Paparan Cahaya Selektif:
+   - Metode Pertama dan Ketiga: Mengexpose lapisan komposisi fotosensitif secara selektif dengan cahaya dengan panjang gelombang tidak kurang dari 280 nm untuk membentuk kelompok pertukaran ion di bagian yang terpapar cahaya.
+   - Metode Kedua dan Keempat: Mengexpose lapisan komposisi fotosensitif secara selektif terhadap cahaya untuk menyebabkan kelompok pertukaran ion di bagian yang terpapar cahaya menghilang dan tetap ada di bagian yang tidak terpapar.
+   - Metode Kelima: Mengexpose lapisan komposisi fotosensitif secara selektif terhadap cahaya dan panas untuk membentuk kelompok pertukaran ion di bagian yang terpapar cahaya.
+
+3. Pembentukan Bagian Konduktif:
+   - Mengikat ion logam atau logam ke kelompok pertukaran ion yang dibentuk di bagian yang terpapar cahaya (atau tetap di bagian yang tidak terpapar) untuk membentuk bagian konduktif.
+
+Langkah Opsional:
+- Terapkan pelapisan tanpa listrik pada permukaan bagian konduktif yang dibentuk di langkah ketiga untuk meningkatkan konduktivitas dan adhesi.
+
+Komposisi Fotosensitif:
+- Komposisi fotosensitif yang mengandung turunan diazida naphthoquinone dan turunan poli-karbodiimida disediakan untuk memproduksi anggota komposit.
+
+Tubuh Isolasi Berpori:
+- Tubuh isolasi berpori dengan permukaan dalam pori-porinya dilapisi oleh komposisi fotosensitif yang mengandung turunan diazida naphthoquinone juga disediakan.
+
+Anggota Komposit:
+- Anggota komposit dijelaskan, yang memiliki bagian konduktif yang dibentuk di setidaknya salah satu permukaan dan wilayah dalam dari tubuh isolasi berpori melalui senyawa organik. Jumlah senyawa organik antara tubuh isolasi dan bagian konduktif lebih besar per unit area permukaan tubuh isolasi dibandingkan dengan jumlah yang tidak bersentuhan dengan bagian konduktif.
+
+Papan Kabel Multi-Lapis:
+- Papan kabel multi-lapis disediakan, terdiri dari beberapa substrat yang dilaminasi bersama. Setiap substrat mencakup tubuh isolasi berpori dengan pori halus dan bagian konduktif yang dibentuk di setidaknya salah satu permukaan dan wilayah dalam pori halus. Sebuah lapisan tubuh konduktif, bebas dari komponen tubuh isolasi, dibentuk di permukaan terluar dari bagian konduktif setiap substrat.
+
+Paket Elektronik:
+- Paket elektronik dijelaskan, yang terdiri dari papan kabel yang terbuat dari anggota komposit atau papan kabel multi-lapis dan bagian elektronik yang terhubung secara listrik ke papan kabel.
+
+Kesimpulan
+
+Invensi ini menawarkan metode novel dan efektif untuk memproduksi anggota komposit dengan kebebasan desain tinggi, integritas material yang ditingkatkan, dan pembentukan pola halus. Invensi ini juga menyediakan komposisi fotosensitif dan material isolasi yang cocok untuk proses produksi ini, serta anggota komposit yang dihasilkan, papan kabel multi-lapis, dan paket elektronik. Kemajuan ini mengatasi tantangan miniaturisasi dan integrasi tinggi di bidang komponen listrik dan elektronik.
